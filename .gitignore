@@ -1,0 +1,10 @@
+lib/
+*.x
+*.list
+ORS/*.txt
+ORS/*.json
+ORS/*.jpg
+ORS/*.png
+ORS/__pycache__/
+ORS/google-cloud-sdk/
+*.zip

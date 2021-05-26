@@ -1,0 +1,16 @@
+Datumi: 19980000, 20080420, 20030212, 20130122, 19900103
+IMDB_date_name_full.list: 
+	Vsavljanje: 3.03693s
+	Iskanje: 3.23e-06s
+IMDB_date_name_full_sorted.list: 
+	Vsavljanje: 2960.68s
+	Iskanje: 0.00320215s
+IMDB_date_name_mini.list: 
+	Vsavljanje: 0.01676s
+	Iskanje: 5.43e-07s
+IMDB_date_name_mini.list: 
+	Vsavljanje: 0.237962s
+	Iskanje: 0.00037138s
+
+Ugotovitve: Če poskušamo vstavljati sortirane elemente se zahtevnost programa, zaradi loopanja po že obstoječih elemntih,
+ pokvadrira in je zato zahtevnost O(n^2), kar pa je neugodno za hitrost programa. 
