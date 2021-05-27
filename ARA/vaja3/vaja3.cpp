@@ -173,16 +173,23 @@ int main(int argc, char **argv) {
       }
     }
     shannon_fano(values, freqName, freq);
+    freqName.clear();
+    vector<string> freqValues;
+    for (pair<char, string> f : values) {
+      freqName.push_back(f.first);
+      freqValues.push_back(f.second);
+    }
+
     // BinReader read2(argv[2]);
     read.readByte();
     string val = to_string(read.readBit());
+    std::vector<string>::iterator it;
     while (!read.f.eof()) {
-      for (pair<char, string> f : values) {
-        if (f.second == val) {
-          write.writeByte(f.first);
-          val = "";
-          break;
-        }
+      it = find(freqValues.begin(), freqValues.end(), val);
+      if (it != freqValues.end()) {
+        int index = distance(freqValues.begin(), it);
+        write.writeByte(freqName[index]);
+        val = "";
       }
       val += to_string(read.readBit());
     }
