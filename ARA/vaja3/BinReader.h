@@ -30,15 +30,15 @@ class BinReader {
     };
 
     int readInt(){
-      int number;
-      f >> number;
-      return number;
+      int x = 0;
+      f.read(reinterpret_cast<char*>(&x), 4);
+      return x;
     };
 
     float readFloat(){
-      float number;
-      f >> number;
-      return number;
+      float x = 0;
+      f.read(reinterpret_cast<char*>(&x), 4);
+      return x;
     };
 
     ~BinReader(){
