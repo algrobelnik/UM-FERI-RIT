@@ -115,19 +115,21 @@ public:
     }
   }
 
-  conn *search(int d) {
-    for (int i = 0; i < nodes; i++) {
-      if (N[i]->p == d || N[i]->p == d) {
-        return N[i];
-      }
-    }
-    return NULL;
-  }
-
   void display() {
     for (int i = 0; i < res.size(); i++) {
       std::cout << res[i]->toString() << std::endl;
     }
+  }
+
+  void clear() {
+    for (int i = 0; i < nodes; i++) {
+      delete N[i];
+    }
+    N.clear();
+    for (int i = 0; i < nodes; i++) {
+      delete N[i];
+    }
+    res.clear();
   }
 
   ~Graph() {
@@ -135,6 +137,10 @@ public:
       delete N[i];
     }
     N.clear();
+    for (int i = 0; i < nodes; i++) {
+      delete N[i];
+    }
+    res.clear();
   }
 };
 
@@ -191,14 +197,16 @@ int main() {
     case 2: {
       std::cout << "Choose random graph nodes: ";
       std::cin >> num1;
-      if(num1 > 1500) break;
+      if (num1 > 1500)
+        break;
       G.setNodes(num1);
       int p, q, price;
       for (int i = 0; i < num1; i++) {
-        for (int j = 0; j < num1; j++){
-          p = j+1;
-          q = j+2;
-          if(j+2 > num1+1) q = 1;
+        for (int j = 0; j < num1; j++) {
+          p = j + 1;
+          q = j + 2;
+          if (j + 2 > num1 + 1)
+            q = 1;
           price = randGen(0, num1);
           G.addConn(p, q, price);
         }
