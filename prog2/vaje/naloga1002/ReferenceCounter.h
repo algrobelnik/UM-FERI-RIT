@@ -3,6 +3,7 @@
 
 class ReferenceCounter {
 public:
+  static int NoOfEqualExpressions;
   unsigned int count;
   ReferenceCounter() : count(0) {}
   ReferenceCounter operator++(int dummy) {

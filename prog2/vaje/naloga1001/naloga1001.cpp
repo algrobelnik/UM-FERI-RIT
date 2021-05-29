@@ -1,3 +1,4 @@
+#include "Animal.h"
 #include "Date.h"
 #include "SmartPointer.h"
 #include <iostream>
@@ -12,7 +13,7 @@ int main() {
     (*date2)++;
     cout << *date2 << endl;
   }
-  //cout << *date2 << endl;
+  // cout << *date2 << endl;
   cout << date1->toString() << endl;
 
   auto ob1 = shared_ptr<Date>(new Date(1, 2, 2021));
@@ -22,5 +23,9 @@ int main() {
   ob2->setYear(2021);
   ob1 = ob2;
   cout << (ob1.get() == ob2.get()) << endl;
+
+  Animal a(100.00);
+  cout << a++ << endl;
+  cout << ++a << endl;
   return 0;
 }

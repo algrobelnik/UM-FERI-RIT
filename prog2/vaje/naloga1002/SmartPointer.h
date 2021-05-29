@@ -23,12 +23,17 @@ public:
   T *operator->() { return pData; }
   SmartPointer &operator=(const SmartPointer &s) {
     if (this->pData == s.pData) {
+      ReferenceCounter::NoOfEqualExpressions++;
       return *this;
     }
+    if (refCounter->count == 1) {
+      std::cout << "Deleting: " << pData << std::endl;
+      delete pData;
+    }
     pData = s.pData;
-    std::cout << s.refCounter->count << std::endl;
+    // std::cout << s.refCounter->count << std::endl;
     (*s.refCounter)++;
-    std::cout << s.refCounter->count << std::endl;
+    // std::cout << s.refCounter->count << std::endl;
     refCounter = s.refCounter;
     return *this;
   }
