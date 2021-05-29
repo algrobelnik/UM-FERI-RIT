@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-zip -r ${1}.zip ${1}/ -x "*.x"
+zip -r zip/${1}.zip ${1}/ -x "*.x"
