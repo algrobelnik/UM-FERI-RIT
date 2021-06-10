@@ -8,18 +8,6 @@
 #include <vector>
 using namespace std;
 
-int sum(vector<int> vec, int min, int max) {
-  if (min == max)
-    return 0;
-  if (min > max)
-    swap(min, max);
-  int a = 0;
-  for (; min < max; min++) {
-    a += vec[min];
-  }
-  return a;
-}
-
 int main(int argc, char **argv) {
   if (argc != 4) {
     cout << "Error: arguments are not OK" << endl;
