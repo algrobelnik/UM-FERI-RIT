@@ -20,9 +20,8 @@ int main(int argc, char **argv) {
   int len = atoi(argv[2]);
   const int b_len = ceil(log2(len + 1));
   vector<string> S;
-  for (int i = 0; i < 256; i++) {
+  for (int i = 0; i < 256; i++)
     S.push_back(std::string(1, i));
-  }
   unsigned int b_sum = 0;
   if (argv[1][0] == 'c') {
     BinReader br(argv[3]);
