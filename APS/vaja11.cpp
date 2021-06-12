@@ -7,11 +7,6 @@
 #include <stack>
 #include <sstream>
 
-int randGen(int min, int max) {
-  int range = max - min++;
-  return rand() % range + min;
-}
-
 class Graph {
   private:
     struct Path {
@@ -25,6 +20,9 @@ class Graph {
         toNode = b;
         cost = c;
         arr = new bool[d];
+        for(int i = 0; i < d; i++){
+          arr[i] = 0;
+        }
         next = nullptr;
       }
       std::string toString() {
@@ -37,9 +35,10 @@ class Graph {
         return ss.str();
       }
     };
-    std::vector<Path *> P;
+    std::stack<Path *> N;
     int **C;
     int nodes;
+    Path *head;
 
   public:
     Graph() {}
@@ -54,57 +53,167 @@ class Graph {
     void addPrice(int a, int b, int c) { C[a][b] = c; }
 
     void findCycle() {
-      std::stack<Path*> N;
-      Path *head = nullptr;
+      int index = 0;
+      Path *ptr = nullptr;
       for (int i = 1; i < nodes; i++){
-        Path *tmp = new Path(i, 0, C[i][0], nodes);
-        tmp->next = head;
-        head = tmp;
+        int cost = C[i][index];
+        if(cost > 0){
+          if(ptr != nullptr){
+            ptr->next = new Path(i, index, cost, nodes);
+            ptr = ptr->next;
+          }else{
+            head = new Path(i, index, cost, nodes);
+            ptr = head;
+          }
+        }
       }
+      N.push(head);
       for (int k = 1; k < nodes-1; k++){
-        Path *head = nullptr;
-        for(int i = 1; i < nodes; i++){
+        head = nullptr;
+        ptr = head;
+        for (int i = 1; i < nodes; i++){
           Path *pp = N.top();
-          do{
-            if(pp->arr[i]){
-              int price = C[i][k] + pp->cost;
-              Path *tmp = new Path(k, i, price, nodes);
-              tmp->next = head;
-              head = tmp;
+          while(pp != nullptr){
+            if(pp->fromNode != i){
+              int cost = C[i][pp->fromNode];
+              if(cost > 0){
+                if(!pp->arr[i]){
+                  Path *tmp = new Path(i, pp->fromNode, cost+pp->cost, nodes);
+                  for(int l = 0; l < nodes; l++){
+                    tmp->arr[l] = pp->arr[l];
+                  }
+                  tmp->arr[pp->fromNode] = 1;
+                  if(!purgePaths(tmp)){
+                    if(head == nullptr){
+                      head = tmp;
+                      ptr = head;
+                    }else{
+                      ptr->next = tmp;
+                      ptr = ptr->next;
+                    }
+                  }
+                }
+              }
             }
             pp = pp->next;
-          }while(pp != nullptr);
+          }
         }
         N.push(head);
       }
-      int n = N.size();
-      while(!N.empty()){
-        Path *pp = N.top();
-        std::cout << "Nivo " << n-N.size()+1 << ".:" << std::endl;
-        do{
-          std::cout << pp->toString();
-          pp = pp->next;
-        }while(pp != nullptr);
-        N.pop();
+      head = nullptr;
+      ptr = head;
+      Path *pp = N.top();
+      while(pp != nullptr){
+        if(pp->fromNode != index){
+          int cost = C[index][pp->fromNode];
+          if(cost > 0){
+            if(!pp->arr[index]){
+              Path *tmp = new Path(index, pp->fromNode, cost+pp->cost, nodes);
+              for(int ind = 0; ind < nodes; ind++){
+                tmp->arr[ind] = pp->arr[ind];
+              }
+              tmp->arr[pp->fromNode] = 1;
+              if(!purgePaths(tmp)){
+                if(head == nullptr){
+                  head = tmp;
+                  ptr = head;
+                }else{
+                  ptr->next = tmp;
+                  ptr = ptr->next;
+                }
+              }
+            }
+          }
+        }
+        pp = pp->next;
       }
-      //N.push(head);
+      N.push(head);
+      if(head != nullptr) {
+        std::cout << "Cost: " << head->cost << std::endl;
+      } else {
+        std::cout << "No cycle found." << std::endl;
+      }
     }
 
-    /* void findPath(node *v1, int &cost) {
-       if (V[startIndex] == v1) {
-       std::cout << "Path: " + std::to_string(v1->i + 1);
-       return;
-       }
-       if (V[v1->prev] == NULL) {
-       std::cout << "No path between " + std::to_string(V[startIndex]->i) +
-       " and " + std::to_string(v1->i + 1) + ".";
-       return;
-       } else {
-       cost += C[v1->prev][v1->i];
-       findPath(V[v1->prev], cost);
-       std::cout << " => " << std::to_string(v1->i + 1);
-       }
-       }*/
+    bool purgePaths(Path *pp) {
+      Path *tmp = head;
+      bool chk = false;
+      while(tmp != nullptr) {
+        if(pp->fromNode == tmp->fromNode) {
+          bool diff = false;
+          for(int i = 0; i < nodes; i++) {
+            if(tmp->arr[i] != pp->arr[i]) {
+              diff = true;
+              break;
+            }
+          }
+          if(!diff) {
+            chk = true;
+            if(tmp->cost > pp->cost) {
+              tmp->fromNode = pp->fromNode;
+              tmp->toNode = pp->toNode;
+              tmp->cost = pp->cost;
+              for(int i = 0; i < nodes; i++) {
+                tmp->arr[i] = pp->arr[i];
+              }
+            }
+          }
+        }
+        tmp = tmp->next;
+      }
+      return chk;
+    }
+
+    void levelsPrint(){
+      std::stack<Path *> tmp = N;
+      int num = tmp.size();
+      while(!tmp.empty()){
+        Path *p = tmp.top();
+        std::cout << "====" << num << "====:" << std::endl << p->toString();
+        tmp.pop();
+        num--;
+      }
+    }
+
+    void reconstructPath() {
+      std::stack<Path*> tmpN = N;
+      Path* pp = tmpN.top();
+      tmpN.pop();
+      int begin = pp->fromNode;
+      std::cout << "Total cost: " << pp->cost << std::endl;
+      std::cout << begin+1 << " => " << pp->toNode+1 << " => ";
+      while(!tmpN.empty()) {
+        Path *tmp = tmpN.top();
+        while(nullptr != tmp) {
+          bool* arr = new bool[nodes];
+          for(int i = 0; i < nodes; i++) {
+            arr[i] = pp->arr[i];
+          }
+          arr[pp->toNode] = false;
+          if(tmp->fromNode == pp->toNode) {
+            bool diff = false;
+            for(int i = 0; i < nodes; i++) {
+              if(arr[i] != tmp->arr[i]) {
+                diff = true;
+                break;
+              }
+            }
+            if(!diff) {
+              *pp = *tmp;
+              if(pp->toNode != begin) {
+                std::cout << pp->toNode+1 << " => ";
+              }
+              break;
+            }
+          }
+          delete[] arr;
+          tmp = tmp->next;
+        }
+        tmpN.pop();
+      }
+
+      std::cout << begin+1 << std::endl;
+    }
 
     void displayMatrix() {
       for (int i = 0; i < nodes; i++) {
@@ -116,23 +225,27 @@ class Graph {
     }
 
     void clear(){
-      if(P.size() > 0){
+      if(N.size() > 0){
+        while(!N.empty()){
+          delete N.top();
+          N.pop();
+        }
         for (int i = 0; i < nodes; i++) {
-          delete P[i];
           delete[] C[i];
         }
-        P.clear();
         delete[] C;
       }
     }
 
     ~Graph() {
-      for (int i = 0; i < nodes; i++) {
-        delete P[i];
-        delete[] C[i];
-      }
-      P.clear();
-      delete[] C;
+        while(!N.empty()){
+          delete N.top();
+          N.pop();
+        }
+        for (int i = 0; i < nodes; i++) {
+          delete[] C[i];
+        }
+        delete[] C;
     }
 };
 
@@ -141,9 +254,9 @@ void menu() {
   std::cout << "================ MENU ================" << std::endl;
   std::cout << "======================================" << std::endl;
   std::cout << "1) Read graph from file" << std::endl;
-  std::cout << "2) Generate random nodes" << std::endl;
-  std::cout << "3) Run Bellman-Ford algorithm" << std::endl;
-  std::cout << "4) Print shortest path" << std::endl;
+  std::cout << "2) Run travelers salesmen alorithm" << std::endl;
+  std::cout << "3) Print levels" << std::endl;
+  std::cout << "4) Path reconstuction" << std::endl;
   std::cout << "5) Print neighbours matrix" << std::endl;
   std::cout << "0) End" << std::endl;
   std::cout << "======================================" << std::endl;
@@ -156,7 +269,7 @@ int main() {
   int nodes;
   int selection, num1;
   Graph G;
-  bool check = false;
+  bool check1 = false, check2 = false;
   do {
     menu();
     std::cin >> selection;
@@ -173,7 +286,7 @@ int main() {
                 int *len = new int[nodes];
                 G.clear();
                 G.createNeighbours(nodes);
-                check = true;
+                check1 = true;
                 for (int i = 0; i < nodes; i++) {
                   for (int j = 0; j < nodes; j++) {
                     f >> len[j];
@@ -184,61 +297,47 @@ int main() {
                 delete[] len;
                 break;
               }
-      case 2: {
-                std::cout << "Choose random graph nodes: ";
-                std::cin >> num1;
-                if (num1 > 1500)
-                  break;
-                G.createNeighbours(num1);
-                check = true;
-                int p, q, price;
-                for (int i = 0; i < num1; i++) {
-                  for (int j = 0; j < num1; j++) {
-                    p = j;
-                    q = j + 1;
-                    if (j + 1 > num1)
-                      q = 0;
-                    G.addPrice(p, q, randGen(0, num1));
-                  }
-                }
-                break;
-              }
-      case 3: {
-                if (check) {
-                  start = std::chrono::system_clock::now();
-                  G.findCycle();
-                  end = std::chrono::system_clock::now();
-                  std::cout << "Elapsed time[µs]: "
-                    << std::chrono::duration_cast<std::chrono::microseconds>(
-                        end - start)
-                    .count()
-                    << std::endl;
-                } else {
-                  std::cout << "Read graph from file or generate random nodes first."
-                    << std::endl;
-                }
-                break;
-              }
+      case 2:  {
+                 if (check1) {
+                   check2 = true;
+                   start = std::chrono::system_clock::now();
+                   G.findCycle();
+                   end = std::chrono::system_clock::now();
+                   std::cout << "Elapsed time[µs]: "
+                     << std::chrono::duration_cast<std::chrono::microseconds>(
+                         end - start)
+                     .count()
+                     << std::endl;
+                 } else {
+                   std::cout << "Read graph from file."
+                     << std::endl;
+                 }
+                 break;
+               }
+      case 3:{
+               if(check1 && check2){
+                 G.levelsPrint();
+               } else {
+                 std::cout << "Read graph from file and execute algorithm."
+                   << std::endl;
+               }
+               break;
+             }
       case 4: {
-                /*if (check) {
-                  std::cout << "Name of end node: ";
-                  std::cin >> num1;
-                  n1 = G.search(num1 - 1);
-                  if (n1 == NULL) {
-                    std::cout << "Cannot find end node" << std::endl;
-                    break;
-                  }
-                  int cost = 0;
-                  G.findPath(n1, cost);
-                  std::cout << std::endl << "Cost: " << cost << std::endl;
+                if(check1 && check2){
+                  G.reconstructPath();
                 } else {
-                  std::cout << "Read graph from file or generate random nodes first."
+                  std::cout << "Read graph from file and execute algorithm."
                     << std::endl;
                 }
-                break;*/
+                break;
               }
       case 5: {
-                G.displayMatrix();
+                if(check1 && check2){
+                  G.displayMatrix();
+                }else{
+                  std::cout << "Read graph from file and execute algorithm." << std::endl;
+                }
                 break;
               }
       case 0:
