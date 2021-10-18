@@ -1,0 +1,72 @@
+NAMIZNI RAČUNALNIK in PROGRAMSKA OPREMA
+SKUPNA CENA: 3362,11 €
+Namizni majhen računalnik Mac mini M1:
+https://www.bigbang.si/mac-mini-apple-m1-chip-8ccpu-8cgpu-256gb-ssd-cr-izdelek-177538/
+Cena: 849,99 €
+Računalnik vsebuje Apple M1 čip z 8 jedrnim CPE in pravtako 8 jedrnim GPE. Poleg tega pa še ima odlično podporo za strojno učenje (oz. angl. "machine learning") z kar 16 jedrnim nevronskim strojem (oz. angl. "Neural Engine").
+Seveda, pa mu ne manjka tudi 8GB RAM-a, ki jih programska oprema uporablja do maksimuma. Vsebuje tudi malo prostora (255 SSD), ki pa je dovolj za MacOS Big Sur (Operacijski sistem v Mac-ih).
+Na zadnji strani se nahajajo različni priklučki namenjeni priključitvi monitorja in morebiti miške, če le ta nima Bluetooth tehnologije.
+
+Zunanji HDD: https://www.bigbang.si/hdd-ext-2tb-moderodproren-transcend-na-udarce-izdelek-23638/
+Cena: 109,99 €
+Zunanji HDD, ki skrbi za hranjenje slik, videjev in morebitihdatotek. Velikost je 2TB (tera bajt) in vsebuje zaščitni sloj, ki je namenjen preprečevanju udarcov. Disk ni namenjen hranjenju nalagalnih
+podatkov operacijskega sistema, saj je za to zadolžen SSD, ki ima tehnologijo NVMe, ki bliskovito naloži operacijski sistem in je že po le 15 sekundah (to se lahko razlikuje od programske opreme in operacijskega sistema)
+pripravljen za uporabo.
+
+Monitor: https://www.mimovrste.com/graficni-monitorji/dell-monitor-u3219q
+Cena: 893,28 €
+Monitor z visokim kontrastom, kar 1300:1, in odlično svetilnostjo, kar 400 cm/m2, namenjen grafičnemu obljikovanju in vsakodnevni rabi. Resolucija je 4K, kar pomeni 3840 pikslov krat 2160 pikslov.
+Visoka resolucija in velikost monitorja je posebej hvaležna pri natančnem urejanju in oblikovanju slik. Barvni spekter na monitorju je okoli 1,07 miljarde barv, kar nam omogoča zadeti in prepoznati vsak odtenek.
+Za povezljivost z računalnikom nam pripomore USB-C izhod ali pa HDMI izhod, kar nam je ljubše.
+
+Miška: https://www.enaa.com/miske/mis-apple-magic-mouse-2021-bluetooth
+Cena: 90,45 €
+Miška, z odlično možnostjo movezovanja na Mac mini M1 in na ostale Apple produkte, saj ima avtomatsko zaznavanje in dodajanje naprave v sistem preko Bluetooth tehnologije.
+
+Tipkovnica: https://www.bigbang.si/apple-magic-keyboard-cro-numeric-space-grey-brezzicna-tipkovnica-izdelek-40442/
+Cena: 169,99 €
+Poleg izredno pametne miške, nam je Apple omogočal uporabo breztične tipkovnice, ki pa že tudi pride ponekod v paketu, vendar jo je tokrat potrebno dokupiti. Tipkovnica je izredno lahka in priročna,
+ter se poveže ponovno preko Bluetooth tehnologije.
+
+Razni kabli ozrima razdelilci namenji boljši uporabi računalnika in poštnina.
+Cena: 100€
+
+Letna licenca za Adobe programe: https://www.adobe.com/creativecloud/plans.html?filter=all&plan=individual
+Cena: 1009,41 € na leto
+
+Xara Designer Pro X licenca: https://www.magix.com/index.php?id=24807&L=52&AffiliateID=188&phash=EUVdJqFUrIipZ9hM&ef_id=c3bb358b81631f79613054e70c9b321f:G:s&utm_source=bing&utm_medium=cpc&utm_campaign=Brand%20-%20Magix%20%2B%20diverse%20Produkte%20-%20ROW%20(B)&utm_term=xara%20designer%20pro%20x&utm_content=008_Designer%20Pro%20X
+Cena: 139.00 €
+
+Licenčni programi za uporabo raznih designerskih opravil, ko to urejanje in oblikovanj slik, videjev in vektorskih grafik.
+
+Libre office: https://www.libreoffice.org/
+Cena: 0 €
+Brezplačna programska oprema namenjena lažjemu oblikovanju tekstovnih dokumentov in risanja določenih grafov, delanje projekcij in še dosti več.
+
+MOBILNI TELEFON IN POLNILEC
+SKUPNA CENA: 2114.69
+
+Apple iPhone 13 Pro Max pametni telefon: https://www.mimovrste.com/iphone-13-pro-max/apple-iphone-13-pro-max-pametni-telefon-1tb-gold
+Cena: 1957 €
+Telefon je težak 180 gramov, kar je za 20 gramov lažje od njegovega po sposobnosti sestriča "Samsung Galaxy Note20 Ultra 5G". Velik je 6,7 inčev (diagonala) in ima OLED Super Retina XDR zaslon,
+ki ohranja živost slike in realno stanje predmetov v sliki. Ima tudi najnovejšo ultra širokokotno kamero, ki lahko vidi do kar 120°. Na strani programske opreme ima določene novosti, ki pripomorejo optični stabilizaciji in
+filemskem načinu. Filmi se lahko snemajo na resoluciji 4K (3840px x 2160px) na resoluciji 60 slik na sekundo. Telefon ima tehnologijo LTE za hitrejšo povezavo z omrežjem. Baterija zdrži približno 121 ur in ima 4352mAh.
+Poleg vseh teh odličnih specifikacij, ki jih ni konca in kraja, ima Apple skupno pogovarjanje med napravami, ki omogoča hitro izmenjavo slik, datotek preko storitve iCloud-a (podatki shranjeni na oblaku pri Apple-u).
+
+Polnilna postaja Scosche BaseLynx Modular Charging System Kit: https://www.apple.com/shop/product/HNGY2ZM/A/scosche-baselynx-modular-charging-system-kit
+Cena: 157.69 € + morebiti dodatki
+Dodatni polnilec za telefon, če ga le ne dobimo zraven. Polnilna postaja omogoča polnjene do 3 naprav z osnovno konfiguracijo, lahko pa se še dokupi polnilne poličke, ki služijo dodatnemu prostoru za polnjenje.
+
+SLOVAR/GLOSSARY:
+M1 – Ime čipa, ki skrbi za procesiranje in prikazovanje računalnika
+CPE – Centralna Procesna Enota: V njem se izvajajo vsi procesi in računske operacije (možgani računalnika)
+GPE – Grafična Procesna Enota: Za prikazovanje slik in hitro pararelno računanje (telo računalnika)
+RAM - Naključno dostopen spomin (oz. angl. "Random Access Memory"): Spomin računalnika, ki je 3 najhitrejši možen hranjena podatkov (takoj za registri in SRAM).
+SRAM - Static RAM, ki je nekoliko hitrejši od navadnega RAM-a in je tudi dosti dražji. V manjših količinah se nahajo na oziroma ob procesorju.
+SSD - Solid-state drive: Spomin računalnika, ki je 4 najhitrejši možen način hranjena podatkov (takoj za registri, SRAM in RAM). Navadno ga najdemo v manjših količinah in vsebuje nalagalne podatke operacijskega sistema.
+HDD - Trdi disk (oz. angl. "Hard Disk drive"): ena izmed oblik daljšega polnjena podatko, ki pa je malo manj trpežna na udarce, saj ima nešteto gibljivih reči.
+NVMe - Nonvotalite memory express: tehnologija dostopa do podatkov pri SSD diskih
+OLED - Organic Light-Emitting Diode: tip zaslona, ki deluje na tehnologiji LED z naravnimi barvami
+XDR - Extended detection and response: nov tip načina branjenja proti kibernitičnimi napad
+LTE - Long-Term Evolution: način komunikacije za mobilne naprave
+mAh - miliamper ura: količina elektičnega naboja snovi
