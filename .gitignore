@@ -10,3 +10,4 @@ ORS/__pycache__/
 ORS/google-cloud-sdk/
 *.zip
 *.bin
+*.pass
