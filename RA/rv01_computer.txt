@@ -9,7 +9,7 @@ Na zadnji strani se nahajajo različni priklučki namenjeni priključitvi monito
 
 Zunanji HDD: https://www.bigbang.si/hdd-ext-2tb-moderodproren-transcend-na-udarce-izdelek-23638/
 Cena: 109,99 €
-Zunanji HDD, ki skrbi za hranjenje slik, videjev in morebitihdatotek. Velikost je 2TB (tera bajt) in vsebuje zaščitni sloj, ki je namenjen preprečevanju udarcov. Disk ni namenjen hranjenju nalagalnih
+Zunanji HDD, ki skrbi za hranjenje slik, videjev in morebitih datotek. Velikost je 2TB (tera bajt) in vsebuje zaščitni sloj, ki je namenjen preprečevanju udarcov. Disk ni namenjen hranjenju nalagalnih
 podatkov operacijskega sistema, saj je za to zadolžen SSD, ki ima tehnologijo NVMe, ki bliskovito naloži operacijski sistem in je že po le 15 sekundah (to se lahko razlikuje od programske opreme in operacijskega sistema)
 pripravljen za uporabo.
 
@@ -28,14 +28,14 @@ Cena: 169,99 €
 Poleg izredno pametne miške, nam je Apple omogočal uporabo breztične tipkovnice, ki pa že tudi pride ponekod v paketu, vendar jo je tokrat potrebno dokupiti. Tipkovnica je izredno lahka in priročna,
 ter se poveže ponovno preko Bluetooth tehnologije.
 
-Razni kabli ozrima razdelilci namenji boljši uporabi računalnika in poštnina.
+Razni kabli oziroma razdelilci namenji boljši uporabi računalnika in poštnina.
 Cena: 100€
 
 Letna licenca za Adobe programe: https://www.adobe.com/creativecloud/plans.html?filter=all&plan=individual
 Cena: 1009,41 € na leto
 
 Xara Designer Pro X licenca: https://www.magix.com/index.php?id=24807&L=52&AffiliateID=188&phash=EUVdJqFUrIipZ9hM&ef_id=c3bb358b81631f79613054e70c9b321f:G:s&utm_source=bing&utm_medium=cpc&utm_campaign=Brand%20-%20Magix%20%2B%20diverse%20Produkte%20-%20ROW%20(B)&utm_term=xara%20designer%20pro%20x&utm_content=008_Designer%20Pro%20X
-Cena: 139.00 €
+Cena: 139.00 € na leto
 
 Licenčni programi za uporabo raznih designerskih opravil, ko to urejanje in oblikovanj slik, videjev in vektorskih grafik.
 
@@ -44,7 +44,7 @@ Cena: 0 €
 Brezplačna programska oprema namenjena lažjemu oblikovanju tekstovnih dokumentov in risanja določenih grafov, delanje projekcij in še dosti več.
 
 MOBILNI TELEFON IN POLNILEC
-SKUPNA CENA: 2114.69
+SKUPNA CENA: 2114.69 €
 
 Apple iPhone 13 Pro Max pametni telefon: https://www.mimovrste.com/iphone-13-pro-max/apple-iphone-13-pro-max-pametni-telefon-1tb-gold
 Cena: 1957 €
