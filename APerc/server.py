@@ -8,7 +8,7 @@ def server_program(port):
     s = socket.socket()  # get instance
     s.bind((socket.gethostname(), port))  # bind host address and port together
 
-    s.listen(5) #number of clients that can listen simultaneously
+    s.listen(5) # number of clients that can listen simultaneously
     conn, address = s.accept()  # accept new connection
     print("Connection from: " + str(address))
     curr_time = datetime.datetime.now()
@@ -36,6 +36,6 @@ def server_program(port):
     conn.close() # terminate connection
 
 if __name__ == '__main__':
-    port = input(' -> ')
+    port = input('Port: ')
     server_program(int(port))
 
