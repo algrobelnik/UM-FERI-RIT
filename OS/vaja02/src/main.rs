@@ -155,38 +155,40 @@ impl Debug for Content {
 
 fn main() {
     let dir = Arc::new(Mutex::new(Directory::new("Imenik".to_string())));
-    let mut d = Arc::clone(&dir);
     let mut check = true;
     while check {
-        print!("Insert command: ");
-        io::stdout().flush().unwrap();
-        let mut cmd = String::new();
+        let mut d = Arc::clone(&dir);
+        thread::spawn(move || {
+            io::stdout().flush().unwrap();
+            let mut cmd = String::new();
+            print!("Insert command: ");
+            io::stdin()
+                .read_line(&mut cmd)
+                .expect("Failed to readline");
 
-        io::stdin()
-            .read_line(&mut cmd)
-            .expect("Failed to readline");
-
-        let temp = cmd.as_str().trim().split(" ");
-        let vec = temp.collect::<Vec<&str>>();
-        let first = vec.first().unwrap();
-        let mut split: Vec<&str> = cmd.split(" ").collect();
-        let index = split.iter().position(|x| *x == split[0]).unwrap();
-        split.remove(index);
-        let mut new_s = String::from("");
-        for val in split {
-            new_s = new_s.to_owned() + " " + val;
-        }
-        let res = match first.to_owned() {
-            "insert" => insert(&mut d, new_s.as_str().trim().to_string()),
-            "delete" => delete(&mut d, new_s.as_str().trim().to_string()),
-            "find" => find(&mut d, new_s.as_str().trim().to_string()),
-            "search" => search(&mut d, new_s.as_str().trim().to_string()),
-            "exit" => exit(&mut check),
-            x => nothing(x.to_string()),
-        };
-        println!("{:?}",res);
-        println!("{}",d.lock().unwrap().val.len());
+            let temp = cmd.as_str().trim().split(" ");
+            let vec = temp.collect::<Vec<&str>>();
+            let first = vec.first().unwrap();
+            let mut split: Vec<&str> = cmd.split(" ").collect();
+            let index = split.iter().position(|x| *x == split[0]).unwrap();
+            split.remove(index);
+            let mut new_s = String::from("");
+            for val in split {
+                new_s = new_s.to_owned() + " " + val;
+            }
+            let res = match first.to_owned() {
+                "insert" => insert(&mut d, new_s.as_str().trim().to_string()),
+                "delete" => delete(&mut d, new_s.as_str().trim().to_string()),
+                "find" => find(&mut d, new_s.as_str().trim().to_string()),
+                "search" => search(&mut d, new_s.as_str().trim().to_string()),
+                "exit" => exit(&mut check),
+                x => nothing(x.to_string()),
+            };
+            println!("{:?}",res);
+            println!("{}",d.lock().unwrap().val.len());
+        });
     }
+
 }
 fn insert(d: &mut Arc<Mutex<Directory>>, s: String) -> Result<String, Box<dyn Error>>{
     let v = match s.parse::<Content>(){
