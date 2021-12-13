@@ -153,17 +153,19 @@ impl Debug for Content {
 fn main() {
     let dir = Arc::new(Mutex::new(Directory::new("Imenik".to_string())));
     let mut check = true;
+    io::stdout().flush().unwrap();
     while check {
         let mut d = Arc::clone(&dir);
-        thread::spawn(move || {
-            io::stdout().flush().unwrap();
-            let mut cmd = String::new();
-            print!("Insert command: ");
-            io::stdin()
-                .read_line(&mut cmd)
-                .expect("Failed to readline");
+        print!("Command: ");
+        io::stdout().flush().unwrap();
+        let mut cmd = String::new();
+        io::stdin()
+            .read_line(&mut cmd)
+            .expect("Failed to readline");
 
-            let temp = cmd.as_str().trim().split(" ");
+        cmd = cmd.as_str().trim().to_string();
+        thread::spawn(move || {
+            let temp = cmd.split(" ");
             let vec = temp.collect::<Vec<&str>>();
             let first = vec.first().unwrap();
             let mut split: Vec<&str> = cmd.split(" ").collect();
@@ -184,6 +186,7 @@ fn main() {
             println!("{:?}",res);
             println!("{}",d.lock().unwrap().val.len());
         });
+        
     }
 
 }
@@ -243,6 +246,6 @@ fn exit(check: &mut bool) -> Result<String, Box<dyn Error>>{
     Ok("Exit".to_string())
 }
 fn nothing(s: String) -> Result<String, Box<dyn Error>>{
-    println!("Command {} not fount", s);
+    println!("Command {} not found", s);
     Ok("".to_string())
 }
