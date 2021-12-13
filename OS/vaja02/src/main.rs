@@ -3,14 +3,14 @@ use std::io::Write;
 use std::str::{self, FromStr};
 use std::fmt::{self, Display, Debug, Formatter};
 use std::error::Error;
-use std::any::type_name;
+// use std::any::type_name;
 use std::sync::{Arc, Mutex};
 use std::thread;
-use std::time::Duration;
+// use std::time::Duration;
 
-fn type_of<T>(_: T) -> &'static str {
+/* fn type_of<T>(_: T) -> &'static str {
     type_name::<T>()
-}
+} */
 #[derive(Debug, PartialEq)]
 enum ParseContentError {
     Empty,
@@ -136,9 +136,6 @@ impl FromStr for Content {
         let n: &str = split[0];
         let s: &str = split[1];
         let p: &str = split[2];
-        let a: &str = n.clone();
-        let b: &str = s.clone();
-        let c: &str = p.clone();
         Ok(Content {
             name: n.to_string(),
             surname: s.to_string(),
@@ -211,7 +208,7 @@ fn insert(d: &mut Arc<Mutex<Directory>>, s: String) -> Result<String, Box<dyn Er
 }
 
 fn delete(d: &mut Arc<Mutex<Directory>>, s: String) -> Result<String, Box<dyn Error>>{
-    let mut c: Content = Content {
+    let c: Content = Content {
         name: "EMPTY".to_string(),
         surname: "EMPTY".to_string(),
         phone: s,
