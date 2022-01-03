@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+
+<body>
+  <div>
+    <label id="status">Status: </label>
+    <form action="" id="form1">
+      <input type="text" id="nodeName" placeholder="Node name..."/>
+      <input type="text" id="connectPort" placeholder="Port..."/>
+      <button id="connect">Connect</button>
+    </form>
+  </div>
+  <div>
+    <form action="" id="form2">
+      <button id="mine" disabled>Mine</button>
+    </form>
+  </div>
+  <div>
+    <textarea rows="50" cols="150" id="text"></textarea>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

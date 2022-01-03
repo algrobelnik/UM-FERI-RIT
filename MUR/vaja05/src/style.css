@@ -1,0 +1,12 @@
+body {
+  background-color: #727272;
+}
+label {
+  color:white;
+}
+input {
+  display:block;
+}
+#text {
+  visibility: hidden;
+}
