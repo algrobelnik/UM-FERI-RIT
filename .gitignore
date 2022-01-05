@@ -18,4 +18,3 @@ target/
 project_add.sh
 project_test.sh
 *.log
-MICSIM
