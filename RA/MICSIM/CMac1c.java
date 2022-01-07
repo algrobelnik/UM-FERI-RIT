@@ -3,15 +3,15 @@ package si.unimb.feri.raj.MAC1;
 import java.io.*;
 
 /**
- * A primitive compiler for the MAC1 assembly language (for the HO with the original interpreter).
+ * Primitiven prevajalnik za MAC zbirnegi jeziki (za HO z originalnim interpreterjem).
  *
- *	The class makes a bijective translation of mnemonics and arguments
- * @author Simon Tutek 2002; translation to English Ales.Zamuda@UM.SI 2018
+ *	Razred opravi bijektivno preslikavo mnemonikov in argumentov 
+ * @author Simon Tutek 2002
  */
 class CMac1c {
 
-	// symbol tables (mnemonics)
-	protected final static String strMnemonics[] = 
+	// simbolne tabele (mnemoniki)
+	protected final static String strMnemoniki[] = 
 		{
 			"LODD",
 			"STOD",
@@ -36,9 +36,11 @@ class CMac1c {
 			"SWAP",
 			"INSP",
 			"DESP",
-			"END" };
-	// masks of arguments
-	protected final static int iArgumentMasks[] =
+			"END",
+      "MUL"
+    };
+	// maske argumentov
+	protected final static int iArgumentMaske[] =
 		{
 			0x0FFF,
 			0x0FFF,
@@ -63,10 +65,12 @@ class CMac1c {
 			0x0000,
 			0x00FF,
 			0x00FF,
-			0x0000 };
+			0x0000,
+      0x00FF
+    };
 			
-	// operation code for mnemonics
-	protected final static int iOperationCodes[] =
+	// operacijska koda za mnemonike
+	protected final static int iOperacijskeKode[] =
 		{
 			0x0000,
 			0x1000,
@@ -91,29 +95,31 @@ class CMac1c {
 			0xFA00,
 			0xFC00,
 			0xFE00,
-			0xFFFF };
+			0xFFFF,
+      0xFD00
+    };
 
 	/**
-	 * Entry point for the compiler.
+	 * Vstopna točka za prevajalnik.
 	 * 
 	 * @param args
 	 */
 	public static void main(String args[]) {
 
-		// TODO This method could be chunked to smaller code pieces
+		// TODO Nekega dne bi bilo potrebno to metodo razbiti na več manjših
 		 
-		int iMem[] = new int[4096];	// memory image
-		int iLocation = 0; 					// instruction location
-		boolean bVerbose = false; 	// if 3rd argument is same to '-v', print additional information
+		int iMem[] = new int[4096];	// slika pomnilnika 
+		int iLokacija = 0; 					// mesto instrukcije
+		boolean bVerbose = false; 	// ce 3. argument enak '-v' izpisi dodatne informacije
 
-		// checking input arguments
+		// preverjanje vhodnih argumentov
 		if (args.length < 2) {
 			System.out.println(
-				"Too few arguments (Enter input and output file)!\n\tUsage:java asm <input> <output> [-v]");
+				"Premalo argumentov (Podajte vhodno in izhodno datoteko)!\n\tUporaba:java asm <vhod> <izhod> [-v]");
 			System.exit(-1);
 		}
 
-		// checking of arguments that follow
+		// preverjanje sledecih argumentov
 		if (args.length > 2) {
 
 			String a = "";
@@ -127,7 +133,7 @@ class CMac1c {
 				a += " " + args[i];
 
 			if (a.length() > 0)
-				System.out.println("Unknown arguments:" + a);
+				System.out.println("Neznani argumenti:" + a);
 		}
 
 		StreamTokenizer st;
@@ -142,25 +148,25 @@ class CMac1c {
 			while (st.nextToken() != -1) {
 
 				if (bVerbose)
-					System.out.println("Recognizing token: " + st.toString());
+					System.out.println("Razpoznavam token: " + st.toString());
 
-				// skip empty lines
+				// preskočimo prazne vrstice
 				if (st.ttype == StreamTokenizer.TT_EOL) {
 
 					if (bVerbose)
-						System.out.println("Skipping line: " + st.lineno());
+						System.out.println("Preskočim vrstico: " + st.lineno());
 
 					continue;
 				}
 
-				int iInstruction = -1;
+				int iInstrukcija = -1;
 
 				// ************************************************************************************************
-				// program segment
+				// programski segment
 				if (!bData) {
 
 					if (st.ttype != StreamTokenizer.TT_WORD) {
-						System.out.println("Unknown command: " + st.toString());
+						System.out.println("Neznan ukaz: " + st.toString());
 						System.exit(-10);
 					}
 
@@ -174,38 +180,38 @@ class CMac1c {
 						continue;
 					}
 
-					// finding mnemonic
+					// iskanje mnemonika
 					int iIndex = -1;
-					for (int i = 0; i < strMnemonics.length; i++)
-						if (strMnemonics[i].compareToIgnoreCase(st.sval) == 0) {
+					for (int i = 0; i < strMnemoniki.length; i++)
+						if (strMnemoniki[i].compareToIgnoreCase(st.sval) == 0) {
 
 							iIndex = i;
 
 							if (bVerbose)
 								System.out.println(
-									"Found mnemonic: "
-										+ strMnemonics[iIndex]
-										+ " in line: "
+									"Našel mnemonik: "
+										+ strMnemoniki[iIndex]
+										+ " v vrstici: "
 										+ st.lineno());
 							break;
 						}
 
-					// unknown operation ?
+					// neznan ukaz ?
 					if (iIndex < 0) {
 
 						System.out.println(
-							"ERROR: Unknown operation "
+							"NAPAKA: Neznan ukaz "
 								+ st.toString()
-								+ " (line: "
+								+ " (vrstica: "
 								+ st.lineno()
 								+ ").");
 						System.exit(-10);
 					}
 
-					iInstruction = iOperationCodes[iIndex];
+					iInstrukcija = iOperacijskeKode[iIndex];
 
-					// requires argument ?
-					if (iArgumentMasks[iIndex] > 0) {
+					// zahteva argument ?
+					if (iArgumentMaske[iIndex] > 0) {
 
 						st.nextToken();
 
@@ -213,64 +219,64 @@ class CMac1c {
 						if (st.ttype != StreamTokenizer.TT_NUMBER) {
 
 							System.out.println(
-								"ERROR: Operation "
-									+ strMnemonics[iIndex]
-									+ " requires argument (line: "
+								"NAPAKA: Ukaz "
+									+ strMnemoniki[iIndex]
+									+ " zahteva argument (vrstica: "
 									+ st.lineno()
 									+ ").");
 							System.exit(-10);
 						}
 
 						// overflow
-						if ((int) st.nval > iArgumentMasks[iIndex]) {
+						if ((int) st.nval > iArgumentMaske[iIndex]) {
 
 							System.out.println(
-								"ERROR: Operation "
-									+ strMnemonics[iIndex]
+								"NAPAKA: Ukaz "
+									+ strMnemoniki[iIndex]
 									+ " overflow. Argument > od "
-									+ iArgumentMasks[iIndex]
-									+ " (line: "
+									+ iArgumentMaske[iIndex]
+									+ " (vrstica: "
 									+ st.lineno()
 									+ ").");
 							System.exit(-10);
 						}
 
-						// compute instruction
-						iInstruction += (int) st.nval;
+						// izracun instrukcije
+						iInstrukcija += (int) st.nval;
 					}
 
 					st.nextToken();
 					if (st.ttype != StreamTokenizer.TT_EOL) {
 						System.out.println(
-							"ERROR: expecting EOL (line: " + st.lineno() + ").");
+							"NAPAKA: pričakujem EOL (vrstica: " + st.lineno() + ").");
 						System.exit(-10);
 					}
 				}
 				// *************************************************************************************
 				// data segment
 				else {
-					// not address ?
+					// ni naslov ?
 					if (st.ttype != StreamTokenizer.TT_NUMBER) {
 
 						System.out.println(
-							"ERROR: Expecting address (line: " + st.lineno() + ").");
+							"NAPAKA: Pričakujem naslov (vrstica: " + st.lineno() + ").");
 						System.exit(-10);
 					}
 
 					// overflow ?
 					if (st.nval > 0x0FFF || st.nval < 0) {
 
-						System.out.println("ERROR: Address (line: " + st.lineno() + ").");
+						System.out.println("NAPAKA: Naslov (vrstica: " + st.lineno() + ").");
 						System.exit(-10);
 					}
 
-					iLocation = (int) st.nval;
+					iLokacija = (int) st.nval;
 
-					// find separator ':'
+					// iscemo separator ':'
 					st.nextToken();
 					if (st.ttype != ':') {
 						System.out.println(
-							"ERROR: Expecting separator ':' (line: " + st.lineno() + ").");
+							"NAPAKA: Pričakujem separator ':' (vrstica: " + st.lineno() + ").");
 						System.exit(-10);
 					}
 
@@ -279,7 +285,7 @@ class CMac1c {
 					if (st.ttype != StreamTokenizer.TT_NUMBER) {
 
 						System.out.println(
-							"ERROR: Expecting argument (line: " + st.lineno() + ").");
+							"NAPAKA: Pričakujem argument (vrstica: " + st.lineno() + ").");
 						System.exit(-10);
 					}
 
@@ -287,43 +293,43 @@ class CMac1c {
 					if (st.nval > 0xFFFF) {
 
 						System.out.println(
-							"ERROR: Argument overflow (line: " + st.lineno() + ").");
+							"NAPAKA: Argument overflow (vrstica: " + st.lineno() + ").");
 						System.exit(-10);
 					}
 
-					iInstruction = (int) st.nval;
+					iInstrukcija = (int) st.nval;
 
 					st.nextToken();
 					if (st.ttype != StreamTokenizer.TT_EOL) {
 						System.out.println(
-							"ERROR: Expecting EOL (line: " + st.lineno() + ").");
+							"NAPAKA: pričakujem EOL (vrstica: " + st.lineno() + ").");
 						System.exit(-10);
 					}
 				}
 
 				// *********************************************************************************************
-				// writing to mem
+				// zapisovanje v mem 
 				if (bVerbose)
 					System.out.println(
-						"Computed instruction: "
-							+ Integer.toHexString(iInstruction)
-							+ " location: "
-							+ iLocation);
+						"Izračunana instrukcija: "
+							+ Integer.toHexString(iInstrukcija)
+							+ " lokacija: "
+							+ iLokacija);
 
-				if (iInstruction > 0)
-					iMem[iLocation++] = iInstruction;
+				if (iInstrukcija > 0)
+					iMem[iLokacija++] = iInstrukcija;
 			}
 
 			// ************************************************************************************************
-			// writing 
+			// zapisovanje 
 
 			if (bVerbose)
-				System.out.println("\n Writing: ");
+				System.out.println("\n Zapisovanje: ");
 
 			FileOutputStream fos = new FileOutputStream(args[1]);
 			for (int i = 0; i < 4096; i++) {
 
-				// control prints
+				// kontrolni izpisi
 				if (bVerbose && iMem[i] != 0) {
 					String s1 = Integer.toHexString((iMem[i] & 0xFF00) >> 8);
 					String s2 = Integer.toHexString(iMem[i] & 0x00FF);
@@ -345,7 +351,7 @@ class CMac1c {
 							+ (iMem[i] & 0x00FF));
 				}
 
-				// writing
+				// zapisi
 				fos.write(iMem[i] & 0x00FF);
 				fos.write((iMem[i] & 0xFF00) >> 8);
 			}
@@ -356,4 +362,3 @@ class CMac1c {
 		}
 	}
 }
-

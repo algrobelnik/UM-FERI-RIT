@@ -1,0 +1,11 @@
+LOCO 4 ; 0
+SWAP ; 1
+LODL 30 ; 2
+MUL 6 ; 3
+STOL 30 ; 4
+DESP 1 ; 5
+SWAP ; 6
+JZER 10 ; 7
+SWAP ; 8
+JUMP 2 ; 9
+END ; 10 
