@@ -1,109 +1,116 @@
 const express = require('express')
 const app = express()
 const server = require('http').createServer(app)
-const path = require('path')
 const io = require('socket.io')(server)
-const CryptoJS = require('crypto-js')
-const { generateKeyPair } = require("crypto");
-const userArr = []
-const priKey = []
-const keywords = [
-  'coffee', 'quarter', 'will', 'pop', 'able',
-  'uniform', 'needle', 'control', 'commemorate', 'press',
-  'contradiction', 'executive', 'fuel', 'cream', 'headquarters',
-  'contrary', 'machinery', 'black', 'learn', 'party'
-]
-let gameState = false
-let key = ''
+const bodyParser = require('body-parser')
+const path = require('path')
+const client = require('socket.io-client')
+const { getDiffieHellman } = require('crypto')
+const fs = require('fs')
+const cryptojs = require('crypto-js')
 
-function sendMessage (type, message, uname) {
-  const msg = JSON.stringify({ message, uname })
-  const encText = CryptoJS.AES.encrypt(msg, 'randomKeyWord#$#13').toString()
-  console.log({ type, message, uname })
-  io.emit(type, encText)
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(express.static(path.join(__dirname, 'src')))
+
+if (process.argv.length < 3) {
+  console.error('Missing port')
+  process.exit(1)
+}
+if (process.argv.length > 3) {
+  console.error('Too many arguments')
+  process.exit(1)
+}
+if (parseInt(process.argv[2]) <= 0 || parseInt(process.argv[2]) < 1000 ||
+  parseInt(process.argv[2]) > 9999) {
+  console.error('Wrong port format')
+  process.exit(1)
+}
+const PORT = process.argv[2]
+if (PORT === undefined) {
+  process.exit(1)
 }
 
-app.use(express.static(path.join(__dirname, '/layout')))
-io.on('connection', socket => {
-  try {
-    socket.on('join', (uname, fn) => {
-      let pubKey
-      generateKeyPair('rsa', {
-        modulusLength: 4096,
-        publicKeyEncoding: {
-          type: 'spki',
-          format: 'pem'
-        },
-        privateKeyEncoding: {
-          type: 'pkcs8',
-          format: 'pem',
-          cipher: 'aes-256-cbc',
-          passphrase: 'randomKeyWord#$#13'
-        }
-      }, (err, publicKey, privateKey) => {
-        priKey.push(privateKey)
-        pubKey = publicKey
-        console.log(privateKey)
-        console.log(pubKey)
-        console.log(err)
-        // Handle errors and use the generated key pair.
-        fn(pubKey)
-      })
-      sendMessage('join', 'join', uname)
-      userArr.push(uname)
-    })
-  } catch (err) {
-    sendMessage('msg', err, 'error')
-  }
-
-  try {
-    socket.on('msg', (data) => {
-      data = CryptoJS.AES.decrypt(data, 'randomKeyWord#$#13').toString(CryptoJS.enc.Utf8)
-      data = JSON.parse(data)
-      console.log({ message: data.message, uname: data.uname })
-      sendMessage('msg', data.message, data.uname)
-      if (data.message === '#GAMESTART' || data.message === '#GAMESTOP' || data.message === '#GAMENEW') {
-        if (data.message === '#GAMESTART' || data.message === '#GAMENEW') {
-          if (gameState || data.message === '#GAMENEW') throw Error('Game already exists')
-          key = keywords[Math.floor(Math.random() * keywords.length)]
-          let guess = key
-          for (let i = 0; i < key.length / 2 + 1; i++) {
-            guess = guess.replace(guess[((i + 1) * 2) - 1], '_')
-          }
-          sendMessage('msg', guess, 'server')
-          gameState = true
-        } else if (data.message === '#GAMENEW') {
-          key = keywords[Math.floor(Math.random() * keywords.length)]
-          gameState = true
-        } else {
-          gameState = false
-        }
-      } else {
-        if (gameState) {
-          if (key === data.message) {
-            sendMessage('msg', 'Correct guess', 'server')
-          }
-        }
-      }
-    })
-  } catch (err) {
-    sendMessage('msg', err, 'error')
-  }
-
-  try {
-    socket.on('leave', uname => {
-      sendMessage('leave', 'leave', uname)
-      delete userArr[userArr.indexOf(uname)]
-      socket.disconnect(0)
-    })
-  } catch (err) {
-    sendMessage('msg', err, 'error')
-  }
+server.listen(PORT, () => {
+  console.log(`listening on: ${server.address().address}:${PORT}`)
 })
 
-const port = process.env.PORT || 3000
-server.listen(port,
-  () => {
-    console.log(
-      `listening on: ${server.address().address}:${port}`)
+const prevDir = './transmited'
+const dir = prevDir + '/' + PORT
+try {
+  if (!fs.existsSync(prevDir)) {
+    fs.mkdirSync(prevDir)
+  }
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir)
+  }
+} catch (err) {
+  if (err) {
+    console.error(err)
+  }
+}
+
+// const dh = getDiffieHellman('modp18') //8192 bit
+const dh = getDiffieHellman('modp14')
+dh.generateKeys()
+let secKey = null
+
+function sendFiles (fileName, port) {
+  const link = 'http://127.0.0.1:' + port
+  const sock = client.connect(link)
+  sock.on('connect', () => {
+    console.log(`Connected to peer at ${link}`)
   })
+
+  sock.emit('pubk1', dh.getPublicKey())
+  sock.on('pubk2', (pub) => {
+    console.log(`Public key: ${pub}`)
+    secKey = dh.computeSecret(pub, null, 'base64')
+    console.log(`Secret generated: ${secKey}`)
+
+    const rs = fs.createReadStream(`${dir}/${fileName}`)
+    rs.on('data', chunk => {
+      // console.log('BEFORE')
+      // console.log(chunk)
+      chunk = cryptojs.AES.encrypt(chunk.toString(), secKey).toString()
+      // console.log('AFTER')
+      // console.log(chunk)
+      sock.emit('uploadFile', fileName, chunk, true)
+    })
+
+    rs.on('end', (data) => {
+      console.log(`Transfer of ${fileName} has finished`)
+    })
+  })
+
+  sock.on('disconnect', () => {
+    console.log(`Disconnected: ${link}`)
+  })
+}
+
+io.on('connection', socket => {
+  socket.on('uploadFile', (fileName, data, enc) => {
+    if (enc) {
+      // console.log('BEFORE')
+      // console.log(data)
+      data = Buffer.from(cryptojs.AES.decrypt(data.toString(), secKey).toString(cryptojs.enc.Utf8))
+      // console.log('AFTER')
+      // console.log(data)
+    }
+    fs.appendFile(`${dir}/${fileName}`, data, { encoding: 'binary' }, (err) => {
+      if (err) {
+        console.error(err)
+      }
+    })
+  })
+
+  socket.on('pubk1', (pub) => {
+    console.log(`Public key: ${pub}`)
+    socket.emit('pubk2', dh.getPublicKey())
+    secKey = dh.computeSecret(pub, null, 'base64')
+    console.log(`Secret generated: ${secKey}`)
+  })
+
+  socket.on('transfer', (fileName, port) => {
+    sendFiles(fileName, port)
+  })
+})
