@@ -2,7 +2,7 @@ CC = g++
 FLAGS= -Wall -Iinclude
 SRCS := $(wildcard src/*.cpp *.cpp)
 OBJS := $(SRCS:src/%.cpp=build/%.o)
-NAME=main
+NAME=main.x
 
 all: build/$(NAME)
 
