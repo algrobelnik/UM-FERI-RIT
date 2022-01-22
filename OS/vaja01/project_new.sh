@@ -31,7 +31,7 @@ function makeFile {
 FLAGS= -Wall -Iinclude
 SRCS := \$(wildcard src/*.cpp *.cpp)
 OBJS := \$(SRCS:src/%.cpp=build/%.o)
-NAME=${1}
+NAME=${1}.x
 
 all: build/\$(NAME)
 
