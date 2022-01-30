@@ -52,10 +52,10 @@ int main(int argc, char **argv) {
         return 1;
       }
     }
+    map<char, int>::iterator it;
     if (type == "read") {
       int fd, ret;
       char buf[bSize];
-      map<char, int>::iterator it;
       if ((fd = open(argv[argc - 1], O_RDONLY)) < 0) {
         cout << "WRONG FILE. Type histChar --help for additional inforamtions.";
         return 1;
@@ -72,14 +72,10 @@ int main(int argc, char **argv) {
           }
         }
         close(fd);
-        for (it = hist.begin(); it != hist.end(); ++it) {
-          cout << it->first << " " << it->second << endl;
-        }
       }
     } else if (type == "fread") {
       int ret;
       char buf[bSize];
-      map<char, int>::iterator it;
       ifstream file;
       file.open(argv[argc - 1]);
       if (!file.is_open()) {
@@ -106,14 +102,10 @@ int main(int argc, char **argv) {
           }
         }
         file.close();
-        for (it = hist.begin(); it != hist.end(); ++it) {
-          cout << it->first << " " << it->second << endl;
-        }
       }
     } else if (type == "mmap") {
       int fd;
       char *addr;
-      map<char, int>::iterator it;
       if ((fd = open(argv[argc - 1], O_RDONLY)) < 0) {
         cout << "FILE ERROR. Type histChar --help for additional inforamtions.";
         return 1;
@@ -131,77 +123,21 @@ int main(int argc, char **argv) {
               it->second++;
             }
           }
-          munmap(addr, bSize);
-          offset += bSize;
+          munmap(addr, st.st_size);
+          offset += st.st_size;
         }
         close(fd);
-        for (it = hist.begin(); it != hist.end(); ++it) {
-          cout << it->first << " " << it->second << endl;
-        }
       }
     } else {
       cout << "WRONG USAGE. Type histChar --help for additional inforamtions."
            << endl;
       return 1;
     }
+    for (it = hist.begin(); it != hist.end(); ++it) {
+      cout << it->first << " " << it->second << " | ";
+    }
   } catch (const char *err) {
     cout << err << endl;
   }
-  /*ifstream input;
-  ofstream output;
-  char c;
-  if (file_input != "unknown####" && file_output != "unknown####") {
-    input.open(file_input);
-    output.open(file_output, fstream::in | fstream::out | fstream::app);
-    if (input.is_open() && output.is_open()) {
-      while (input) {
-        c = input.get();
-        if ((int)c != -1) {
-          output << (int)c << " ";
-        }
-      }
-      input.close();
-      output.close();
-    } else {
-      cout << "Input: " << (input.is_open() ? "open" : "error")
-           << " Output: " << (output.is_open() ? "open" : "error");
-    }
-    cout << endl;
-  } else if (file_output != "unknown####") {
-    output.open(file_output, fstream::in | fstream::out | fstream::app);
-    if (output.is_open()) {
-      while (read(fdI, &c, 1)) {
-        output << (int)c << " ";
-      }
-    } else {
-      cout << " Output: " << (output.is_open() ? "open" : "error");
-    }
-  } else if (file_input != "unknown####") {
-    input.open(file_input);
-    if (input.is_open()) {
-      string str = "";
-      while (input) {
-        c = input.get();
-        int num = (int)c;
-        if (num != -1) {
-          str += to_string(num) + " ";
-        }
-      }
-      write(fdO, str.c_str(), str.size());
-      input.close();
-    } else {
-      cout << "Input: " << (input.is_open() ? "open" : "error");
-    }
-  } else {
-    string str = "";
-    while (read(fdI, &c, 1)) {
-      int num = (int)c;
-      str += to_string(num) + " ";
-    }
-    write(fdO, str.c_str(), str.size());
-  }
-  } catch (const char *err) {
-  cout << err << endl;
-  }*/
-  return 0;
+    return 0;
 }
