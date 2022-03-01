@@ -1,0 +1,16 @@
+Exercise 1: matching floating numbers
+1. ^-?\d+(,\d+)*(\.\d+(e\d+)?)?$
+Exercise 2: matching phone numbers
+2. (^\d{3})|((?<=\()\d+)|(\d+\d{2})
+Exercise 3: matching emails
+3. (^(\w*\.\w*))|(^(\w*))
+Exercise 4: matching HTML tags
+4. ^\<(\w*)
+Exercise 5: matching files
+5. ^(\w+)\.(jpg|png|gif)$
+Exercise 6: matching empty strings and endings
+6. ^\s*(.*)$
+Exercise 7: getting data from log files
+7. (\w+)\(([\w\.]+):(\d+)\)
+Exercise 8: getting data from URLs
+8. ^(\w+)://([\w\-\.]+)(:(\d+))?

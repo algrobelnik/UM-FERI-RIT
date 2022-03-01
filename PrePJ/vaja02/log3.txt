@@ -1,0 +1,9 @@
+Feb 24 08:02:34 bastion sshd[19993]: Connection from 49.88.112.255 port 19068 on 164.8.230.0 port 22 rdomain ""
+Jan 31 19:06:29 bastion sshd[9912]: Invalid user pi from 37.57.89.52 port 59254
+Jan 31 19:09:25 bastion sshd[9926]: Failed keyboard-interactive/pam for root from 222.187.239.31 port 62797 ssh
+Feb 24 08:02:34 bastion sshd[19993]: Connection from 49.88.112.68 port 19068 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:02:36 bastion sshd[19993]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:02:38 bastion sshd[19993]: Connection from 132.88.112.68 port 19068 on 132.84.230.209 port 22 rdomain ""
+Feb 24 08:02:38 bastion sshd[19993]: Connection from 132.88.112.68 port 19068 on 132.88.113.209 port 22 rdomain ""
+Jan 31 19:06:29 bastion sshd[9912]: Invalid user pi from 37.57.89.52 port 59254
+Jan 31 19:09:25 bastion sshd[9926]: Failed keyboard-interactive/pam for root from 222.187.239.31 port 62797 ssh

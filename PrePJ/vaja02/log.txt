@@ -1,0 +1,1001 @@
+Feb 24 08:02:34 bastion sshd[19993]: Connection from 49.88.112.68 port 19068 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:02:36 bastion sshd[19993]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:02:36 bastion sshd[19993]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 19068 ssh2
+Feb 24 08:02:37 bastion sshd[19993]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:02:37 bastion sshd[19993]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 19068 ssh2
+Feb 24 08:02:37 bastion sshd[19993]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:02:37 bastion sshd[19993]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 19068 ssh2
+Feb 24 08:02:37 bastion sshd[19993]: Received disconnect from 49.88.112.68 port 19068:11:  [preauth]
+Feb 24 08:02:37 bastion sshd[19993]: Disconnected from authenticating user root 49.88.112.68 port 19068 [preauth]
+Feb 24 08:04:06 bastion sshd[19999]: Connection from 49.88.112.68 port 22824 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:04:08 bastion sshd[19999]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:04:08 bastion sshd[19999]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 22824 ssh2
+Feb 24 08:04:08 bastion sshd[19999]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:04:08 bastion sshd[19999]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 22824 ssh2
+Feb 24 08:04:09 bastion sshd[19999]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:04:09 bastion sshd[19999]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 22824 ssh2
+Feb 24 08:04:09 bastion sshd[19999]: Received disconnect from 49.88.112.68 port 22824:11:  [preauth]
+Feb 24 08:04:09 bastion sshd[19999]: Disconnected from authenticating user root 49.88.112.68 port 22824 [preauth]
+Feb 24 08:04:10 bastion sshd[20004]: Connection from 218.92.0.248 port 21949 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:04:10 bastion sshd[20004]: Unable to negotiate with 218.92.0.248 port 21949: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 08:05:14 bastion sshd[20006]: Connection from 49.88.112.68 port 18949 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:05:15 bastion sshd[20006]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:05:15 bastion sshd[20006]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 18949 ssh2
+Feb 24 08:05:15 bastion sshd[20006]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:05:15 bastion sshd[20006]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 18949 ssh2
+Feb 24 08:05:16 bastion sshd[20006]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:05:16 bastion sshd[20006]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 18949 ssh2
+Feb 24 08:05:16 bastion sshd[20006]: Received disconnect from 49.88.112.68 port 18949:11:  [preauth]
+Feb 24 08:05:16 bastion sshd[20006]: Disconnected from authenticating user root 49.88.112.68 port 18949 [preauth]
+Feb 24 08:06:25 bastion sshd[20022]: Connection from 178.128.127.62 port 63060 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:06:26 bastion sshd[20022]: Connection closed by 178.128.127.62 port 63060 [preauth]
+Feb 24 08:06:39 bastion sshd[20024]: Connection from 49.88.112.68 port 28320 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:06:42 bastion sshd[20024]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:06:42 bastion sshd[20024]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 28320 ssh2
+Feb 24 08:06:43 bastion sshd[20024]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:06:43 bastion sshd[20024]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 28320 ssh2
+Feb 24 08:06:43 bastion sshd[20024]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:06:43 bastion sshd[20024]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 28320 ssh2
+Feb 24 08:06:43 bastion sshd[20024]: Received disconnect from 49.88.112.68 port 28320:11:  [preauth]
+Feb 24 08:06:43 bastion sshd[20024]: Disconnected from authenticating user root 49.88.112.68 port 28320 [preauth]
+Feb 24 08:06:51 bastion sshd[20029]: Connection from 187.53.119.67 port 51508 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:06:52 bastion sshd[20029]: Connection closed by 187.53.119.67 port 51508 [preauth]
+Feb 24 08:07:25 bastion sshd[20031]: Connection from 45.55.182.232 port 49992 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:07:25 bastion sshd[20031]: Connection closed by 45.55.182.232 port 49992 [preauth]
+Feb 24 08:08:02 bastion sshd[20034]: Connection from 49.88.112.68 port 14729 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:08:07 bastion sshd[20034]: Received disconnect from 49.88.112.68 port 14729:11:  [preauth]
+Feb 24 08:08:07 bastion sshd[20034]: Disconnected from 49.88.112.68 port 14729 [preauth]
+Feb 24 08:08:19 bastion sshd[20036]: Connection from 221.181.185.135 port 60441 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:08:21 bastion sshd[20036]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:21 bastion sshd[20036]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 60441 ssh2
+Feb 24 08:08:21 bastion sshd[20036]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:21 bastion sshd[20036]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 60441 ssh2
+Feb 24 08:08:22 bastion sshd[20036]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:22 bastion sshd[20036]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 60441 ssh2
+Feb 24 08:08:22 bastion sshd[20036]: Received disconnect from 221.181.185.135 port 60441:11:  [preauth]
+Feb 24 08:08:22 bastion sshd[20036]: Disconnected from authenticating user root 221.181.185.135 port 60441 [preauth]
+Feb 24 08:08:22 bastion sshd[20041]: Connection from 221.181.185.135 port 29636 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:08:24 bastion sshd[20041]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:24 bastion sshd[20041]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 29636 ssh2
+Feb 24 08:08:25 bastion sshd[20041]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:25 bastion sshd[20041]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 29636 ssh2
+Feb 24 08:08:25 bastion sshd[20041]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:25 bastion sshd[20041]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 29636 ssh2
+Feb 24 08:08:25 bastion sshd[20041]: Received disconnect from 221.181.185.135 port 29636:11:  [preauth]
+Feb 24 08:08:25 bastion sshd[20041]: Disconnected from authenticating user root 221.181.185.135 port 29636 [preauth]
+Feb 24 08:08:26 bastion sshd[20046]: Connection from 221.181.185.135 port 54190 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:08:28 bastion sshd[20046]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:28 bastion sshd[20046]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 54190 ssh2
+Feb 24 08:08:28 bastion sshd[20046]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:28 bastion sshd[20046]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 54190 ssh2
+Feb 24 08:08:29 bastion sshd[20046]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:29 bastion sshd[20046]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 54190 ssh2
+Feb 24 08:08:29 bastion sshd[20046]: Received disconnect from 221.181.185.135 port 54190:11:  [preauth]
+Feb 24 08:08:29 bastion sshd[20046]: Disconnected from authenticating user root 221.181.185.135 port 54190 [preauth]
+Feb 24 08:08:29 bastion sshd[20051]: Connection from 221.181.185.135 port 22545 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:08:31 bastion sshd[20051]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:31 bastion sshd[20051]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 22545 ssh2
+Feb 24 08:08:32 bastion sshd[20051]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:32 bastion sshd[20051]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 22545 ssh2
+Feb 24 08:08:32 bastion sshd[20051]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:32 bastion sshd[20051]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 22545 ssh2
+Feb 24 08:08:32 bastion sshd[20051]: Received disconnect from 221.181.185.135 port 22545:11:  [preauth]
+Feb 24 08:08:32 bastion sshd[20051]: Disconnected from authenticating user root 221.181.185.135 port 22545 [preauth]
+Feb 24 08:08:33 bastion sshd[20056]: Connection from 221.181.185.135 port 43751 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:08:35 bastion sshd[20056]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:35 bastion sshd[20056]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 43751 ssh2
+Feb 24 08:08:35 bastion sshd[20056]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:35 bastion sshd[20056]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 43751 ssh2
+Feb 24 08:08:35 bastion sshd[20056]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:35 bastion sshd[20056]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 43751 ssh2
+Feb 24 08:08:36 bastion sshd[20056]: Received disconnect from 221.181.185.135 port 43751:11:  [preauth]
+Feb 24 08:08:36 bastion sshd[20056]: Disconnected from authenticating user root 221.181.185.135 port 43751 [preauth]
+Feb 24 08:08:36 bastion sshd[20061]: Connection from 221.181.185.135 port 12930 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:08:38 bastion sshd[20061]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:38 bastion sshd[20061]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 12930 ssh2
+Feb 24 08:08:39 bastion sshd[20061]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:39 bastion sshd[20061]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 12930 ssh2
+Feb 24 08:08:39 bastion sshd[20061]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 08:08:39 bastion sshd[20061]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 12930 ssh2
+Feb 24 08:08:39 bastion sshd[20061]: Received disconnect from 221.181.185.135 port 12930:11:  [preauth]
+Feb 24 08:08:39 bastion sshd[20061]: Disconnected from authenticating user root 221.181.185.135 port 12930 [preauth]
+Feb 24 08:09:17 bastion sshd[20066]: Connection from 49.88.112.68 port 63346 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:09:19 bastion sshd[20066]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:09:19 bastion sshd[20066]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 63346 ssh2
+Feb 24 08:09:19 bastion sshd[20066]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:09:19 bastion sshd[20066]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 63346 ssh2
+Feb 24 08:09:19 bastion sshd[20066]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:09:19 bastion sshd[20066]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 63346 ssh2
+Feb 24 08:09:19 bastion sshd[20066]: Received disconnect from 49.88.112.68 port 63346:11:  [preauth]
+Feb 24 08:09:19 bastion sshd[20066]: Disconnected from authenticating user root 49.88.112.68 port 63346 [preauth]
+Feb 24 08:10:33 bastion sshd[20071]: Connection from 49.88.112.68 port 34805 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:10:38 bastion sshd[20071]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:10:38 bastion sshd[20071]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 34805 ssh2
+Feb 24 08:10:38 bastion sshd[20071]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:10:38 bastion sshd[20071]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 34805 ssh2
+Feb 24 08:10:38 bastion sshd[20071]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:10:38 bastion sshd[20071]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 34805 ssh2
+Feb 24 08:10:39 bastion sshd[20071]: Received disconnect from 49.88.112.68 port 34805:11:  [preauth]
+Feb 24 08:10:39 bastion sshd[20071]: Disconnected from authenticating user root 49.88.112.68 port 34805 [preauth]
+Feb 24 08:10:45 bastion sshd[20076]: Connection from 218.92.0.248 port 9620 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:10:45 bastion sshd[20076]: Unable to negotiate with 218.92.0.248 port 9620: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 08:10:54 bastion sshd[20078]: Connection from 222.187.238.87 port 52818 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:10:56 bastion sshd[20078]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:10:56 bastion sshd[20078]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 52818 ssh2
+Feb 24 08:10:57 bastion sshd[20078]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:10:57 bastion sshd[20078]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 52818 ssh2
+Feb 24 08:10:57 bastion sshd[20078]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:10:57 bastion sshd[20078]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 52818 ssh2
+Feb 24 08:10:57 bastion sshd[20078]: Received disconnect from 222.187.238.87 port 52818:11:  [preauth]
+Feb 24 08:10:57 bastion sshd[20078]: Disconnected from authenticating user root 222.187.238.87 port 52818 [preauth]
+Feb 24 08:10:57 bastion sshd[20083]: Connection from 222.187.238.87 port 23939 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:10:59 bastion sshd[20083]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:10:59 bastion sshd[20083]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 23939 ssh2
+Feb 24 08:11:00 bastion sshd[20083]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:00 bastion sshd[20083]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 23939 ssh2
+Feb 24 08:11:00 bastion sshd[20083]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:00 bastion sshd[20083]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 23939 ssh2
+Feb 24 08:11:00 bastion sshd[20083]: Received disconnect from 222.187.238.87 port 23939:11:  [preauth]
+Feb 24 08:11:00 bastion sshd[20083]: Disconnected from authenticating user root 222.187.238.87 port 23939 [preauth]
+Feb 24 08:11:01 bastion sshd[20088]: Connection from 222.187.238.87 port 44163 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:11:03 bastion sshd[20088]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:03 bastion sshd[20088]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 44163 ssh2
+Feb 24 08:11:03 bastion sshd[20088]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:03 bastion sshd[20088]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 44163 ssh2
+Feb 24 08:11:04 bastion sshd[20088]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:04 bastion sshd[20088]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 44163 ssh2
+Feb 24 08:11:04 bastion sshd[20088]: Received disconnect from 222.187.238.87 port 44163:11:  [preauth]
+Feb 24 08:11:04 bastion sshd[20088]: Disconnected from authenticating user root 222.187.238.87 port 44163 [preauth]
+Feb 24 08:11:04 bastion sshd[20093]: Connection from 222.187.238.87 port 12392 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:11:06 bastion sshd[20093]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:06 bastion sshd[20093]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 12392 ssh2
+Feb 24 08:11:06 bastion sshd[20093]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:06 bastion sshd[20093]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 12392 ssh2
+Feb 24 08:11:07 bastion sshd[20093]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:07 bastion sshd[20093]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 12392 ssh2
+Feb 24 08:11:08 bastion sshd[20093]: Received disconnect from 222.187.238.87 port 12392:11:  [preauth]
+Feb 24 08:11:08 bastion sshd[20093]: Disconnected from authenticating user root 222.187.238.87 port 12392 [preauth]
+Feb 24 08:11:08 bastion sshd[20098]: Connection from 222.187.238.87 port 38572 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:11:11 bastion sshd[20098]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:11 bastion sshd[20098]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 38572 ssh2
+Feb 24 08:11:12 bastion sshd[20098]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:12 bastion sshd[20098]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 38572 ssh2
+Feb 24 08:11:12 bastion sshd[20098]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:12 bastion sshd[20098]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 38572 ssh2
+Feb 24 08:11:12 bastion sshd[20098]: Received disconnect from 222.187.238.87 port 38572:11:  [preauth]
+Feb 24 08:11:12 bastion sshd[20098]: Disconnected from authenticating user root 222.187.238.87 port 38572 [preauth]
+Feb 24 08:11:12 bastion sshd[20103]: Connection from 222.187.238.87 port 63130 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:11:15 bastion sshd[20103]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:15 bastion sshd[20103]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 63130 ssh2
+Feb 24 08:11:15 bastion sshd[20103]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:15 bastion sshd[20103]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 63130 ssh2
+Feb 24 08:11:16 bastion sshd[20103]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 08:11:16 bastion sshd[20103]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 63130 ssh2
+Feb 24 08:11:16 bastion sshd[20103]: Received disconnect from 222.187.238.87 port 63130:11:  [preauth]
+Feb 24 08:11:16 bastion sshd[20103]: Disconnected from authenticating user root 222.187.238.87 port 63130 [preauth]
+Feb 24 08:11:44 bastion sshd[20108]: Connection from 49.88.112.68 port 63084 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:11:46 bastion sshd[20108]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:11:46 bastion sshd[20108]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 63084 ssh2
+Feb 24 08:11:46 bastion sshd[20108]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:11:46 bastion sshd[20108]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 63084 ssh2
+Feb 24 08:11:46 bastion sshd[20108]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:11:46 bastion sshd[20108]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 63084 ssh2
+Feb 24 08:11:47 bastion sshd[20108]: Received disconnect from 49.88.112.68 port 63084:11:  [preauth]
+Feb 24 08:11:47 bastion sshd[20108]: Disconnected from authenticating user root 49.88.112.68 port 63084 [preauth]
+Feb 24 08:13:00 bastion sshd[20113]: Connection from 193.112.70.95 port 53328 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:13:03 bastion sshd[20113]: Connection closed by 193.112.70.95 port 53328 [preauth]
+Feb 24 08:13:03 bastion sshd[20116]: Connection from 49.88.112.68 port 37095 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:13:06 bastion sshd[20116]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:13:06 bastion sshd[20116]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 37095 ssh2
+Feb 24 08:13:06 bastion sshd[20116]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:13:06 bastion sshd[20116]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 37095 ssh2
+Feb 24 08:13:06 bastion sshd[20116]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:13:06 bastion sshd[20116]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 37095 ssh2
+Feb 24 08:13:07 bastion sshd[20116]: Received disconnect from 49.88.112.68 port 37095:11:  [preauth]
+Feb 24 08:13:07 bastion sshd[20116]: Disconnected from authenticating user root 49.88.112.68 port 37095 [preauth]
+Feb 24 08:14:30 bastion sshd[20121]: Connection from 49.88.112.68 port 23951 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:14:33 bastion sshd[20121]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:14:33 bastion sshd[20121]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 23951 ssh2
+Feb 24 08:14:34 bastion sshd[20121]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:14:34 bastion sshd[20121]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 23951 ssh2
+Feb 24 08:14:34 bastion sshd[20121]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:14:34 bastion sshd[20121]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 23951 ssh2
+Feb 24 08:14:35 bastion sshd[20121]: Received disconnect from 49.88.112.68 port 23951:11:  [preauth]
+Feb 24 08:14:35 bastion sshd[20121]: Disconnected from authenticating user root 49.88.112.68 port 23951 [preauth]
+Feb 24 08:15:40 bastion sshd[20126]: Connection from 49.88.112.68 port 31960 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:15:44 bastion sshd[20126]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:15:44 bastion sshd[20126]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 31960 ssh2
+Feb 24 08:15:44 bastion sshd[20126]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:15:44 bastion sshd[20126]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 31960 ssh2
+Feb 24 08:15:44 bastion sshd[20126]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:15:44 bastion sshd[20126]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 31960 ssh2
+Feb 24 08:15:45 bastion sshd[20126]: Received disconnect from 49.88.112.68 port 31960:11:  [preauth]
+Feb 24 08:15:45 bastion sshd[20126]: Disconnected from authenticating user root 49.88.112.68 port 31960 [preauth]
+Feb 24 08:17:04 bastion sshd[20131]: Connection from 49.88.112.68 port 39873 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:17:06 bastion sshd[20131]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:17:06 bastion sshd[20131]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 39873 ssh2
+Feb 24 08:17:06 bastion sshd[20131]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:17:06 bastion sshd[20131]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 39873 ssh2
+Feb 24 08:17:07 bastion sshd[20131]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:17:07 bastion sshd[20131]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 39873 ssh2
+Feb 24 08:17:07 bastion sshd[20131]: Received disconnect from 49.88.112.68 port 39873:11:  [preauth]
+Feb 24 08:17:07 bastion sshd[20131]: Disconnected from authenticating user root 49.88.112.68 port 39873 [preauth]
+Feb 24 08:17:20 bastion sshd[20136]: Connection from 218.92.0.171 port 8642 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:17:20 bastion sshd[20136]: Unable to negotiate with 218.92.0.171 port 8642: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 08:18:21 bastion sshd[20139]: Connection from 49.88.112.68 port 50179 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:18:25 bastion sshd[20139]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:18:25 bastion sshd[20139]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 50179 ssh2
+Feb 24 08:18:25 bastion sshd[20139]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:18:25 bastion sshd[20139]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 50179 ssh2
+Feb 24 08:18:26 bastion sshd[20139]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:18:26 bastion sshd[20139]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 50179 ssh2
+Feb 24 08:18:26 bastion sshd[20139]: Received disconnect from 49.88.112.68 port 50179:11:  [preauth]
+Feb 24 08:18:26 bastion sshd[20139]: Disconnected from authenticating user root 49.88.112.68 port 50179 [preauth]
+Feb 24 08:19:35 bastion sshd[20144]: Connection from 49.88.112.68 port 32219 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:19:36 bastion sshd[20144]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:19:36 bastion sshd[20144]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 32219 ssh2
+Feb 24 08:19:37 bastion sshd[20144]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:19:37 bastion sshd[20144]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 32219 ssh2
+Feb 24 08:19:37 bastion sshd[20144]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:19:37 bastion sshd[20144]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 32219 ssh2
+Feb 24 08:19:37 bastion sshd[20144]: Received disconnect from 49.88.112.68 port 32219:11:  [preauth]
+Feb 24 08:19:37 bastion sshd[20144]: Disconnected from authenticating user root 49.88.112.68 port 32219 [preauth]
+Feb 24 08:20:26 bastion sshd[20149]: Connection from 68.183.4.205 port 59510 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:20:27 bastion sshd[20149]: error: kex_exchange_identification: Connection closed by remote host
+Feb 24 08:20:27 bastion sshd[20149]: Connection closed by 68.183.4.205 port 59510
+Feb 24 08:20:50 bastion sshd[20150]: Connection from 49.88.112.68 port 49285 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:20:53 bastion sshd[20150]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:20:53 bastion sshd[20150]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 49285 ssh2
+Feb 24 08:20:53 bastion sshd[20150]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:20:53 bastion sshd[20150]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 49285 ssh2
+Feb 24 08:20:53 bastion sshd[20150]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:20:53 bastion sshd[20150]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 49285 ssh2
+Feb 24 08:20:53 bastion sshd[20150]: Received disconnect from 49.88.112.68 port 49285:11:  [preauth]
+Feb 24 08:20:53 bastion sshd[20150]: Disconnected from authenticating user root 49.88.112.68 port 49285 [preauth]
+Feb 24 08:21:40 bastion sshd[20155]: Connection from 221.181.185.140 port 30780 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:21:42 bastion sshd[20155]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:21:42 bastion sshd[20155]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 30780 ssh2
+Feb 24 08:21:42 bastion sshd[20155]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:21:42 bastion sshd[20155]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 30780 ssh2
+Feb 24 08:21:42 bastion sshd[20155]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:21:42 bastion sshd[20155]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 30780 ssh2
+Feb 24 08:21:43 bastion sshd[20155]: Received disconnect from 221.181.185.140 port 30780:11:  [preauth]
+Feb 24 08:21:43 bastion sshd[20155]: Disconnected from authenticating user root 221.181.185.140 port 30780 [preauth]
+Feb 24 08:21:43 bastion sshd[20160]: Connection from 221.181.185.140 port 54072 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:21:45 bastion sshd[20160]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:21:45 bastion sshd[20160]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 54072 ssh2
+Feb 24 08:21:46 bastion sshd[20160]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:21:46 bastion sshd[20160]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 54072 ssh2
+Feb 24 08:21:46 bastion sshd[20160]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:21:46 bastion sshd[20160]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 54072 ssh2
+Feb 24 08:21:46 bastion sshd[20160]: Received disconnect from 221.181.185.140 port 54072:11:  [preauth]
+Feb 24 08:21:46 bastion sshd[20160]: Disconnected from authenticating user root 221.181.185.140 port 54072 [preauth]
+Feb 24 08:21:47 bastion sshd[20165]: Connection from 221.181.185.140 port 22877 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:21:49 bastion sshd[20165]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:21:49 bastion sshd[20165]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 22877 ssh2
+Feb 24 08:21:49 bastion sshd[20165]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:21:49 bastion sshd[20165]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 22877 ssh2
+Feb 24 08:21:49 bastion sshd[20165]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:21:49 bastion sshd[20165]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 22877 ssh2
+Feb 24 08:21:50 bastion sshd[20165]: Received disconnect from 221.181.185.140 port 22877:11:  [preauth]
+Feb 24 08:21:50 bastion sshd[20165]: Disconnected from authenticating user root 221.181.185.140 port 22877 [preauth]
+Feb 24 08:21:54 bastion sshd[20170]: Connection from 68.183.4.205 port 54232 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:21:54 bastion sshd[20170]: Unable to negotiate with 68.183.4.205 port 54232: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Feb 24 08:22:12 bastion sshd[20172]: Connection from 49.88.112.68 port 27942 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:22:14 bastion sshd[20172]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:22:14 bastion sshd[20172]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 27942 ssh2
+Feb 24 08:22:15 bastion sshd[20172]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:22:15 bastion sshd[20172]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 27942 ssh2
+Feb 24 08:22:15 bastion sshd[20172]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:22:15 bastion sshd[20172]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 27942 ssh2
+Feb 24 08:22:16 bastion sshd[20172]: Received disconnect from 49.88.112.68 port 27942:11:  [preauth]
+Feb 24 08:22:16 bastion sshd[20172]: Disconnected from authenticating user root 49.88.112.68 port 27942 [preauth]
+Feb 24 08:23:26 bastion sshd[20178]: Connection from 218.92.0.185 port 11754 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:23:27 bastion sshd[20178]: Unable to negotiate with 218.92.0.185 port 11754: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 08:23:35 bastion sshd[20180]: Connection from 49.88.112.68 port 26897 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:23:38 bastion sshd[20180]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:23:38 bastion sshd[20180]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 26897 ssh2
+Feb 24 08:23:38 bastion sshd[20180]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:23:38 bastion sshd[20180]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 26897 ssh2
+Feb 24 08:23:39 bastion sshd[20180]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:23:39 bastion sshd[20180]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 26897 ssh2
+Feb 24 08:23:40 bastion sshd[20180]: Received disconnect from 49.88.112.68 port 26897:11:  [preauth]
+Feb 24 08:23:40 bastion sshd[20180]: Disconnected from authenticating user root 49.88.112.68 port 26897 [preauth]
+Feb 24 08:24:51 bastion sshd[20185]: Connection from 49.88.112.68 port 23045 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:24:56 bastion sshd[20185]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:24:56 bastion sshd[20185]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 23045 ssh2
+Feb 24 08:25:01 bastion sshd[20185]: Received disconnect from 49.88.112.68 port 23045:11:  [preauth]
+Feb 24 08:25:01 bastion sshd[20185]: Disconnected from authenticating user root 49.88.112.68 port 23045 [preauth]
+Feb 24 08:26:09 bastion sshd[20188]: Connection from 49.88.112.68 port 49969 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:26:17 bastion sshd[20188]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:26:17 bastion sshd[20188]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 49969 ssh2
+Feb 24 08:26:17 bastion sshd[20188]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:26:17 bastion sshd[20188]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 49969 ssh2
+Feb 24 08:26:17 bastion sshd[20188]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:26:17 bastion sshd[20188]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 49969 ssh2
+Feb 24 08:26:17 bastion sshd[20188]: Received disconnect from 49.88.112.68 port 49969:11:  [preauth]
+Feb 24 08:26:17 bastion sshd[20188]: Disconnected from authenticating user root 49.88.112.68 port 49969 [preauth]
+Feb 24 08:27:29 bastion sshd[20193]: Connection from 49.88.112.68 port 27792 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:27:31 bastion sshd[20193]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:27:31 bastion sshd[20193]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 27792 ssh2
+Feb 24 08:27:32 bastion sshd[20193]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:27:32 bastion sshd[20193]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 27792 ssh2
+Feb 24 08:27:32 bastion sshd[20193]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:27:32 bastion sshd[20193]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 27792 ssh2
+Feb 24 08:27:33 bastion sshd[20193]: Received disconnect from 49.88.112.68 port 27792:11:  [preauth]
+Feb 24 08:27:33 bastion sshd[20193]: Disconnected from authenticating user root 49.88.112.68 port 27792 [preauth]
+Feb 24 08:28:48 bastion sshd[20199]: Connection from 49.88.112.68 port 50320 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:28:52 bastion sshd[20199]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:28:52 bastion sshd[20199]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 50320 ssh2
+Feb 24 08:28:52 bastion sshd[20199]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:28:52 bastion sshd[20199]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 50320 ssh2
+Feb 24 08:28:52 bastion sshd[20199]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:28:52 bastion sshd[20199]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 50320 ssh2
+Feb 24 08:28:53 bastion sshd[20199]: Received disconnect from 49.88.112.68 port 50320:11:  [preauth]
+Feb 24 08:28:53 bastion sshd[20199]: Disconnected from authenticating user root 49.88.112.68 port 50320 [preauth]
+Feb 24 08:29:48 bastion sshd[20204]: Connection from 218.92.0.172 port 8197 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:29:49 bastion sshd[20204]: Unable to negotiate with 218.92.0.172 port 8197: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 08:30:05 bastion sshd[20206]: Connection from 49.88.112.68 port 14975 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:30:07 bastion sshd[20206]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:30:07 bastion sshd[20206]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 14975 ssh2
+Feb 24 08:30:08 bastion sshd[20206]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:30:08 bastion sshd[20206]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 14975 ssh2
+Feb 24 08:30:08 bastion sshd[20206]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:30:08 bastion sshd[20206]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 14975 ssh2
+Feb 24 08:30:08 bastion sshd[20206]: Received disconnect from 49.88.112.68 port 14975:11:  [preauth]
+Feb 24 08:30:08 bastion sshd[20206]: Disconnected from authenticating user root 49.88.112.68 port 14975 [preauth]
+Feb 24 08:31:27 bastion sshd[20211]: Connection from 49.88.112.68 port 62587 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:31:32 bastion sshd[20211]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:31:32 bastion sshd[20211]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 62587 ssh2
+Feb 24 08:31:32 bastion sshd[20211]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:31:32 bastion sshd[20211]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 62587 ssh2
+Feb 24 08:31:32 bastion sshd[20211]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:31:32 bastion sshd[20211]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 62587 ssh2
+Feb 24 08:31:33 bastion sshd[20211]: Received disconnect from 49.88.112.68 port 62587:11:  [preauth]
+Feb 24 08:31:33 bastion sshd[20211]: Disconnected from authenticating user root 49.88.112.68 port 62587 [preauth]
+Feb 24 08:32:38 bastion sshd[20227]: Connection from 49.88.112.68 port 45881 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:32:41 bastion sshd[20227]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:32:41 bastion sshd[20227]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 45881 ssh2
+Feb 24 08:32:42 bastion sshd[20227]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:32:42 bastion sshd[20227]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 45881 ssh2
+Feb 24 08:32:42 bastion sshd[20227]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:32:42 bastion sshd[20227]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 45881 ssh2
+Feb 24 08:32:42 bastion sshd[20227]: Received disconnect from 49.88.112.68 port 45881:11:  [preauth]
+Feb 24 08:32:42 bastion sshd[20227]: Disconnected from authenticating user root 49.88.112.68 port 45881 [preauth]
+Feb 24 08:33:56 bastion sshd[20233]: Connection from 49.88.112.68 port 17590 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:34:01 bastion sshd[20233]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:34:01 bastion sshd[20233]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 17590 ssh2
+Feb 24 08:34:02 bastion sshd[20233]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:34:02 bastion sshd[20233]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 17590 ssh2
+Feb 24 08:34:02 bastion sshd[20233]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:34:02 bastion sshd[20233]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 17590 ssh2
+Feb 24 08:34:03 bastion sshd[20233]: Received disconnect from 49.88.112.68 port 17590:11:  [preauth]
+Feb 24 08:34:03 bastion sshd[20233]: Disconnected from authenticating user root 49.88.112.68 port 17590 [preauth]
+Feb 24 08:34:07 bastion sshd[20238]: Connection from 91.241.19.60 port 63503 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:34:07 bastion sshd[20238]: error: kex_exchange_identification: banner line contains invalid characters
+Feb 24 08:34:07 bastion sshd[20238]: banner exchange: Connection from 91.241.19.60 port 63503: invalid format
+Feb 24 08:35:21 bastion sshd[20239]: Connection from 49.88.112.68 port 24337 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:35:25 bastion sshd[20239]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:35:25 bastion sshd[20239]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 24337 ssh2
+Feb 24 08:35:25 bastion sshd[20239]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:35:25 bastion sshd[20239]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 24337 ssh2
+Feb 24 08:35:26 bastion sshd[20239]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:35:26 bastion sshd[20239]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 24337 ssh2
+Feb 24 08:35:26 bastion sshd[20239]: Received disconnect from 49.88.112.68 port 24337:11:  [preauth]
+Feb 24 08:35:26 bastion sshd[20239]: Disconnected from authenticating user root 49.88.112.68 port 24337 [preauth]
+Feb 24 08:36:17 bastion sshd[20244]: Connection from 218.92.0.184 port 37014 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:36:17 bastion sshd[20244]: Unable to negotiate with 218.92.0.184 port 37014: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 08:36:31 bastion sshd[20246]: Connection from 49.88.112.68 port 58378 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:36:34 bastion sshd[20246]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:36:34 bastion sshd[20246]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 58378 ssh2
+Feb 24 08:36:35 bastion sshd[20246]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:36:35 bastion sshd[20246]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 58378 ssh2
+Feb 24 08:36:35 bastion sshd[20246]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:36:35 bastion sshd[20246]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 58378 ssh2
+Feb 24 08:36:35 bastion sshd[20246]: Received disconnect from 49.88.112.68 port 58378:11:  [preauth]
+Feb 24 08:36:35 bastion sshd[20246]: Disconnected from authenticating user root 49.88.112.68 port 58378 [preauth]
+Feb 24 08:37:14 bastion sshd[20251]: Connection from 222.75.202.13 port 54223 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:37:15 bastion sshd[20251]: Connection closed by 222.75.202.13 port 54223 [preauth]
+Feb 24 08:37:47 bastion sshd[20253]: Connection from 49.88.112.68 port 15539 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:37:51 bastion sshd[20253]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:37:51 bastion sshd[20253]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 15539 ssh2
+Feb 24 08:37:51 bastion sshd[20253]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:37:51 bastion sshd[20253]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 15539 ssh2
+Feb 24 08:37:51 bastion sshd[20253]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:37:51 bastion sshd[20253]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 15539 ssh2
+Feb 24 08:37:51 bastion sshd[20253]: Received disconnect from 49.88.112.68 port 15539:11:  [preauth]
+Feb 24 08:37:51 bastion sshd[20253]: Disconnected from authenticating user root 49.88.112.68 port 15539 [preauth]
+Feb 24 08:39:09 bastion sshd[20259]: Connection from 49.88.112.68 port 27798 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:39:11 bastion sshd[20259]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:39:11 bastion sshd[20259]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 27798 ssh2
+Feb 24 08:39:11 bastion sshd[20259]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:39:11 bastion sshd[20259]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 27798 ssh2
+Feb 24 08:39:12 bastion sshd[20259]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:39:12 bastion sshd[20259]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 27798 ssh2
+Feb 24 08:39:12 bastion sshd[20259]: Received disconnect from 49.88.112.68 port 27798:11:  [preauth]
+Feb 24 08:39:12 bastion sshd[20259]: Disconnected from authenticating user root 49.88.112.68 port 27798 [preauth]
+Feb 24 08:40:26 bastion sshd[20264]: Connection from 49.88.112.68 port 44236 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:40:28 bastion sshd[20264]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:40:28 bastion sshd[20264]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 44236 ssh2
+Feb 24 08:40:29 bastion sshd[20264]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:40:29 bastion sshd[20264]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 44236 ssh2
+Feb 24 08:40:29 bastion sshd[20264]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:40:29 bastion sshd[20264]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 44236 ssh2
+Feb 24 08:40:29 bastion sshd[20264]: Received disconnect from 49.88.112.68 port 44236:11:  [preauth]
+Feb 24 08:40:29 bastion sshd[20264]: Disconnected from authenticating user root 49.88.112.68 port 44236 [preauth]
+Feb 24 08:41:48 bastion sshd[20269]: Connection from 49.88.112.68 port 13265 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:41:50 bastion sshd[20269]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:41:50 bastion sshd[20269]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 13265 ssh2
+Feb 24 08:41:50 bastion sshd[20269]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:41:50 bastion sshd[20269]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 13265 ssh2
+Feb 24 08:41:50 bastion sshd[20269]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:41:50 bastion sshd[20269]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 13265 ssh2
+Feb 24 08:41:51 bastion sshd[20269]: Received disconnect from 49.88.112.68 port 13265:11:  [preauth]
+Feb 24 08:41:51 bastion sshd[20269]: Disconnected from authenticating user root 49.88.112.68 port 13265 [preauth]
+Feb 24 08:42:56 bastion sshd[20274]: Connection from 218.92.0.248 port 59880 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:42:57 bastion sshd[20274]: Unable to negotiate with 218.92.0.248 port 59880: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 08:43:00 bastion sshd[20276]: Connection from 49.88.112.68 port 13923 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:43:01 bastion sshd[20276]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:43:01 bastion sshd[20276]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 13923 ssh2
+Feb 24 08:43:02 bastion sshd[20276]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:43:02 bastion sshd[20276]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 13923 ssh2
+Feb 24 08:43:02 bastion sshd[20276]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:43:02 bastion sshd[20276]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 13923 ssh2
+Feb 24 08:43:02 bastion sshd[20276]: Received disconnect from 49.88.112.68 port 13923:11:  [preauth]
+Feb 24 08:43:02 bastion sshd[20276]: Disconnected from authenticating user root 49.88.112.68 port 13923 [preauth]
+Feb 24 08:44:17 bastion sshd[20282]: Connection from 49.88.112.68 port 32745 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:44:19 bastion sshd[20282]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:44:19 bastion sshd[20282]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 32745 ssh2
+Feb 24 08:44:19 bastion sshd[20282]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:44:19 bastion sshd[20282]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 32745 ssh2
+Feb 24 08:44:20 bastion sshd[20282]: error: PAM: Authentication failure for root from 49.88.112.68
+Feb 24 08:44:20 bastion sshd[20282]: Failed keyboard-interactive/pam for root from 49.88.112.68 port 32745 ssh2
+Feb 24 08:44:20 bastion sshd[20282]: Received disconnect from 49.88.112.68 port 32745:11:  [preauth]
+Feb 24 08:44:20 bastion sshd[20282]: Disconnected from authenticating user root 49.88.112.68 port 32745 [preauth]
+Feb 24 08:45:06 bastion sshd[20287]: Connection from 221.181.185.198 port 47192 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:45:08 bastion sshd[20287]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:08 bastion sshd[20287]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 47192 ssh2
+Feb 24 08:45:09 bastion sshd[20287]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:09 bastion sshd[20287]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 47192 ssh2
+Feb 24 08:45:09 bastion sshd[20287]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:09 bastion sshd[20287]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 47192 ssh2
+Feb 24 08:45:09 bastion sshd[20287]: Received disconnect from 221.181.185.198 port 47192:11:  [preauth]
+Feb 24 08:45:09 bastion sshd[20287]: Disconnected from authenticating user root 221.181.185.198 port 47192 [preauth]
+Feb 24 08:45:10 bastion sshd[20292]: Connection from 221.181.185.198 port 17115 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:45:12 bastion sshd[20292]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:12 bastion sshd[20292]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 17115 ssh2
+Feb 24 08:45:12 bastion sshd[20292]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:12 bastion sshd[20292]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 17115 ssh2
+Feb 24 08:45:12 bastion sshd[20292]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:12 bastion sshd[20292]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 17115 ssh2
+Feb 24 08:45:13 bastion sshd[20292]: Received disconnect from 221.181.185.198 port 17115:11:  [preauth]
+Feb 24 08:45:13 bastion sshd[20292]: Disconnected from authenticating user root 221.181.185.198 port 17115 [preauth]
+Feb 24 08:45:13 bastion sshd[20297]: Connection from 221.181.185.198 port 41235 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:45:15 bastion sshd[20297]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:15 bastion sshd[20297]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 41235 ssh2
+Feb 24 08:45:16 bastion sshd[20297]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:16 bastion sshd[20297]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 41235 ssh2
+Feb 24 08:45:16 bastion sshd[20297]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:16 bastion sshd[20297]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 41235 ssh2
+Feb 24 08:45:16 bastion sshd[20297]: Received disconnect from 221.181.185.198 port 41235:11:  [preauth]
+Feb 24 08:45:16 bastion sshd[20297]: Disconnected from authenticating user root 221.181.185.198 port 41235 [preauth]
+Feb 24 08:45:17 bastion sshd[20302]: Connection from 221.181.185.198 port 62981 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:45:19 bastion sshd[20302]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:19 bastion sshd[20302]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 62981 ssh2
+Feb 24 08:45:19 bastion sshd[20302]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:19 bastion sshd[20302]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 62981 ssh2
+Feb 24 08:45:19 bastion sshd[20302]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:19 bastion sshd[20302]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 62981 ssh2
+Feb 24 08:45:20 bastion sshd[20302]: Received disconnect from 221.181.185.198 port 62981:11:  [preauth]
+Feb 24 08:45:20 bastion sshd[20302]: Disconnected from authenticating user root 221.181.185.198 port 62981 [preauth]
+Feb 24 08:45:20 bastion sshd[20307]: Connection from 221.181.185.198 port 31652 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:45:22 bastion sshd[20307]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:22 bastion sshd[20307]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 31652 ssh2
+Feb 24 08:45:23 bastion sshd[20307]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:23 bastion sshd[20307]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 31652 ssh2
+Feb 24 08:45:23 bastion sshd[20307]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:23 bastion sshd[20307]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 31652 ssh2
+Feb 24 08:45:23 bastion sshd[20307]: Received disconnect from 221.181.185.198 port 31652:11:  [preauth]
+Feb 24 08:45:23 bastion sshd[20307]: Disconnected from authenticating user root 221.181.185.198 port 31652 [preauth]
+Feb 24 08:45:24 bastion sshd[20312]: Connection from 221.181.185.198 port 55258 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:45:26 bastion sshd[20312]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:26 bastion sshd[20312]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 55258 ssh2
+Feb 24 08:45:26 bastion sshd[20312]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:26 bastion sshd[20312]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 55258 ssh2
+Feb 24 08:45:26 bastion sshd[20312]: error: PAM: Authentication failure for root from 221.181.185.198
+Feb 24 08:45:26 bastion sshd[20312]: Failed keyboard-interactive/pam for root from 221.181.185.198 port 55258 ssh2
+Feb 24 08:45:27 bastion sshd[20312]: Received disconnect from 221.181.185.198 port 55258:11:  [preauth]
+Feb 24 08:45:27 bastion sshd[20312]: Disconnected from authenticating user root 221.181.185.198 port 55258 [preauth]
+Feb 24 08:47:38 bastion sshd[20317]: Connection from 163.172.165.127 port 47456 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:47:39 bastion sshd[20317]: Connection closed by 163.172.165.127 port 47456 [preauth]
+Feb 24 08:50:55 bastion sshd[20320]: Connection from 51.68.141.101 port 58232 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:50:55 bastion sshd[20320]: Unable to negotiate with 51.68.141.101 port 58232: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Feb 24 08:51:48 bastion sshd[20322]: Connection from 222.187.238.87 port 38349 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:51:53 bastion sshd[20323]: Connection from 221.181.185.140 port 46042 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:51:55 bastion sshd[20323]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:51:55 bastion sshd[20323]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 46042 ssh2
+Feb 24 08:51:56 bastion sshd[20323]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:51:56 bastion sshd[20323]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 46042 ssh2
+Feb 24 08:51:56 bastion sshd[20323]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:51:56 bastion sshd[20323]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 46042 ssh2
+Feb 24 08:51:56 bastion sshd[20323]: Received disconnect from 221.181.185.140 port 46042:11:  [preauth]
+Feb 24 08:51:56 bastion sshd[20323]: Disconnected from authenticating user root 221.181.185.140 port 46042 [preauth]
+Feb 24 08:51:57 bastion sshd[20328]: Connection from 221.181.185.140 port 16935 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:51:59 bastion sshd[20328]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:51:59 bastion sshd[20328]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 16935 ssh2
+Feb 24 08:51:59 bastion sshd[20328]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:51:59 bastion sshd[20328]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 16935 ssh2
+Feb 24 08:52:00 bastion sshd[20328]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:52:00 bastion sshd[20328]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 16935 ssh2
+Feb 24 08:52:00 bastion sshd[20328]: Received disconnect from 221.181.185.140 port 16935:11:  [preauth]
+Feb 24 08:52:00 bastion sshd[20328]: Disconnected from authenticating user root 221.181.185.140 port 16935 [preauth]
+Feb 24 08:52:00 bastion sshd[20333]: Connection from 221.181.185.140 port 44075 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:52:02 bastion sshd[20333]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:52:02 bastion sshd[20333]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 44075 ssh2
+Feb 24 08:52:03 bastion sshd[20333]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:52:03 bastion sshd[20333]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 44075 ssh2
+Feb 24 08:52:03 bastion sshd[20333]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 08:52:03 bastion sshd[20333]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 44075 ssh2
+Feb 24 08:52:03 bastion sshd[20333]: Received disconnect from 221.181.185.140 port 44075:11:  [preauth]
+Feb 24 08:52:03 bastion sshd[20333]: Disconnected from authenticating user root 221.181.185.140 port 44075 [preauth]
+Feb 24 08:55:33 bastion sshd[20338]: Connection from 218.92.0.133 port 26959 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:55:42 bastion sshd[20338]: Connection reset by 218.92.0.133 port 26959 [preauth]
+Feb 24 08:57:08 bastion sshd[20341]: Connection from 123.56.64.52 port 56200 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:57:09 bastion sshd[20341]: Connection closed by 123.56.64.52 port 56200 [preauth]
+Feb 24 08:57:53 bastion sshd[20343]: Connection from 59.36.178.98 port 10112 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:57:54 bastion sshd[20343]: Connection closed by 59.36.178.98 port 10112 [preauth]
+Feb 24 08:58:35 bastion sshd[20345]: Connection from 54.38.243.189 port 34038 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:58:35 bastion sshd[20345]: Connection closed by 54.38.243.189 port 34038 [preauth]
+Feb 24 08:58:57 bastion sshd[20347]: Connection from 45.91.101.56 port 46396 on 164.8.230.209 port 22 rdomain ""
+Feb 24 08:58:57 bastion sshd[20347]: Connection closed by 45.91.101.56 port 46396 [preauth]
+Feb 24 09:00:02 bastion sshd[20360]: Connection from 106.13.74.61 port 35442 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:00:03 bastion sshd[20360]: Connection closed by 106.13.74.61 port 35442 [preauth]
+Feb 24 09:01:39 bastion sshd[20363]: Connection from 218.92.0.158 port 26965 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:04:47 bastion sshd[20364]: Connection from 45.231.132.170 port 28460 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:04:48 bastion sshd[20364]: Connection closed by 45.231.132.170 port 28460 [preauth]
+Feb 24 09:05:23 bastion sshd[20366]: Connection from 104.248.136.163 port 50158 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:05:23 bastion sshd[20366]: Connection closed by 104.248.136.163 port 50158 [preauth]
+Feb 24 09:08:14 bastion sshd[20369]: Connection from 218.92.0.138 port 37265 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:08:14 bastion sshd[20369]: Unable to negotiate with 218.92.0.138 port 37265: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 09:12:15 bastion sshd[20372]: Connection from 104.248.145.196 port 37016 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:12:15 bastion sshd[20372]: Connection closed by 104.248.145.196 port 37016 [preauth]
+Feb 24 09:14:52 bastion sshd[20374]: Connection from 49.88.112.117 port 20910 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:14:54 bastion sshd[20374]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:14:54 bastion sshd[20374]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 20910 ssh2
+Feb 24 09:14:55 bastion sshd[20374]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:14:55 bastion sshd[20374]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 20910 ssh2
+Feb 24 09:14:56 bastion sshd[20374]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:14:56 bastion sshd[20374]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 20910 ssh2
+Feb 24 09:14:56 bastion sshd[20374]: Received disconnect from 49.88.112.117 port 20910:11:  [preauth]
+Feb 24 09:14:56 bastion sshd[20374]: Disconnected from authenticating user root 49.88.112.117 port 20910 [preauth]
+Feb 24 09:15:38 bastion sshd[20379]: Connection from 221.181.185.140 port 63952 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:15:41 bastion sshd[20379]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 09:15:41 bastion sshd[20379]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 63952 ssh2
+Feb 24 09:15:41 bastion sshd[20379]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 09:15:41 bastion sshd[20379]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 63952 ssh2
+Feb 24 09:15:41 bastion sshd[20379]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 09:15:41 bastion sshd[20379]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 63952 ssh2
+Feb 24 09:15:41 bastion sshd[20379]: Received disconnect from 221.181.185.140 port 63952:11:  [preauth]
+Feb 24 09:15:41 bastion sshd[20379]: Disconnected from authenticating user root 221.181.185.140 port 63952 [preauth]
+Feb 24 09:15:42 bastion sshd[20384]: Connection from 221.181.185.140 port 34751 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:15:44 bastion sshd[20384]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 09:15:44 bastion sshd[20384]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 34751 ssh2
+Feb 24 09:15:44 bastion sshd[20384]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 09:15:44 bastion sshd[20384]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 34751 ssh2
+Feb 24 09:15:45 bastion sshd[20384]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 09:15:45 bastion sshd[20384]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 34751 ssh2
+Feb 24 09:15:45 bastion sshd[20384]: Received disconnect from 221.181.185.140 port 34751:11:  [preauth]
+Feb 24 09:15:45 bastion sshd[20384]: Disconnected from authenticating user root 221.181.185.140 port 34751 [preauth]
+Feb 24 09:15:45 bastion sshd[20389]: Connection from 221.181.185.140 port 60511 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:15:48 bastion sshd[20389]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 09:15:48 bastion sshd[20389]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 60511 ssh2
+Feb 24 09:15:48 bastion sshd[20389]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 09:15:48 bastion sshd[20389]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 60511 ssh2
+Feb 24 09:15:48 bastion sshd[20389]: error: PAM: Authentication failure for root from 221.181.185.140
+Feb 24 09:15:48 bastion sshd[20389]: Failed keyboard-interactive/pam for root from 221.181.185.140 port 60511 ssh2
+Feb 24 09:15:48 bastion sshd[20389]: Received disconnect from 221.181.185.140 port 60511:11:  [preauth]
+Feb 24 09:15:48 bastion sshd[20389]: Disconnected from authenticating user root 221.181.185.140 port 60511 [preauth]
+Feb 24 09:16:01 bastion sshd[20394]: Connection from 49.88.112.117 port 27607 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:16:13 bastion sshd[20395]: Connection from 154.92.17.157 port 40556 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:16:13 bastion sshd[20395]: Connection closed by 154.92.17.157 port 40556 [preauth]
+Feb 24 09:17:35 bastion sshd[20398]: Connection from 123.201.180.151 port 38460 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:17:35 bastion sshd[20400]: Connection from 123.201.180.151 port 38464 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:17:36 bastion sshd[20398]: Invalid user pi from 123.201.180.151 port 38460
+Feb 24 09:17:36 bastion sshd[20398]: Connection closed by invalid user pi 123.201.180.151 port 38460 [preauth]
+Feb 24 09:17:36 bastion sshd[20400]: Invalid user pi from 123.201.180.151 port 38464
+Feb 24 09:17:36 bastion sshd[20400]: Connection closed by invalid user pi 123.201.180.151 port 38464 [preauth]
+Feb 24 09:18:20 bastion sshd[20402]: Connection from 49.88.112.117 port 22227 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:18:26 bastion sshd[20402]: Received disconnect from 49.88.112.117 port 22227:11:  [preauth]
+Feb 24 09:18:26 bastion sshd[20402]: Disconnected from 49.88.112.117 port 22227 [preauth]
+Feb 24 09:19:27 bastion sshd[20404]: Connection from 49.88.112.117 port 18134 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:19:31 bastion sshd[20405]: Connection from 49.88.112.117 port 49784 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:19:35 bastion sshd[20405]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:19:35 bastion sshd[20405]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 49784 ssh2
+Feb 24 09:19:36 bastion sshd[20405]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:19:36 bastion sshd[20405]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 49784 ssh2
+Feb 24 09:19:36 bastion sshd[20405]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:19:36 bastion sshd[20405]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 49784 ssh2
+Feb 24 09:19:36 bastion sshd[20405]: Received disconnect from 49.88.112.117 port 49784:11:  [preauth]
+Feb 24 09:19:36 bastion sshd[20405]: Disconnected from authenticating user root 49.88.112.117 port 49784 [preauth]
+Feb 24 09:20:22 bastion sshd[20410]: Connection from 218.92.0.175 port 51599 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:20:40 bastion sshd[20411]: Connection from 49.88.112.117 port 13989 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:21:48 bastion sshd[20412]: Connection from 49.88.112.117 port 53950 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:21:49 bastion sshd[20412]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:21:49 bastion sshd[20412]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 53950 ssh2
+Feb 24 09:21:50 bastion sshd[20412]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:21:50 bastion sshd[20412]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 53950 ssh2
+Feb 24 09:21:50 bastion sshd[20412]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:21:50 bastion sshd[20412]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 53950 ssh2
+Feb 24 09:21:50 bastion sshd[20412]: Received disconnect from 49.88.112.117 port 53950:11:  [preauth]
+Feb 24 09:21:50 bastion sshd[20412]: Disconnected from authenticating user root 49.88.112.117 port 53950 [preauth]
+Feb 24 09:22:36 bastion sshd[20418]: Connection from 220.88.40.41 port 63718 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:22:39 bastion sshd[20418]: error: kex_exchange_identification: read: Connection reset by peer
+Feb 24 09:22:39 bastion sshd[20418]: Connection reset by 220.88.40.41 port 63718
+Feb 24 09:22:52 bastion sshd[20419]: Connection from 221.181.185.135 port 19713 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:22:54 bastion sshd[20421]: Connection from 49.88.112.117 port 32902 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:22:54 bastion sshd[20419]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:22:54 bastion sshd[20419]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 19713 ssh2
+Feb 24 09:22:54 bastion sshd[20419]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:22:54 bastion sshd[20419]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 19713 ssh2
+Feb 24 09:22:55 bastion sshd[20419]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:22:55 bastion sshd[20419]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 19713 ssh2
+Feb 24 09:22:55 bastion sshd[20419]: Received disconnect from 221.181.185.135 port 19713:11:  [preauth]
+Feb 24 09:22:55 bastion sshd[20419]: Disconnected from authenticating user root 221.181.185.135 port 19713 [preauth]
+Feb 24 09:22:55 bastion sshd[20425]: Connection from 221.181.185.135 port 39731 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:22:58 bastion sshd[20425]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:22:58 bastion sshd[20425]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 39731 ssh2
+Feb 24 09:22:58 bastion sshd[20425]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:22:58 bastion sshd[20425]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 39731 ssh2
+Feb 24 09:22:58 bastion sshd[20425]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:22:58 bastion sshd[20425]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 39731 ssh2
+Feb 24 09:22:58 bastion sshd[20425]: Received disconnect from 221.181.185.135 port 39731:11:  [preauth]
+Feb 24 09:22:58 bastion sshd[20425]: Disconnected from authenticating user root 221.181.185.135 port 39731 [preauth]
+Feb 24 09:22:59 bastion sshd[20430]: Connection from 221.181.185.135 port 64649 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:23:01 bastion sshd[20430]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:01 bastion sshd[20430]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 64649 ssh2
+Feb 24 09:23:01 bastion sshd[20430]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:01 bastion sshd[20430]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 64649 ssh2
+Feb 24 09:23:02 bastion sshd[20430]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:02 bastion sshd[20430]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 64649 ssh2
+Feb 24 09:23:02 bastion sshd[20430]: Received disconnect from 221.181.185.135 port 64649:11:  [preauth]
+Feb 24 09:23:02 bastion sshd[20430]: Disconnected from authenticating user root 221.181.185.135 port 64649 [preauth]
+Feb 24 09:23:02 bastion sshd[20435]: Connection from 221.181.185.135 port 33304 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:23:04 bastion sshd[20435]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:04 bastion sshd[20435]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 33304 ssh2
+Feb 24 09:23:05 bastion sshd[20435]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:05 bastion sshd[20435]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 33304 ssh2
+Feb 24 09:23:05 bastion sshd[20435]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:05 bastion sshd[20435]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 33304 ssh2
+Feb 24 09:23:05 bastion sshd[20435]: Received disconnect from 221.181.185.135 port 33304:11:  [preauth]
+Feb 24 09:23:05 bastion sshd[20435]: Disconnected from authenticating user root 221.181.185.135 port 33304 [preauth]
+Feb 24 09:23:06 bastion sshd[20440]: Connection from 221.181.185.135 port 56682 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:23:08 bastion sshd[20440]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:08 bastion sshd[20440]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 56682 ssh2
+Feb 24 09:23:08 bastion sshd[20440]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:08 bastion sshd[20440]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 56682 ssh2
+Feb 24 09:23:08 bastion sshd[20440]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:08 bastion sshd[20440]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 56682 ssh2
+Feb 24 09:23:09 bastion sshd[20440]: Received disconnect from 221.181.185.135 port 56682:11:  [preauth]
+Feb 24 09:23:09 bastion sshd[20440]: Disconnected from authenticating user root 221.181.185.135 port 56682 [preauth]
+Feb 24 09:23:09 bastion sshd[20445]: Connection from 221.181.185.135 port 25717 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:23:11 bastion sshd[20445]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:11 bastion sshd[20445]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 25717 ssh2
+Feb 24 09:23:12 bastion sshd[20445]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:12 bastion sshd[20445]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 25717 ssh2
+Feb 24 09:23:12 bastion sshd[20445]: error: PAM: Authentication failure for root from 221.181.185.135
+Feb 24 09:23:12 bastion sshd[20445]: Failed keyboard-interactive/pam for root from 221.181.185.135 port 25717 ssh2
+Feb 24 09:23:12 bastion sshd[20445]: Received disconnect from 221.181.185.135 port 25717:11:  [preauth]
+Feb 24 09:23:12 bastion sshd[20445]: Disconnected from authenticating user root 221.181.185.135 port 25717 [preauth]
+Feb 24 09:23:57 bastion sshd[20450]: Connection from 49.88.112.117 port 12150 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:25:05 bastion sshd[20451]: Connection from 49.88.112.117 port 22630 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:26:22 bastion sshd[20452]: Connection from 49.88.112.117 port 50743 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:26:25 bastion sshd[20452]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:26:25 bastion sshd[20452]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 50743 ssh2
+Feb 24 09:26:25 bastion sshd[20452]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:26:25 bastion sshd[20452]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 50743 ssh2
+Feb 24 09:26:25 bastion sshd[20452]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:26:25 bastion sshd[20452]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 50743 ssh2
+Feb 24 09:26:25 bastion sshd[20452]: Received disconnect from 49.88.112.117 port 50743:11:  [preauth]
+Feb 24 09:26:25 bastion sshd[20452]: Disconnected from authenticating user root 49.88.112.117 port 50743 [preauth]
+Feb 24 09:26:58 bastion sshd[20468]: Connection from 218.92.0.133 port 16958 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:26:58 bastion sshd[20468]: Unable to negotiate with 218.92.0.133 port 16958: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 09:27:05 bastion sshd[20470]: Connection from 222.232.29.235 port 54590 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:27:06 bastion sshd[20470]: Connection closed by 222.232.29.235 port 54590 [preauth]
+Feb 24 09:27:18 bastion sshd[20472]: Connection from 49.88.112.117 port 11662 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:28:26 bastion sshd[20474]: Connection from 49.88.112.117 port 59083 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:29:32 bastion sshd[20475]: Connection from 49.88.112.117 port 47113 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:30:37 bastion sshd[20476]: Connection from 49.88.112.117 port 23965 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:31:51 bastion sshd[20477]: Connection from 49.88.112.117 port 22112 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:32:28 bastion sshd[20478]: Connection from 144.126.211.187 port 50908 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:32:29 bastion sshd[20478]: error: kex_exchange_identification: Connection closed by remote host
+Feb 24 09:32:29 bastion sshd[20478]: Connection closed by 144.126.211.187 port 50908
+Feb 24 09:32:47 bastion sshd[20479]: Connection from 222.187.238.87 port 14317 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:32:48 bastion sshd[20479]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:48 bastion sshd[20479]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 14317 ssh2
+Feb 24 09:32:49 bastion sshd[20479]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:49 bastion sshd[20479]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 14317 ssh2
+Feb 24 09:32:49 bastion sshd[20479]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:49 bastion sshd[20479]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 14317 ssh2
+Feb 24 09:32:50 bastion sshd[20479]: Received disconnect from 222.187.238.87 port 14317:11:  [preauth]
+Feb 24 09:32:50 bastion sshd[20479]: Disconnected from authenticating user root 222.187.238.87 port 14317 [preauth]
+Feb 24 09:32:50 bastion sshd[20484]: Connection from 222.187.238.87 port 38569 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:32:52 bastion sshd[20486]: Connection from 49.88.112.117 port 12667 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:32:52 bastion sshd[20484]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:52 bastion sshd[20484]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 38569 ssh2
+Feb 24 09:32:52 bastion sshd[20484]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:52 bastion sshd[20484]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 38569 ssh2
+Feb 24 09:32:52 bastion sshd[20484]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:52 bastion sshd[20484]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 38569 ssh2
+Feb 24 09:32:53 bastion sshd[20484]: Received disconnect from 222.187.238.87 port 38569:11:  [preauth]
+Feb 24 09:32:53 bastion sshd[20484]: Disconnected from authenticating user root 222.187.238.87 port 38569 [preauth]
+Feb 24 09:32:53 bastion sshd[20490]: Connection from 222.187.238.87 port 60601 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:32:55 bastion sshd[20490]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:55 bastion sshd[20490]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 60601 ssh2
+Feb 24 09:32:55 bastion sshd[20490]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:55 bastion sshd[20490]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 60601 ssh2
+Feb 24 09:32:55 bastion sshd[20490]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:55 bastion sshd[20490]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 60601 ssh2
+Feb 24 09:32:55 bastion sshd[20490]: Received disconnect from 222.187.238.87 port 60601:11:  [preauth]
+Feb 24 09:32:55 bastion sshd[20490]: Disconnected from authenticating user root 222.187.238.87 port 60601 [preauth]
+Feb 24 09:32:55 bastion sshd[20486]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:32:55 bastion sshd[20486]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 12667 ssh2
+Feb 24 09:32:56 bastion sshd[20497]: Connection from 222.187.238.87 port 24042 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:32:56 bastion sshd[20486]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:32:56 bastion sshd[20486]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 12667 ssh2
+Feb 24 09:32:56 bastion sshd[20486]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:32:56 bastion sshd[20486]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 12667 ssh2
+Feb 24 09:32:56 bastion sshd[20486]: Received disconnect from 49.88.112.117 port 12667:11:  [preauth]
+Feb 24 09:32:56 bastion sshd[20486]: Disconnected from authenticating user root 49.88.112.117 port 12667 [preauth]
+Feb 24 09:32:58 bastion sshd[20497]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:58 bastion sshd[20497]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 24042 ssh2
+Feb 24 09:32:59 bastion sshd[20497]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:59 bastion sshd[20497]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 24042 ssh2
+Feb 24 09:32:59 bastion sshd[20497]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:32:59 bastion sshd[20497]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 24042 ssh2
+Feb 24 09:32:59 bastion sshd[20497]: Received disconnect from 222.187.238.87 port 24042:11:  [preauth]
+Feb 24 09:32:59 bastion sshd[20497]: Disconnected from authenticating user root 222.187.238.87 port 24042 [preauth]
+Feb 24 09:33:00 bastion sshd[20504]: Connection from 222.187.238.87 port 56132 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:33:02 bastion sshd[20504]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:33:02 bastion sshd[20504]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 56132 ssh2
+Feb 24 09:33:02 bastion sshd[20504]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:33:02 bastion sshd[20504]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 56132 ssh2
+Feb 24 09:33:03 bastion sshd[20504]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:33:03 bastion sshd[20504]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 56132 ssh2
+Feb 24 09:33:03 bastion sshd[20504]: Received disconnect from 222.187.238.87 port 56132:11:  [preauth]
+Feb 24 09:33:03 bastion sshd[20504]: Disconnected from authenticating user root 222.187.238.87 port 56132 [preauth]
+Feb 24 09:33:03 bastion sshd[20509]: Connection from 222.187.238.87 port 30329 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:33:05 bastion sshd[20509]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:33:05 bastion sshd[20509]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 30329 ssh2
+Feb 24 09:33:05 bastion sshd[20509]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:33:05 bastion sshd[20509]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 30329 ssh2
+Feb 24 09:33:06 bastion sshd[20509]: error: PAM: Authentication failure for root from 222.187.238.87
+Feb 24 09:33:06 bastion sshd[20509]: Failed keyboard-interactive/pam for root from 222.187.238.87 port 30329 ssh2
+Feb 24 09:33:06 bastion sshd[20509]: Received disconnect from 222.187.238.87 port 30329:11:  [preauth]
+Feb 24 09:33:06 bastion sshd[20509]: Disconnected from authenticating user root 222.187.238.87 port 30329 [preauth]
+Feb 24 09:33:40 bastion sshd[20515]: Connection from 218.92.0.185 port 30149 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:34:00 bastion sshd[20516]: Connection from 49.88.112.117 port 15785 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:34:03 bastion sshd[20516]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:34:03 bastion sshd[20516]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 15785 ssh2
+Feb 24 09:34:03 bastion sshd[20516]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:34:03 bastion sshd[20516]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 15785 ssh2
+Feb 24 09:34:03 bastion sshd[20516]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:34:03 bastion sshd[20516]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 15785 ssh2
+Feb 24 09:34:04 bastion sshd[20516]: Received disconnect from 49.88.112.117 port 15785:11:  [preauth]
+Feb 24 09:34:04 bastion sshd[20516]: Disconnected from authenticating user root 49.88.112.117 port 15785 [preauth]
+Feb 24 09:35:05 bastion sshd[20521]: Connection from 49.88.112.117 port 27468 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:35:24 bastion sshd[20522]: Connection from 144.126.211.187 port 41430 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:35:24 bastion sshd[20522]: Unable to negotiate with 144.126.211.187 port 41430: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Feb 24 09:36:13 bastion sshd[20524]: Connection from 49.88.112.117 port 35786 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:37:22 bastion sshd[20525]: Connection from 49.88.112.117 port 10401 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:37:25 bastion sshd[20525]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:37:25 bastion sshd[20525]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 10401 ssh2
+Feb 24 09:37:25 bastion sshd[20525]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:37:25 bastion sshd[20525]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 10401 ssh2
+Feb 24 09:37:26 bastion sshd[20525]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:37:26 bastion sshd[20525]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 10401 ssh2
+Feb 24 09:37:26 bastion sshd[20525]: Received disconnect from 49.88.112.117 port 10401:11:  [preauth]
+Feb 24 09:37:26 bastion sshd[20525]: Disconnected from authenticating user root 49.88.112.117 port 10401 [preauth]
+Feb 24 09:38:25 bastion sshd[20531]: Connection from 49.88.112.117 port 17786 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:39:28 bastion sshd[20532]: Connection from 218.92.0.158 port 55812 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:39:29 bastion sshd[20532]: Unable to negotiate with 218.92.0.158 port 55812: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 09:39:32 bastion sshd[20534]: Connection from 49.88.112.117 port 25172 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:40:44 bastion sshd[20535]: Connection from 49.88.112.117 port 20861 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:40:47 bastion sshd[20535]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:40:47 bastion sshd[20535]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 20861 ssh2
+Feb 24 09:40:47 bastion sshd[20535]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:40:47 bastion sshd[20535]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 20861 ssh2
+Feb 24 09:40:47 bastion sshd[20535]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:40:47 bastion sshd[20535]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 20861 ssh2
+Feb 24 09:40:47 bastion sshd[20535]: Received disconnect from 49.88.112.117 port 20861:11:  [preauth]
+Feb 24 09:40:47 bastion sshd[20535]: Disconnected from authenticating user root 49.88.112.117 port 20861 [preauth]
+Feb 24 09:41:43 bastion sshd[20540]: Connection from 49.88.112.117 port 49705 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:41:47 bastion sshd[20540]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:41:47 bastion sshd[20540]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 49705 ssh2
+Feb 24 09:41:47 bastion sshd[20540]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:41:47 bastion sshd[20540]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 49705 ssh2
+Feb 24 09:41:47 bastion sshd[20540]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:41:47 bastion sshd[20540]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 49705 ssh2
+Feb 24 09:41:48 bastion sshd[20540]: Received disconnect from 49.88.112.117 port 49705:11:  [preauth]
+Feb 24 09:41:48 bastion sshd[20540]: Disconnected from authenticating user root 49.88.112.117 port 49705 [preauth]
+Feb 24 09:42:51 bastion sshd[20545]: Connection from 49.88.112.117 port 57199 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:43:57 bastion sshd[20547]: Connection from 49.88.112.117 port 10588 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:44:01 bastion sshd[20547]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:44:01 bastion sshd[20547]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 10588 ssh2
+Feb 24 09:44:02 bastion sshd[20547]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:44:02 bastion sshd[20547]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 10588 ssh2
+Feb 24 09:44:02 bastion sshd[20547]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:44:02 bastion sshd[20547]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 10588 ssh2
+Feb 24 09:44:03 bastion sshd[20547]: Received disconnect from 49.88.112.117 port 10588:11:  [preauth]
+Feb 24 09:44:03 bastion sshd[20547]: Disconnected from authenticating user root 49.88.112.117 port 10588 [preauth]
+Feb 24 09:45:02 bastion sshd[20552]: Connection from 49.88.112.117 port 52845 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:46:04 bastion sshd[20553]: Connection from 218.92.0.248 port 45516 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:46:04 bastion sshd[20553]: Unable to negotiate with 218.92.0.248 port 45516: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 09:46:05 bastion sshd[20555]: Connection from 85.247.0.210 port 54233 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:46:06 bastion sshd[20555]: Connection closed by 85.247.0.210 port 54233 [preauth]
+Feb 24 09:46:12 bastion sshd[20557]: Connection from 49.88.112.117 port 20688 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:48:19 bastion sshd[20558]: Connection from 49.88.112.117 port 16901 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:50:43 bastion sshd[20560]: Connection from 49.88.112.117 port 15117 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:50:45 bastion sshd[20560]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:50:45 bastion sshd[20560]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 15117 ssh2
+Feb 24 09:50:45 bastion sshd[20560]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:50:45 bastion sshd[20560]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 15117 ssh2
+Feb 24 09:50:46 bastion sshd[20560]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:50:46 bastion sshd[20560]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 15117 ssh2
+Feb 24 09:50:46 bastion sshd[20560]: Received disconnect from 49.88.112.117 port 15117:11:  [preauth]
+Feb 24 09:50:46 bastion sshd[20560]: Disconnected from authenticating user root 49.88.112.117 port 15117 [preauth]
+Feb 24 09:50:46 bastion sshd[20565]: Connection from 118.26.37.27 port 33288 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:50:46 bastion sshd[20565]: Connection closed by 118.26.37.27 port 33288 [preauth]
+Feb 24 09:51:35 bastion sshd[20567]: Connection from 49.88.112.117 port 28786 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:52:12 bastion sshd[20568]: Connection from 218.92.0.172 port 26211 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:52:13 bastion sshd[20568]: Unable to negotiate with 218.92.0.172 port 26211: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 09:52:43 bastion sshd[20570]: Connection from 117.114.138.246 port 24421 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:52:43 bastion sshd[20571]: Connection from 49.88.112.117 port 57832 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:52:44 bastion sshd[20570]: Connection closed by 117.114.138.246 port 24421 [preauth]
+Feb 24 09:52:51 bastion sshd[20573]: Connection from 49.88.112.117 port 18700 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:53:49 bastion sshd[20574]: Connection from 49.88.112.117 port 62938 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:53:57 bastion sshd[20575]: Connection from 49.88.112.117 port 20340 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:54:02 bastion sshd[20575]: Received disconnect from 49.88.112.117 port 20340:11:  [preauth]
+Feb 24 09:54:02 bastion sshd[20575]: Disconnected from 49.88.112.117 port 20340 [preauth]
+Feb 24 09:55:02 bastion sshd[20589]: Connection from 49.88.112.117 port 47459 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:56:13 bastion sshd[20590]: Connection from 49.88.112.117 port 62491 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:57:17 bastion sshd[20591]: Connection from 49.88.112.117 port 16772 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:57:23 bastion sshd[20591]: Received disconnect from 49.88.112.117 port 16772:11:  [preauth]
+Feb 24 09:57:23 bastion sshd[20591]: Disconnected from 49.88.112.117 port 16772 [preauth]
+Feb 24 09:58:24 bastion sshd[20593]: Connection from 49.88.112.117 port 23768 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:58:33 bastion sshd[20594]: Connection from 61.177.172.104 port 32294 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:58:33 bastion sshd[20594]: Unable to negotiate with 61.177.172.104 port 32294: no matching key exchange method found. Their offer: diffie-hellman-group1-sha1,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1 [preauth]
+Feb 24 09:59:31 bastion sshd[20596]: Connection from 49.88.112.117 port 34772 on 164.8.230.209 port 22 rdomain ""
+Feb 24 09:59:34 bastion sshd[20596]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:59:34 bastion sshd[20596]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 34772 ssh2
+Feb 24 09:59:34 bastion sshd[20596]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:59:34 bastion sshd[20596]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 34772 ssh2
+Feb 24 09:59:34 bastion sshd[20596]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 09:59:34 bastion sshd[20596]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 34772 ssh2
+Feb 24 09:59:35 bastion sshd[20596]: Received disconnect from 49.88.112.117 port 34772:11:  [preauth]
+Feb 24 09:59:35 bastion sshd[20596]: Disconnected from authenticating user root 49.88.112.117 port 34772 [preauth]
+Feb 24 10:00:31 bastion sshd[20602]: Connection from 129.158.74.141 port 51373 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:00:32 bastion sshd[20602]: Connection closed by 129.158.74.141 port 51373 [preauth]
+Feb 24 10:00:37 bastion sshd[20604]: Connection from 49.88.112.117 port 36868 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:00:45 bastion sshd[20604]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:00:45 bastion sshd[20604]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 36868 ssh2
+Feb 24 10:00:45 bastion sshd[20604]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:00:45 bastion sshd[20604]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 36868 ssh2
+Feb 24 10:00:45 bastion sshd[20604]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:00:45 bastion sshd[20604]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 36868 ssh2
+Feb 24 10:00:46 bastion sshd[20604]: Received disconnect from 49.88.112.117 port 36868:11:  [preauth]
+Feb 24 10:00:46 bastion sshd[20604]: Disconnected from authenticating user root 49.88.112.117 port 36868 [preauth]
+Feb 24 10:01:40 bastion sshd[20609]: Connection from 221.181.185.220 port 41435 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:01:43 bastion sshd[20609]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:43 bastion sshd[20609]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 41435 ssh2
+Feb 24 10:01:43 bastion sshd[20609]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:43 bastion sshd[20609]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 41435 ssh2
+Feb 24 10:01:43 bastion sshd[20609]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:43 bastion sshd[20609]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 41435 ssh2
+Feb 24 10:01:43 bastion sshd[20614]: Connection from 49.88.112.117 port 32628 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:01:44 bastion sshd[20609]: Received disconnect from 221.181.185.220 port 41435:11:  [preauth]
+Feb 24 10:01:44 bastion sshd[20609]: Disconnected from authenticating user root 221.181.185.220 port 41435 [preauth]
+Feb 24 10:01:44 bastion sshd[20615]: Connection from 221.181.185.220 port 10916 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:01:46 bastion sshd[20615]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:46 bastion sshd[20615]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 10916 ssh2
+Feb 24 10:01:46 bastion sshd[20615]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:46 bastion sshd[20615]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 10916 ssh2
+Feb 24 10:01:47 bastion sshd[20615]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:47 bastion sshd[20615]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 10916 ssh2
+Feb 24 10:01:47 bastion sshd[20615]: Received disconnect from 221.181.185.220 port 10916:11:  [preauth]
+Feb 24 10:01:47 bastion sshd[20615]: Disconnected from authenticating user root 221.181.185.220 port 10916 [preauth]
+Feb 24 10:01:47 bastion sshd[20621]: Connection from 221.181.185.220 port 33866 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:01:48 bastion sshd[20614]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:01:48 bastion sshd[20614]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 32628 ssh2
+Feb 24 10:01:49 bastion sshd[20614]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:01:49 bastion sshd[20614]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 32628 ssh2
+Feb 24 10:01:49 bastion sshd[20614]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:01:49 bastion sshd[20614]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 32628 ssh2
+Feb 24 10:01:49 bastion sshd[20614]: Received disconnect from 49.88.112.117 port 32628:11:  [preauth]
+Feb 24 10:01:49 bastion sshd[20614]: Disconnected from authenticating user root 49.88.112.117 port 32628 [preauth]
+Feb 24 10:01:49 bastion sshd[20621]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:49 bastion sshd[20621]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 33866 ssh2
+Feb 24 10:01:50 bastion sshd[20621]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:50 bastion sshd[20621]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 33866 ssh2
+Feb 24 10:01:50 bastion sshd[20621]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:50 bastion sshd[20621]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 33866 ssh2
+Feb 24 10:01:50 bastion sshd[20621]: Received disconnect from 221.181.185.220 port 33866:11:  [preauth]
+Feb 24 10:01:50 bastion sshd[20621]: Disconnected from authenticating user root 221.181.185.220 port 33866 [preauth]
+Feb 24 10:01:51 bastion sshd[20629]: Connection from 221.181.185.220 port 58366 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:01:53 bastion sshd[20629]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:53 bastion sshd[20629]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 58366 ssh2
+Feb 24 10:01:53 bastion sshd[20629]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:53 bastion sshd[20629]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 58366 ssh2
+Feb 24 10:01:54 bastion sshd[20629]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:54 bastion sshd[20629]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 58366 ssh2
+Feb 24 10:01:54 bastion sshd[20629]: Received disconnect from 221.181.185.220 port 58366:11:  [preauth]
+Feb 24 10:01:54 bastion sshd[20629]: Disconnected from authenticating user root 221.181.185.220 port 58366 [preauth]
+Feb 24 10:01:54 bastion sshd[20634]: Connection from 221.181.185.220 port 27209 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:01:56 bastion sshd[20634]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:56 bastion sshd[20634]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 27209 ssh2
+Feb 24 10:01:57 bastion sshd[20634]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:57 bastion sshd[20634]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 27209 ssh2
+Feb 24 10:01:57 bastion sshd[20634]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:01:57 bastion sshd[20634]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 27209 ssh2
+Feb 24 10:01:57 bastion sshd[20634]: Received disconnect from 221.181.185.220 port 27209:11:  [preauth]
+Feb 24 10:01:57 bastion sshd[20634]: Disconnected from authenticating user root 221.181.185.220 port 27209 [preauth]
+Feb 24 10:01:58 bastion sshd[20639]: Connection from 221.181.185.220 port 50933 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:02:00 bastion sshd[20639]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:02:00 bastion sshd[20639]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 50933 ssh2
+Feb 24 10:02:00 bastion sshd[20639]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:02:00 bastion sshd[20639]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 50933 ssh2
+Feb 24 10:02:00 bastion sshd[20639]: error: PAM: Authentication failure for root from 221.181.185.220
+Feb 24 10:02:00 bastion sshd[20639]: Failed keyboard-interactive/pam for root from 221.181.185.220 port 50933 ssh2
+Feb 24 10:02:01 bastion sshd[20639]: Received disconnect from 221.181.185.220 port 50933:11:  [preauth]
+Feb 24 10:02:01 bastion sshd[20639]: Disconnected from authenticating user root 221.181.185.220 port 50933 [preauth]
+Feb 24 10:02:48 bastion sshd[20644]: Connection from 49.88.112.117 port 22640 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:03:57 bastion sshd[20645]: Connection from 49.88.112.117 port 29108 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:04:03 bastion sshd[20645]: Received disconnect from 49.88.112.117 port 29108:11:  [preauth]
+Feb 24 10:04:03 bastion sshd[20645]: Disconnected from 49.88.112.117 port 29108 [preauth]
+Feb 24 10:04:28 bastion sshd[20647]: Connection from 218.92.0.133 port 15119 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:05:03 bastion sshd[20648]: Connection from 49.88.112.117 port 34068 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:05:09 bastion sshd[20648]: Received disconnect from 49.88.112.117 port 34068:11:  [preauth]
+Feb 24 10:05:09 bastion sshd[20648]: Disconnected from 49.88.112.117 port 34068 [preauth]
+Feb 24 10:05:12 bastion sshd[20651]: Connection from 51.68.141.101 port 41184 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:05:12 bastion sshd[20651]: Unable to negotiate with 51.68.141.101 port 41184: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
+Feb 24 10:06:10 bastion sshd[20653]: Connection from 49.88.112.117 port 40418 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:07:16 bastion sshd[20654]: Connection from 49.88.112.117 port 49798 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:07:22 bastion sshd[20654]: Received disconnect from 49.88.112.117 port 49798:11:  [preauth]
+Feb 24 10:07:22 bastion sshd[20654]: Disconnected from 49.88.112.117 port 49798 [preauth]
+Feb 24 10:08:23 bastion sshd[20656]: Connection from 49.88.112.117 port 23394 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:08:26 bastion sshd[20656]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:08:26 bastion sshd[20656]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 23394 ssh2
+Feb 24 10:08:27 bastion sshd[20656]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:08:27 bastion sshd[20656]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 23394 ssh2
+Feb 24 10:08:27 bastion sshd[20656]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:08:27 bastion sshd[20656]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 23394 ssh2
+Feb 24 10:08:27 bastion sshd[20656]: Received disconnect from 49.88.112.117 port 23394:11:  [preauth]
+Feb 24 10:08:27 bastion sshd[20656]: Disconnected from authenticating user root 49.88.112.117 port 23394 [preauth]
+Feb 24 10:08:52 bastion sshd[20661]: Connection from 109.123.5.216 port 46148 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:08:52 bastion sshd[20661]: Accepted key RSA SHA256:juJAolxGI7N351HuEj1OAxSF+W6JoiqsIk5crRm/KNI found at /etc/ssh/authorized_keys.d/user:2
+Feb 24 10:08:52 bastion sshd[20661]: Postponed publickey for user from 109.123.5.216 port 46148 ssh2 [preauth]
+Feb 24 10:08:56 bastion sshd[20661]: Accepted key RSA SHA256:juJAolxGI7N351HuEj1OAxSF+W6JoiqsIk5crRm/KNI found at /etc/ssh/authorized_keys.d/user:2
+Feb 24 10:08:56 bastion sshd[20661]: Accepted publickey for user from 109.123.5.216 port 46148 ssh2: RSA SHA256:juJAolxGI7N351HuEj1OAxSF+W6JoiqsIk5crRm/KNI
+Feb 24 10:08:56 bastion sshd[20661]: pam_unix(sshd:session): session opened for user user by (uid=0)
+Feb 24 10:08:57 bastion sshd[20661]: User child is on pid 20671
+Feb 24 10:08:57 bastion sshd[20671]: Starting session: shell on pts/0 for user from 109.123.5.216 port 46148 id 0
+Feb 24 10:09:06 bastion sshd[20671]: Received disconnect from 109.123.5.216 port 46148:11: disconnected by user
+Feb 24 10:09:06 bastion sshd[20671]: Disconnected from user user 109.123.5.216 port 46148
+Feb 24 10:09:06 bastion sshd[20661]: pam_unix(sshd:session): session closed for user user
+Feb 24 10:09:09 bastion sshd[20677]: Connection from 109.123.5.216 port 46220 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:09:09 bastion sshd[20677]: Accepted key RSA SHA256:juJAolxGI7N351HuEj1OAxSF+W6JoiqsIk5crRm/KNI found at /etc/ssh/authorized_keys.d/user:2
+Feb 24 10:09:09 bastion sshd[20677]: Postponed publickey for user from 109.123.5.216 port 46220 ssh2 [preauth]
+Feb 24 10:09:14 bastion sshd[20677]: Accepted key RSA SHA256:juJAolxGI7N351HuEj1OAxSF+W6JoiqsIk5crRm/KNI found at /etc/ssh/authorized_keys.d/user:2
+Feb 24 10:09:14 bastion sshd[20677]: Accepted publickey for user from 109.123.5.216 port 46220 ssh2: RSA SHA256:juJAolxGI7N351HuEj1OAxSF+W6JoiqsIk5crRm/KNI
+Feb 24 10:09:14 bastion sshd[20677]: pam_unix(sshd:session): session opened for user user by (uid=0)
+Feb 24 10:09:14 bastion sshd[20677]: User child is on pid 20679
+Feb 24 10:09:14 bastion sshd[20679]: Starting session: shell on pts/0 for user from 109.123.5.216 port 46220 id 0
+Feb 24 10:09:31 bastion sshd[20687]: Connection from 49.88.112.117 port 34382 on 164.8.230.209 port 22 rdomain ""
+Feb 24 10:09:34 bastion sshd[20687]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:09:34 bastion sshd[20687]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 34382 ssh2
+Feb 24 10:09:34 bastion sshd[20687]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:09:34 bastion sshd[20687]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 34382 ssh2
+Feb 24 10:09:35 bastion sshd[20687]: error: PAM: Authentication failure for root from 49.88.112.117
+Feb 24 10:09:35 bastion sshd[20687]: Failed keyboard-interactive/pam for root from 49.88.112.117 port 34382 ssh2
+Feb 24 10:09:35 bastion sshd[20687]: Received disconnect from 49.88.112.117 port 34382:11:  [preauth]
+Feb 24 10:09:35 bastion sshd[20687]: Disconnected from authenticating user root 49.88.112.117 port 34382 [preauth]
+Feb 24 08:02:34 bastion sshd[19993]: Connection from 49.88.112.68 port 19068 on 49.88.112.123 port 22 rdomain ""
