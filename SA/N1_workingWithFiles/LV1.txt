@@ -1,0 +1,47 @@
+1) (1 tč.) V domačem imeniku '~' izpišite vse datoteke tipa txt in jih nato zbrišite.
+  #!/bin/bash
+  cd
+  ls *.txt
+  ls *.txt | xargs rm
+
+2) (3 tč.) Izvedite ukaz 'echo aaaa > a.txt'. Odgovorite na naslednja vprašanja:
+  - katero datoteko ste ustvarili na disku? (Izpišite njeno vsebino.)
+    Ustvarili smo .txt datoteko in smo mogoče že obstoječo povozili z vsebino aaaa.
+    Za izpis smo uporabili:
+    cat a.txt
+    aaaa
+  - kdo je lastnik omenjene datoteke?
+    Lastnik je uporabnik, ki je sedajle prijavljen, saj smo jo mi kreirali. Ima pravice -rw-r--r--
+    Kar pomeni, da ni direktorij, uporabnik lahko bere in piše, vsi ostali pa lahko samo berejo.
+  - kdo ima pravico do branja in pisanja?
+    Samo mi in root uporanik.
+
+3) (1 tč.) Dodajte datoteki 'a.txt' pravice za branje in pisanje vsem uporabnikom. Pravice uporabnika tudi prikažite.
+chmod 666 a.txt
+-rw-rw-rw-
+
+4) (1 tč.) Kopirajte datoteke 'a.txt' v datoteko 'b.txt'. Izpišite vsebino domačega imenika v razširjenem formatu.
+cp a.txt b.txt
+-rw-rw-rw-  1 aleks aleks        5 Mar  1 13:24 a.txt
+-rw-r--r--  1 aleks aleks        5 Mar  1 13:32 b.txt
+
+5) (1 tč.) Datoteko 'b.txt' preimenujte v 'c.txt'. Izpišite vsebino domačega imenika v razširjenem formatu.
+mv b.txt c.txt
+-rw-rw-rw-  1 aleks aleks        5 Mar  1 13:24 a.txt
+-rw-r--r--  1 aleks aleks        5 Mar  1 13:32 c.txt
+
+6) (2 tč.) V ustreznem urejevalniku besedil (npr. 'gedit') spremenite vsebino datoteke 'c.txt' iz niza 'aaaa' v niz 'cccc' in datoteko izpišite.
+vim c.txt
+cat c.txt
+cccc
+
+7) (1 tč.) Kreirajte arhivsko datoteko 'tar', ki vsebuje obe kreirani datoteki tipa 'txt': 'a.txt' in 'c.txt'.
+tar -cf txt.tar a.txt c.txt
+vim txt.tar
+" tar.vim version v32
+" Browsing tarfile /home/aleks/Desktop/UM-FERI-RIT/SA/txt.tar
+" Select a file with cursor and press ENTER
+
+c.txt
+a.txt
+

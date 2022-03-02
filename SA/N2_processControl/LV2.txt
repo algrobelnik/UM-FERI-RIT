@@ -1,0 +1,35 @@
+1) (1 tč.) Kakšen PID ima ima na sistemu Linux proces  'init'?
+pidof init
+1
+
+2) (2 tč.) Spodaj vidimo delni izhod ukaza 'ps -f | grep jeff':
+
+   UID PID     PPID C STIME  TTY     TIME       CMD
+   jeff   7280  7273  0 12:31   pts/2    00:00:00 bash
+   jeff   7539  7280  0 12:40   pts/2    00:00:00 ps -f
+   jeff   7540  7280  0 12:40   pts/2    00:00:00 grep jeff
+
+Kateri proces predstavlja 'Parent PID' za prikazani ukaz 'grep'?
+Vidimo, da je PPID 7280, kar pomeni da je prva vrstica "parent" oziroma očetovski proces.
+
+Z ukazom 'kill' ustavimo ukaz 'ps -f'. A se bo delovanje ukaza 'grep jeff' nadaljevalo?
+Ne, če "ubijemo" očeta, "umrejo" tudi otroci, saj so navezani nanj.
+
+3) (2 tč.) Kateri ukaz je potrebno uporabiti, če želimo poslati signal 'hang-up' vsem aktivnim procesom 'syslogd'.
+
+kill -1 [syslogd PID]
+
+4) (3 tč.)  Predpostavimo, da je računalnik zelo obremenjen. Katere ukaze je potrebno uporabiti pri odpravljanju teh težav z uporabo trenutnih informacij o sistemu? Napišite ukaze, ki jih je potrebno izvesti za pridobitev naslednjih informacij:
+   - Kateri (vsi) trenutno procesi tečejo na sistemu?
+   Imamo več možnosti. Prva možnost, ki je grafično bolj priljubljena je task manager ctrl+shift+esc, kjer vidimo procese in jih lahko "ubijamo" kar z desnim klikom in "ubij". Lahko pa tudi gremo z ukazom v terminalu, ki se glasi top in nam omogoča hitrejše in manj procesorsko zahtevnega izpisa vseh procesov, urejenega po defaultu po %procesorske moči
+   - Kateri procesi trenutno uporabljajo največ CPU-ja?
+   Trenutno uporablja največ qterminal, ki je moj sorazmerno grafični prikaz terminala v oknih. Porablja pa 2% CPU-ja
+   - Ko določite, kateri proces je najbolj požrešen, ugotovite še, katere sistemske klice uporablja najpogosteje. Komentar?
+   Najbolj požrešen process je na vrhu top ukaza, vendar ne smemo tudi zanemariti časa izvajanja procesa.
+   Da pogledamo sistemske klice procesa, zaženemo ukaz "strace -p [process PID]", ki nam v realnem času prikaže vse sistemske klice, ki jih dela. Veliko je recvmsg, kar najverjetneje pomeni, da pridobiva podatke.
+
+5) (2 tč.) Določeni proces troši preveč CPU-ja na sistemu. Kateri ukaz je potrebno uporabiti, da znižamo prioriteto procesa kolikor je to mogoče?
+
+Najhitreje je preko task managerja, kjer lahko vidimo nice vrednost oziroma prioriteto in jo lahko tudi spreminjamo. V Ukazu top, pa lahko to vrednost samo vidimo v 4 stolpcu.
+Lahko pa tudi zaženemo ukaz "sudo nice -n [vrednost] [ukaz]" oziroma "sudo nice -n [vrednost] -p [PID]", kar nam je pač ljubše.
+Najnižja vrednost je -20 oziroma rt, ki pomeni realno časovno izvajanje procesa.
