@@ -5,7 +5,6 @@
 #include <map>
 #include <regex>
 #include <string>
-#include <typeinfo>
 #include <vector>
 using namespace std;
 
