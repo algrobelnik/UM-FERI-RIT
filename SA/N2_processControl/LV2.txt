@@ -13,7 +13,7 @@ Kateri proces predstavlja 'Parent PID' za prikazani ukaz 'grep'?
 Vidimo, da je PPID 7280, kar pomeni da je prva vrstica "parent" oziroma očetovski proces.
 
 Z ukazom 'kill' ustavimo ukaz 'ps -f'. A se bo delovanje ukaza 'grep jeff' nadaljevalo?
-Ne, če "ubijemo" očeta, "umrejo" tudi otroci, saj so navezani nanj.
+Da, če "ubijemo" očeta, "umrejo" tudi otroci, saj so navezani nanj, drugače pa naprej deluje.
 
 3) (2 tč.) Kateri ukaz je potrebno uporabiti, če želimo poslati signal 'hang-up' vsem aktivnim procesom 'syslogd'.
 
