@@ -13,14 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('ads', function (Blueprint $table) {
+        Schema::create('ad_categories', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->mediumText('description');
-            $table->dateTime('date_s')->useCurrent();
-            $table->dateTime('date_e');
-            $table->unsignedInteger('seen')->default(0);
-            $table->foreignID('uid')->references('id')->on('users');
+            $table->foreignId('aid')->references('id')->on('ads');
+            $table->foreignId('cid')->references('id')->on('categories');
             $table->timestamps();
         });
     }
@@ -32,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ads');
+        Schema::dropIfExists('ad_categories');
     }
 };
