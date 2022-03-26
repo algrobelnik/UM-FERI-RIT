@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class AdCategory extends Model
 {
-    use HasFactory;
+    protected $table = 'ad_categories';
+    public $primaryKey = 'id';
+    public $timestamps = true;
 }

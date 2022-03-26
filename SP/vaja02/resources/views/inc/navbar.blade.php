@@ -4,7 +4,7 @@
     <a class="navbar-brand" href="/"
       ><img
         id="logo"
-        src="https://pixabay.com/get/gf358dbe7241c963b8b52134ded179d6d08fc9c314619404c1c3f5a4ba693645c982150522084fb43d37e3ea9dad056af.png"
+        src="/logo.png"
         alt="Logo"
         draggable="false"
         height="70"
@@ -24,7 +24,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto align-items-center">
         <li class="nav-item">
-          <a class="nav-link mx-2" href="/ads"><i class="fas fa-plus-circle pe-2"></i>Ads</a>
+          <a class="nav-link mx-2" href="/ads/create"><i class="fas fa-plus-circle pe-2"></i>Create ad</a>
         </li>
         <?php
           session_start();

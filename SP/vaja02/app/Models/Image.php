@@ -7,5 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Image extends Model
 {
-    use HasFactory;
+    protected $table = 'images';
+    public $primaryKey = 'id';
+    public $timestamps = true;
 }
