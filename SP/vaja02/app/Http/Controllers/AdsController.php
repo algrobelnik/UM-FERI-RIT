@@ -9,10 +9,23 @@ use Illuminate\Http\Request;
 use App\Models\Ad;
 use App\Models\Category;
 use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\Auth;
 
 class AdsController extends Controller
 {
+    //TODO https://www.youtube.com/watch?v=ORus3-By4lk&list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ-&index=9
     public array $complexCategories = [];
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth')->except('index')->except('show');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -81,6 +94,9 @@ class AdsController extends Controller
     public function edit($id)
     {
         $ad = Ad::find($id);
+        if (auth()->user()->id !== $ad->user_id){
+            return redirect('/posts')->with('error', 'Unauthorized page');
+        }
         $cats = Category::all()->toArray();
         $basicCategories = Arr::where($cats, function ($item, $key) {
             return empty($item['pid']);
@@ -119,9 +135,13 @@ class AdsController extends Controller
      */
     public function destroy($id)
     {
+        $ad = Ad::find($id);
+        if (auth()->user()->id !== $ad->user_id){
+            return redirect('/posts')->with('error', 'Unauthorized page');
+        }
         Image::where('aid', $id)->get()->each->delete();
         AdCategory::where('aid', $id)->get()->each->delete();
-        Ad::find($id)->delete();
+        $ad->delete();
         return redirect('/ads')->with('success', 'Ad deleted');
     }
 
@@ -163,7 +183,7 @@ class AdsController extends Controller
         $ad->title = $request->input('title');
         $ad->description = $request->input('description');
         $ad->date_e = Carbon::now()->addDays(30);
-        $ad->uid = 1;
+        $ad->user_id = Auth::user()->id;
         $ad->save();
         foreach ($request->input('categories') as $cat) {
             $ac = new AdCategory();

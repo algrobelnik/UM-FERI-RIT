@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 
 @section('content')
     <a href="/ads" class="btn btn-default">Go Back</a>
@@ -9,9 +9,11 @@
     <hr>
     <small>Written on</small>
     <hr>
-    <a href="/ads/{{$ad->id}}/edit" class="btn btn-default">Edit</a>
-    {!! Form::open(['url' => "/ads/$ad->id", "method" => "POST", "class" => "pull-right"]) !!}
-        {{Form::hidden('_method', 'DELETE')}}
-        {{Form::submit('Submit', ['class' => 'btn btn-danger'])}}
-    {!! Form::close() !!}
+    @if(!Auth::guest() && Auth::user()->id == $ad->user_id)
+        <a href="/ads/{{$ad->id}}/edit" class="btn btn-default">Edit</a>
+        {!! Form::open(['url' => "/ads/$ad->id", "method" => "POST", "class" => "pull-right"]) !!}
+            {{Form::hidden('_method', 'DELETE')}}
+            {{Form::submit('Delete', ['class' => 'btn btn-danger'])}}
+        {!! Form::close() !!}
+    @endif
 @endsection

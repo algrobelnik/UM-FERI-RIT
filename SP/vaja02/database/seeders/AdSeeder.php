@@ -21,7 +21,7 @@ class AdSeeder extends Seeder
             'title' => 'Kupim 10 kg pasje hrane Courigan',
             'description' => 'Prejšni mesec so prenehali izdelovati hrano podjetja Courigan, ki je bil moji psici Tački edina okusna hrana. Prodajalcu plačam dvakratno ceno nabavne cene, ki je znašala 5€ na kg.',
             'date_e' => Carbon::now()->addDays(30),
-            'uid' => 1
+            'user_id' => 1
         ]);
     }
 }

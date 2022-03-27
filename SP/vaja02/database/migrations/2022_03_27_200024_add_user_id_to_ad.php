@@ -13,14 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('ads', function (Blueprint $table) {
-            $table->id();
-            $table->string('title');
-            $table->mediumText('description');
-            $table->dateTime('date_s')->useCurrent();
-            $table->dateTime('date_e');
-            $table->unsignedInteger('seen')->default(0);
-            $table->timestamps();
+        Schema::table('ads', function (Blueprint $table) {
+            $table->integer('user_id');
         });
     }
 
@@ -31,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ads');
+        Schema::table('ads', function (Blueprint $table) {
+            $table->dropColumn('user_id');
+        });
     }
 };

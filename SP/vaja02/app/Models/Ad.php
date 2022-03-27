@@ -10,4 +10,8 @@ class Ad extends Model
     protected $table = 'ads';
     public $primaryKey = 'id';
     public $timestamps = true;
+
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
 }

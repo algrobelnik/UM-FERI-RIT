@@ -18,3 +18,7 @@ Route::resource('ads', AdsController::class);
 Route::get('/', [ AdsController::class, "index" ]);
 Route::get('/login', [ PagesController::class, "login" ]);
 Route::get('/register', [ PagesController::class, "register" ]);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
