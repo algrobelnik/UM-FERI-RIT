@@ -1,0 +1,64 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="users">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="user" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:int" name="id"/>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:date" name="date_of_birth"/>
+                    <xs:element name="gender">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="^[MFUN]$"></xs:pattern>
+                          <xs:length value="1"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="knowledge">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="^(V|IV|I{0,3})(\.)?|(VI{1,3}(\.)?|VI\/[12]\.?|VIII\/[12]\.?)$"></xs:pattern>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="description"/>
+        <xs:element name="images">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="image" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="name"/>
+                      <xs:element name="src">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="^[a-zA-Z0-9\+\/=]{4,}$"></xs:pattern>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:float" name="infection_rate"/>
+        <xs:element type="xs:int" name="infected"/>
+        <xs:element type="xs:float" name="death_rate"/>
+        <xs:element type="xs:int" name="dead"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
