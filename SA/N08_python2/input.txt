@@ -1,0 +1,5 @@
+Filesystem   Size   Used   Avail   Use%   Mounted on
+rootfs       583G   380G   203G   66%   /
+devtmpfs   1.9G   252K   1.9G   1%   /dev
+tmpfs          2.0G   2.5M   1.9G   1%   /dev/shm
+/dev/sda1   583G   380G   203G   66%   /

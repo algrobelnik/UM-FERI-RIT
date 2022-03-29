@@ -1,0 +1,33 @@
+ARGC: 2
+ARGIND: 1
+ARGV: array, 2 elements
+BINMODE: 0
+CONVFMT: "%.6g"
+ENVIRON: array, 62 elements
+ERRNO: ""
+FIELDWIDTHS: ""
+FILENAME: "grades.txt"
+FNR: 7
+FPAT: "[^[:space:]]+"
+FS: " "
+FUNCTAB: array, 44 elements
+IGNORECASE: 0
+LINT: 0
+NF: 5
+NR: 7
+OFMT: "%.6g"
+OFS: " "
+ORS: "\n"
+PREC: 53
+PROCINFO: array, 35 elements
+RLENGTH: 0
+ROUNDMODE: "N"
+RS: "\n"
+RSTART: 0
+RT: "\n"
+SUBSEP: "\034"
+SYMTAB: array, 31 elements
+TEXTDOMAIN: "messages"
+i: 5
+sum: array, 8 elements
+total_sum: 517.16666666666663

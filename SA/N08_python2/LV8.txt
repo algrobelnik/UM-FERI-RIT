@@ -1,0 +1,168 @@
+1) (3 tč.) Napišite skriptno datoteko 'loto.awk', ki naključno generira števila za igro loto. Kot parametra skripta prevzame število generiranih števil NUM in največje število v generiranem nizu MAX_NUM. Za generator naključnih števil uporabite funkcijo 'rand()'. Zagotovite, da se nobena izmed generiranih števil ne ponovi.
+
+   Točke:
+   1 - čitanje vhodnih parametrov
+   1 - generiranje naključnih števil
+   1 - izpis loto številk
+
+   IZPIS SKRIPTE:
+   $ loto 5 32
+   generiranje 5 loto številk do 32
+   21 5 29 13 32
+
+$ cat loto.py
+import subprocess
+import sys
+
+if len(sys.argv) > 2:
+    subprocess.run(['awk -v NUM='+sys.argv[1]+' -v MAX_NUM='+sys.argv[2]+' -f loto.awk'], shell=True)
+else:
+    subprocess.run(['awk -f loto.awk'], shell=True)
+
+$ cat loto.awk
+  function loto(arr, i, j, n, tmp) {
+    n = length(arr)
+    for (i=n; i>1; i--) {
+      j = int(1 + rand()*i)
+      tmp = arr[i]
+      arr[i] = arr[j]
+      arr[j] = tmp
+    }
+  }
+
+  BEGIN {
+    srand()
+    for (i=1; i<=NUM; i++) {
+      arr[i] = i
+    }
+    loto(arr)
+    for (i=1; i<=MAX_NUM; i++) {
+      print arr[i]
+    }
+  }
+
+$ pythoy3 loto.py 100 3
+  21
+  80
+  11
+
+
+2) (5 tč.) Napišite skriptno datoteko awk 'grades.awk', ki iz datoteke 'grades.txt', v kateri so shranjeni rezultati treh vmesnih izpitov in ocena računalniških vaj, izračuna končne rezultate predmeta šestih študentov drugega letnika in jih izpiše. Končni rezultat študenta je sestavljen iz povprečne ocene treh vmesnih izpitov in ocene računalniških vaj. Vse ocene v datoteki so vnešene v procentih od 0% do 100%. Končni uspeh študenta izračunavamo glede na dosežen rezultat po naslednji lestvici:
+
+   Rezultat      Uspeh
+   0-50          nezadostno
+   50-60         zadostno
+   60-70         dobro
+   70-80         prav dobro
+   80-90         zelo dobro
+   90-100        odlično
+
+   Na koncu izračunajte še povprečni rezultat razreda in ugotovite, koliko študentov je nadpovprečnih in koliko podpovprečnih v letniku.
+
+   Točke:
+   1 - izračun povprečnih razultatov vmesnih izpitov
+   1 - izračun povprečnega rezultata pri predmetu
+   1 - izračun končnega uspeha študenta
+   1 - izpis tabele rezultatov
+   1 - izpis povprečnih rezultatov
+
+   VHODNA DATOTEKA 'grades.txt'
+   mona 70 77 85 77
+   john 85 92 78 80
+   andreja 89 90 85 94
+   jasper 84 64 81 66
+   george 54 77 82 73
+   ellis 90 93 89 88
+
+   IZHOD
+   Študent    Rezultat   Uspeh
+   mona         77.17     prav dobro
+   john           82.5       zelo dobro
+   andreja      91          odlično
+   jasper        71.17     prav dobro
+   george      72           prav dobro
+   ellis           89.33      zelo dobro
+
+   Povprečje razreda:    80.52
+   Nadpovprečnih:    3
+   Podpovprečnih:    3
+
+$ cat grades.py
+import subprocess
+import sys
+
+if len(sys.argv) > 1:
+    subprocess.run(['awk -f grades.awk -d '+sys.argv[1]], shell=True)
+else:
+    subprocess.run(['awk -f grades.awk'], shell=True)
+
+$ cat grades.awk
+#!/bin/awk
+
+  function gradeToString(num){
+    switch (num) {
+      case /5[[:digit:]]/: return "zadostno"
+      case /6[[:digit:]]/: return "dobro"
+      case /7[[:digit:]]/: return "prav dobro"
+      case /8[[:digit:]]/: return "zelo dobro"
+      case /9[[:digit:]]/:
+      case 100: return "odlično"
+      default: return "nezadostno"
+   }
+  }
+
+  function abs(value){
+    return (value<0?-value:value);
+  }
+
+  function avg(arr, num, start, i, count){
+    count = 0
+    for (i=0; i < NR; i++){
+      if (arr[i] < num)
+      count++
+    }
+    return abs(count - start)
+  }
+
+  BEGIN{
+    print "Študent\tRezulta\tUspeh"
+  }
+
+  {
+    sum[NR] = 0;
+    for (i = 1; i <= NF-1; i++) sum[NR] += $i;
+    sum[NR] /= NF-2;
+    sum[NR] += $NF;
+    sum[NR] /= 2;
+    total_sum += sum[NR];
+    printf "%s\t%.2f\t%s\n", $1, sum[NR], gradeToString(sum[NR]);
+  }
+
+  END{
+    print "\nPovprečje razreda:\t" total_sum/NR
+    print "Nadpovprečnih:\t" avg(sum, total_sum/NR, NR)
+    print "Podpovprečnih:\t" avg(sum, total_sum/NR, 0)
+  }
+
+$ cat grades.txt
+  mona 70 77 85 77
+  john 85 92 78 80
+  andreja 89 90 85 94
+  jasper 84 64 81 66
+  george 54 77 82 73
+  ellis 90 93 89 88
+  aleks 32 15 79 26
+
+$ python3 grades.py grades.txt
+  Študent Rezulta Uspeh
+  mona    77.17   dobro
+  john    82.50   zelo dobro
+  andreja 91.00   odlično
+  jasper  71.17   dobro
+  george  72.00   prav dobro
+  ellis   89.33   zelo dobro
+  aleks   34.00   nezadostno
+
+  Povprečje razreda:      73.881
+  Nadpovprečnih:  4
+  Podpovprečnih:  3

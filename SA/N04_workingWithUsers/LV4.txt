@@ -1,0 +1,55 @@
+N4: Delo z uporabniki/Working with users (10 tč. / 10 pts.)
+
+Kreirajte tekstovno datoteko z imenom 'LV4.txt' z odgovori na zahtevana vprašanja.
+
+1) (1 tč.) Kakšen UID uporabljamo za uporabnika "root"?
+root ima UID 0, zapisano v /etc/passwd
+
+2) (1 tč.) Kje definiramo uporabnikovo primarno skupino ("default")? Točno specificirajte v kateri datoteki in katerem polju.
+v datoteki /etc/group, kjer najdemo vrstico users:x:100, torej na tretjem mestu, če razbijemo po ":", kar pomeni, da imajo vsi userji po "defaultu" skupino 100
+
+3) (2 tč.) Dodajte uporabnika 'uporabnik' v vaš sistem. Za dodajanje uporabnika uporabite ukaz 'useradd' in kreirajte njegove domači direktorij, ki vsebuje datoteke iz direktorija /etc/skel. Prikažite uporabnikov vpis v datoteki /etc/passwd kot tudi celoten ukaz potreben pri kreiranju.
+
+sudo useradd uporabnik -m, ki dobi vse datoteke iz /etc/skel in dobi kreiran nov direktorij, po defaultu v /home/[user_name] mapi
+
+┌──(aleks㉿aleks)-[~]
+└─$ ls /home
+aleks  school  uporabnik
+
+tail -n3 /etc/passwd
+uuidd:x:136:145::/run/uuidd:/usr/sbin/nologin
+school:x:1001:1001::/home/school:/bin/sbin/nologin
+uporabnik:x:1001:1001::/home/uporabnik:/bin/sh
+
+4) (2 tč.) Na vašem sistemu kreirajte skupino 'sa2018'. Prikažite potreben ukaz, ne da bi ročno urejali ustrezno datoteko.
+
+sudo groupadd -U uporabnik sa2018
+
+tail -n3 /etc/group
+school:x:1001:
+uporabnik:x:1002:
+sa2018:x:1003:uporabnik
+
+5) (2 tč.) Privzemimo, da uporabnik 'uporabnik' pripada več skupinam uporabnikov. Dodajte uporabnika 'uporabnik' v skupino 'sa2018' z uporabo sistemskih ukazov (ne urejajte ustrezne datoteke ročno), ne da bi spremenili ostale skupine katerih član je. Prikažite ustrezen ukaz.
+
+sudo groupmems -g sa2018 -a uporabnik oziroma zadosti že zgornji ukaz
+
+6) (2 tč.) Izbriši uporabnika 'uporabnik' in skupino 'sa2018' z uporabo sistemskih ukazov. Potreben ukaz prikažite v izhodni datoteki.
+
+sudo groupdel sa2018
+sudo userdel uporabnik
+
+tail -n3 /etc/group
+uuidd:x:145:
+school:x:1001:
+uporabnik:x:1002:
+
+tail -n3 /etc/group
+nvpd:x:144:
+uuidd:x:145:
+school:x:1001:
+
+tail -n3 /etc/passwd
+sshd:x:135:65534::/run/sshd:/usr/sbin/nologin
+uuidd:x:136:145::/run/uuidd:/usr/sbin/nologin
+school:x:1001:1001::/home/school:/bin/sbin/nologin

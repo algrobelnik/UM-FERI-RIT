@@ -1,0 +1,99 @@
+1) (3 tč.) Napišite niz ukazov, ki najde vse začasne datoteke v uporabnikovem domačem direktoriju, jih sortira numerično (pri tem ignorira velike in male črke), izbere prvih pet, jih prikaže in zbriše, če predpostavimo, da se imena začasnih datotek na operacijskem sistemu Linux začnejo z znakom '~'. Če datotek v vašem direktoriju ni, jih generirajte ročno.
+
+   Točke:
+   1 - ukaz za iskanje začasnih datotek v uporabnikovem domačem direktoriju.
+   1 - sortiranje in izbira prvih pet.
+   1 - prikaz in brisanje datotek.
+
+┌──(aleks㉿aleks)-[~/Desktop/UM-FERI-RIT/SA/N05_bashScripts]
+└─$ touch .hidden_file
+
+┌──(aleks㉿aleks)-[~/Desktop/UM-FERI-RIT/SA/N05_bashScripts]
+└─$ find . -name ".*" | sort --stable --reverse --key=1,2 | head -n 5
+./.hidden_file
+.
+
+┌──(aleks㉿aleks)-[~/Desktop/UM-FERI-RIT/SA/N05_bashScripts]
+└─$ find . -name ".*" -exec rm -rf {} \;
+rm: refusing to remove '.' or '..' directory: skipping '.'
+
+┌──(aleks㉿aleks)-[~/Desktop/UM-FERI-RIT/SA/N05_bashScripts]
+└─$ find . -name ".*";
+.
+
+
+2) (3 tč.) Napišite skripto bash 'check.sh' za preverjanje ali je datoteka izvajalna. Ime datoteke vnašamo kot vhodni parameter. Če vhodnega parametra ne vnesemo, naj skripta javi napako.
+
+   Točke:
+   1 - preverjanje vhodnega parametra.
+   2 - skripta ugotovi, da je datoteka izvajalna.
+   3 - skripta javi, da datoteka ni izvajalna.
+
+   IZHOD-1: manjka vnosni parameter - uporaba: (izpis ukazne vrstice) 'ime datoteke'
+   IZHOD-2: 'ime datoteke' ima pravico izvajanja
+   IZHOD-3: 'ime datoteke' nima pravice izvajanja
+
+$ cat check.sh
+#!/bin/bash
+if [[ -f $1 ]]; then
+  if [ -x $1 ]; then
+    echo "$1 ima pravico izvajanja"
+  else
+    echo "$1 nima pravico izvajanja"
+  fi
+else
+  echo "manjka vnosni parameter - uporaba $0 'ime datoteke'"
+fi
+
+$ ./check.sh LV5.txt
+LV5.txt nima pravico izvajanja
+
+3) (4 tč.) Napišite skripto 'factorial.sh' za izračun fakultete števila, ki ga vnesemo kot vhodni parameter.
+
+   Točke:
+   1 - preverjanje vhodnega parametra.
+   2 - izračun fakultete števila.
+   3 - izpis korakov računanja.
+   4 - izpis končne vrednosti fakultete.
+
+   IZHOD SKRIPTE:
+   # sh factorial 4
+   korak 1: 4 1
+   korak 2: 3 4
+   korak 3: 2 12
+   korak 4: 1 24
+   fakulteta števila 4 je 24
+
+$ cat factorial.sh
+#!/bin/bash
+
+factorial() 
+{
+  num=$1
+  ((num++))
+  echo "korak $num: $2"
+  if (( $2 <= 1 )); then
+    echo 1
+    return 1
+  else
+    factorial $num $(( $2 - 1 ))
+    last=$?
+    echo $(( $2 * last ))
+    return $(( $2 * last ))
+  fi
+}
+
+factorial 0 $1
+res=$?
+echo "Fakulteta števila $1 je $res"
+
+$ ./factorial.sh 4
+korak 1: 4
+korak 2: 3
+korak 3: 2
+korak 4: 1
+1
+2
+6
+24
+Fakulteta števila 4 je 24

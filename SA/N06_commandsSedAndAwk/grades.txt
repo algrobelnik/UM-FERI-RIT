@@ -1,0 +1,7 @@
+mona 70 77 85 77
+john 85 92 78 80
+andreja 89 90 85 94
+jasper 84 64 81 66
+george 54 77 82 73
+ellis 90 93 89 88
+aleks 32 15 79 26
