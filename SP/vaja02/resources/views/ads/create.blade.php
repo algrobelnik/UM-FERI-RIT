@@ -2,7 +2,7 @@
 
 @section('content')
     <h1>Create Ad</h1>
-    {!! Form::open(['url' => '/ads', 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
+    {!! Form::open(['url' => '/ads', 'method' => 'POST', 'enctype' => 'multipart/form-data', 'files' => true]) !!}
     <div class="form-group">
         {{Form::label('title', 'Title')}}
         {{Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'title...'])}}

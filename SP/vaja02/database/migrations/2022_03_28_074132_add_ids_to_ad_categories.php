@@ -13,9 +13,9 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('ad_categories', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::table('ad_categories', function (Blueprint $table) {
+            $table->integer('ad_id');
+            $table->integer('category_id');
         });
     }
 
@@ -26,6 +26,9 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ad_categories');
+        Schema::table('ad_categories', function (Blueprint $table) {
+            $table->dropColumn('ad_id');
+            $table->dropColumn('category_id');
+        });
     }
 };

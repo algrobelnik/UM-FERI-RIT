@@ -59,23 +59,23 @@ class CategorySeeder extends Seeder
         ]);
         DB::table('categories')->insert([
             'name' => 'basketball',
-            'pid' => 1
+            'parent_id' => 1
         ]);
         DB::table('categories')->insert([
             'name' => 'hockey',
-            'pid' => 1
+            'parent_id' => 1
         ]);
         DB::table('categories')->insert([
             'name' => 'golf',
-            'pid' => 1
+            'parent_id' => 1
         ]);
         DB::table('categories')->insert([
             'name' => 'NBA',
-            'pid' => 15
+            'parent_id' => 15
         ]);
         DB::table('categories')->insert([
             'name' => 'NHL',
-            'pid' => 16
+            'parent_id' => 16
         ]);
     }
 }

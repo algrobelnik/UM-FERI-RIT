@@ -15,10 +15,10 @@ return new class extends Migration
     {
         Schema::create('images', function (Blueprint $table) {
             $table->id();
-            $table->binary('img');
-            $table->foreignId('aid')->references('id')->on('ads');
+            //$table->binary('img');
             $table->timestamps();
         });
+        DB::statement("ALTER TABLE images ADD img MEDIUMBLOB");
     }
 
     /**

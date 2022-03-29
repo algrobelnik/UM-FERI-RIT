@@ -13,9 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('ad_categories', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::table('images', function (Blueprint $table) {
+            $table->integer('ad_id');
         });
     }
 
@@ -26,6 +25,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ad_categories');
+        Schema::table('images', function (Blueprint $table) {
+            $table->dropColumn('ad_id');
+        });
     }
 };

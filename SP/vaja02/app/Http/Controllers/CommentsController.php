@@ -2,16 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Ad;
 use App\Models\AdCategory;
+use App\Models\Category;
 use App\Models\Image;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-use App\Models\Ad;
-use App\Models\Category;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 
-class AdsController extends Controller
+class CommentsController extends Controller
 {
     public array $complexCategories = [];
 
@@ -22,18 +22,7 @@ class AdsController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth')->except('index')->except('show');
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        $ads = Ad::orderBy('created_at', 'desc')->paginate();
-        return view('ads.index')->with('ads', $ads);
+        $this->middleware('auth');
     }
 
     /**
@@ -43,13 +32,7 @@ class AdsController extends Controller
      */
     public function create()
     {
-        $cats = Category::all()->toArray();
-        $basicCategories = Arr::where($cats, function ($item, $key) {
-            return empty($item['parent_id']);
-        });
-        $this->processCategoriesLevel($cats, $basicCategories);
-        //dd(Category::all()->pluck('name'), $this->complexCategories);
-        return view('ads.create')->with('cats', $this->complexCategories);
+        return view('comments.create');
     }
 
     /**
@@ -67,9 +50,9 @@ class AdsController extends Controller
             'images.*' => 'mimes:jpeg,jpg,png,gif',
             'categories' => 'required',
         ]);
-        $ad = new Ad;
-        $this->extracted($request, $ad);
-        return redirect('/ads')->with('success', 'Ad created');
+        $comment = new Ad;
+        $this->extracted($request, $comment);
+        return redirect('/comments')->with('success', 'Ad created');
     }
 
     /**
@@ -80,11 +63,11 @@ class AdsController extends Controller
      */
     public function show($id)
     {
-        $ad = Ad::find($id);
-        if ($ad == null){
-            return redirect('/ads')->with('error', 'Unauthorized page');
+        $comment = Ad::find($id);
+        if ($comment == null){
+            return redirect('/comments')->with('error', 'Unauthorized page');
         }
-        return view('ads.show')->with('ad', $ad);
+        return view('comments.show')->with('comment', $comment);
     }
 
     /**
@@ -95,17 +78,17 @@ class AdsController extends Controller
      */
     public function edit($id)
     {
-        $ad = Ad::find($id);
-        if ($ad == null || auth()->user()->id !== $ad->user_id){
-            return redirect('/ads')->with('error', 'Unauthorized page');
+        $comment = Ad::find($id);
+        if ($comment == null || auth()->user()->id !== $comment->user_id){
+            return redirect('/comments')->with('error', 'Unauthorized page');
         }
         $cats = Category::all()->toArray();
         $basicCategories = Arr::where($cats, function ($item, $key) {
             return empty($item['parent_id']);
         });
         $this->processCategoriesLevel($cats, $basicCategories);
-        $ad_cats = AdCategory::where('ad_id', $ad->id)->get()->pluck('category_id')->toArray();
-        return view('ads.edit')->with('ad', $ad)->with('cats', $this->complexCategories)->with('ad_cats', $ad_cats);
+        $comment_cats = AdCategory::where('comment_id', $comment->id)->get()->pluck('category_id')->toArray();
+        return view('comments.edit')->with('comment', $comment)->with('cats', $this->complexCategories)->with('comment_cats', $comment_cats);
     }
 
     /**
@@ -124,9 +107,9 @@ class AdsController extends Controller
             'images.*' => 'mimes:jpeg,jpg,png,gif',
             'categories' => 'required',
         ]);
-        $ad = Ad::find($id);
-        $this->extracted($request, $ad);
-        return redirect('/ads')->with('success', 'Ad updated');
+        $comment = Ad::find($id);
+        $this->extracted($request, $comment);
+        return redirect('/comments')->with('success', 'Ad updated');
     }
 
     /**
@@ -137,14 +120,14 @@ class AdsController extends Controller
      */
     public function destroy($id)
     {
-        $ad = Ad::find($id);
-        if (auth()->user()->id !== $ad->user_id){
+        $comment = Ad::find($id);
+        if (auth()->user()->id !== $comment->user_id){
             return redirect('/posts')->with('error', 'Unauthorized page');
         }
         Image::where('aid', $id)->get()->each->delete();
         AdCategory::where('aid', $id)->get()->each->delete();
-        $ad->delete();
-        return redirect('/ads')->with('success', 'Ad deleted');
+        $comment->delete();
+        return redirect('/comments')->with('success', 'Ad deleted');
     }
 
     private function processCategoriesLevel($org, $cats) {
@@ -177,20 +160,20 @@ class AdsController extends Controller
 
     /**
      * @param Request $request
-     * @param $ad
+     * @param $comment
      * @return void
      */
-    public function extracted(Request $request, $ad): void
+    public function extracted(Request $request, $comment): void
     {
-        $ad->title = $request->input('title');
-        $ad->description = $request->input('description');
-        $ad->date_e = Carbon::now()->addDays(30);
-        $ad->user_id = Auth::user()->id;
-        //dd($ad);
-        $ad->save();
+        $comment->title = $request->input('title');
+        $comment->description = $request->input('description');
+        $comment->date_e = Carbon::now()->commentdDays(30);
+        $comment->user_id = Auth::user()->id;
+        //dd($comment);
+        $comment->save();
         foreach ($request->input('categories') as $cat) {
             $ac = new AdCategory();
-            $ac->ad_id = $ad->id;
+            $ac->comment_id = $comment->id;
             $ac->category_id = $cat;
             //dd($ac);
             $ac->save();
@@ -199,7 +182,7 @@ class AdsController extends Controller
             foreach ($request->file('images') as $i) {
                 $img = new Image();
                 $img->img = "data:" . $i->getMimeType() . ";base64," . base64_encode(file_get_contents($i->getRealPath()));
-                $img->ad_id = $ad->id;
+                $img->comment_id = $comment->id;
                 //dd($img);
                 $img->save();
             }

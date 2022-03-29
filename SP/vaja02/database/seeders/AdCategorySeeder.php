@@ -17,12 +17,12 @@ class AdCategorySeeder extends Seeder
     public function run()
     {
         DB::table('ad_categories')->insert([
-            'aid' => 1,
-            'cid' => 8
+            'ad_id' => 1,
+            'category_id' => 8
         ]);
         DB::table('ad_categories')->insert([
-            'aid' => 1,
-            'cid' => 12
+            'ad_id' => 1,
+            'category_id' => 12
         ]);
     }
 }
