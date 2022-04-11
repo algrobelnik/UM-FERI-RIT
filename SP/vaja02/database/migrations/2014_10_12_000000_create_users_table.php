@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('password');
             $table->string('name');
             $table->string('surname');
+            $table->boolean('is_admin')->default(0);
             $table->string('phone')->nullable();
             $table->enum('gender', ['male', 'female', 'undefined/non-binary'])->nullable();
             $table->string('address')->nullable();

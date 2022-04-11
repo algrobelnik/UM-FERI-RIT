@@ -54,10 +54,10 @@ class RegisterController extends Controller
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'name' => ['required', 'string', 'max:255' ],
             'surname' => ['required', 'string', 'max:255' ],
-            'phone' => ['regex:/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/','min:10'],
-            'gender' => ['string', 'in:male,female,undefined/non-binary'],
-            'address' => ['string', 'max:255'],
-            'bday' => ['date'],
+            'phone' => ['nullable','regex:/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/','min:10'],
+            'gender' => ['nullable','string', 'in:male,female,undefined/non-binary'],
+            'address' => ['nullable','string', 'max:255'],
+            'bday' => ['nullable','date'],
         ]);
     }
 

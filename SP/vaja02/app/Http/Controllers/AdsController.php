@@ -3,13 +3,21 @@
 namespace App\Http\Controllers;
 
 use App\Models\AdCategory;
+use App\Models\Comment;
 use App\Models\Image;
 use Carbon\Carbon;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use App\Models\Ad;
 use App\Models\Category;
+use Illuminate\Http\Response;
+use Illuminate\Routing\Redirector;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Http;
 
 class AdsController extends Controller
 {
@@ -28,18 +36,20 @@ class AdsController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Application|Factory|View
      */
     public function index()
     {
         $ads = Ad::orderBy('created_at', 'desc')->paginate();
-        return view('ads.index')->with('ads', $ads);
+        //$comments = Http::get('http://127.0.0.1:8000/api/returnLastFive');
+        $comments = Comment::orderBy('created_at', 'desc')->take(5)->get();
+        return view('ads.index')->with('ads', $ads)->with('comments', $comments);
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Application|Factory|View
      */
     public function create()
     {
@@ -55,8 +65,8 @@ class AdsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return Application|Redirector|RedirectResponse
      */
     public function store(Request $request)
     {
@@ -76,7 +86,7 @@ class AdsController extends Controller
      * Display the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Application|Redirector|RedirectResponse
      */
     public function show($id)
     {
@@ -91,7 +101,7 @@ class AdsController extends Controller
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Application|RedirectResponse|Redirector
      */
     public function edit($id)
     {
@@ -111,9 +121,9 @@ class AdsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param Request $request
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Application|Redirector|RedirectResponse
      */
     public function update(Request $request, $id)
     {
@@ -133,13 +143,13 @@ class AdsController extends Controller
      * Remove the specified resource from storage.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Application|Redirector|RedirectResponse
      */
     public function destroy($id)
     {
         $ad = Ad::find($id);
-        if (auth()->user()->id !== $ad->user_id){
-            return redirect('/posts')->with('error', 'Unauthorized page');
+        if (Auth()->user()->id !== $ad->user_id){
+            return redirect('/ads')->with('error', 'Unauthorized page');
         }
         Image::where('aid', $id)->get()->each->delete();
         AdCategory::where('aid', $id)->get()->each->delete();

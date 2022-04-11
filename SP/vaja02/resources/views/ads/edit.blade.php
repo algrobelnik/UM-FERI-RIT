@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <!--TODO https://www.youtube.com/watch?v=-QapNzUE4V0&list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ-&index=7-->
+    <!--TODO https://www.youtube.com/watch?v=-QapNzUE4V0&list=PLillGF-RfqbYhQsN5WMXy6VsDMKGadrJ--->
     <h1>Edit Ad</h1>
     {!! Form::open(['url' => "/ads/$ad->id", 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
     <div class="form-group">
