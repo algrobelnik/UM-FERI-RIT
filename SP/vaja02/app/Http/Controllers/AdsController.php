@@ -151,8 +151,8 @@ class AdsController extends Controller
         if (Auth()->user()->id !== $ad->user_id){
             return redirect('/ads')->with('error', 'Unauthorized page');
         }
-        Image::where('aid', $id)->get()->each->delete();
-        AdCategory::where('aid', $id)->get()->each->delete();
+        Image::where('ad_id', $id)->get()->each->delete();
+        AdCategory::where('ad_id', $id)->get()->each->delete();
         $ad->delete();
         return redirect('/ads')->with('success', 'Ad deleted');
     }
