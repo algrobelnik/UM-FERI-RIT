@@ -20,7 +20,7 @@
      (164)10 = (10100100)2
      prvi biti 10 => razred B
     - V katero omrežje spada? (1 tč.)
-      164.8.160.0
+      164.8.163.0
     - Kakšna je njegova številka gostitelja? (1 tč.) 
       164.8.160.1
     - Določite številko podomrežja! (1 tč.)
@@ -82,9 +82,9 @@ NAMIG: Pomagajte si z ukazi: ifconfig, route, netstat, nslookup.
 
    - Kje so največji zastoji? (1 tč.)
       Največji zastoji so pri strežniku rferi-v63.um.si, ki je po velikosti verjetno najmanjši in ni namenjen najvišji hitrosti.
-    
+
    - Zakaj imamo pri izpisu ukaza traceroute tri različne čase? (1 tč.)
-      Čas odgovora skoka naslednjega strežnika, ki ga nato izpiše
+      Čas odgovora strežnika na vsak posamezen paket. Na vsakega pošljemo 3 packete
 
    - Kakšna podobnost obstaja med obema ukazoma 'ping' in 'traceroute'? (1 tč.)
       Oba pošiljata paketke, ki so po defaultu ICMP paketki, ki so namenjeni prepoznavanje končne naprave.
