@@ -5,6 +5,24 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href='/'>Home</a></li>
+        {{#if session.userId}}
+          <li><a href='/users/profile'>Profile</a></li>
+          <li><a href='/question/all'>All questions</a></li>
+          <li><a href='/question/user'>User questions</a></li>
+          <li><a href='/question/new'>New question</a></li>
+          <li><a href='/answer/all'>User Answers</a></li>
+          <li><a href='/users/logout'>Logout</a></li>
+        {{else}}
+          <li><a href='/questions/all'>Questions</a></li>
+          <li><a href='/users/login'>Login</a></li>
+          <li><a href='/users/register'>Registration</a></li>
+        {{/if}}
+      </ul>
+    </nav>
     {{{body}}}
   </body>
+  <button onclick="window.history.go(-1)">Back</button>
 </html>

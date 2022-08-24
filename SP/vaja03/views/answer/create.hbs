@@ -1,0 +1,9 @@
+<h1>New comment</h1>
+<form action="/answer/create" method="post">
+  <label for="text">Comment:</label><br>
+  <textarea id="text" name="text" rows="4" cols="50" required></textarea><br>
+  <input type="hidden" name="qid" value="{{qid}}">
+  <div class="tp">
+    <input type="submit" value="Post">
+  </div>
+</form>

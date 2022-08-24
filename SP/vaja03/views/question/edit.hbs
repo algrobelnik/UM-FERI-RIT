@@ -1,0 +1,9 @@
+<h1>Edit question</h1>
+<form action="/question/{{data._id}}" method="post">
+  <label for="label">Title:</label><br>
+  <input type="text" name="title" placeholder="title..." value="{{data.title}}" required><br>
+  <label for="description">Description:</label><br>
+  <textarea id="description" name="description" rows="8" cols="50" required>{{data.description}}</textarea><br>
+  <input type="hidden" name="_method" value="put">
+  <input type="submit" value="Edit">
+</form>

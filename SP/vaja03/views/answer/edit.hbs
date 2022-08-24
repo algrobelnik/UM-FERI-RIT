@@ -1,0 +1,7 @@
+<h1>Edit comment</h1>
+<form action="/answer/{{data._id}}" method="post">
+  <label for="text">Comment:</label><br>
+  <textarea id="text" name="text" rows="4" cols="50" required>{{data.text}}</textarea><br>
+  <input type="hidden" name="_method" value="put">
+  <input type="submit" value="Edit">
+</form>

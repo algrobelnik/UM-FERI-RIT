@@ -1,0 +1,14 @@
+<h1>Questions</h1>
+<div>
+  {{#each data}}
+    <a href="show/{{_id}}"><h2>{{title}}</h2></a>
+    <p>{{description}}</p>
+    {{#each answer}}
+      <div style="border: 1px solid black;">
+        <p>{{text}}</p>
+        <p>Updated: {{updatedAt}}</p>
+        <p>Published: {{createdAt}}<p>
+      </div>
+    {{/each}}
+  {{/each}}
+</div>

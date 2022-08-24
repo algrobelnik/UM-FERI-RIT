@@ -1,0 +1,85 @@
+<div>
+  <h2>{{title}}</h2>
+  <p>{{description}}</p>
+  {{#if session.userId}}
+    {{#if (eq session.userId uid)}}
+      <a href="/question/edit/{{_id}}">Edit</a>
+      <form action="/question/{{_id}}" method="post">
+        <input type="hidden" name="_method" value="delete">
+        <input type="submit" value="Delete">
+      </form>
+    {{/if}}
+    {{#if correct}}
+      {{#each answers}}
+        {{#if correct}}
+          <div style="border: 1px solid black; background-color: lightgreen;">
+        {{else}}
+          <div style="border: 1px solid black;">
+        {{/if}}
+          <p>{{text}}</p>
+          <p>Ratio: {{ratio}}</p>
+          <p>Updated: {{updatedAt}}</p>
+          <p>Published: {{createdAt}}<p>
+          <form action="/answer/plus/{{_id}}" method="post">
+            <input type="submit" value="Plus">
+          </form>
+          <form action="/answer/minus/{{_id}}" method="post">
+            <input type="submit" value="Minus">
+          </form>
+          {{#if (eq ../session.userId uid)}}
+            <a href="/answer/edit/{{_id}}">Edit</a>
+            <form action="/answer/{{_id}}" method="post">
+              <input type="hidden" name="_method" value="delete">
+              <input type="submit" value="Delete">
+            </form>
+          {{/if}}
+        </div>
+      {{/each}}
+    {{else}}
+      {{#each answers}}
+        <div style="border: 1px solid black;">
+          <p>{{text}}</p>
+          <p>Ratio: {{ratio}}</p>
+          <p>Updated: {{updatedAt}}</p>
+          <p>Published: {{createdAt}}<p>
+          <form action="/answer/plus/{{_id}}" method="post">
+            <input type="submit" value="Plus">
+          </form>
+          <form action="/answer/minus/{{_id}}" method="post">
+            <input type="submit" value="Minus">
+          </form>
+          <form action="/answer/correct/{{_id}}" method="post">
+            <input type="submit" value="Correct">
+          </form>
+          {{#if (eq ../session.userId uid)}}
+            <a href="/answer/edit/{{_id}}">Edit</a>
+            <form action="/answer/{{_id}}" method="post">
+              <input type="hidden" name="_method" value="delete">
+              <input type="submit" value="Delete">
+            </form>
+          {{/if}}
+        </div>
+      {{/each}}
+    {{/if}}
+    <form action="/answer/create" method="post">
+      <label for="text">Comment:</label><br>
+      <textarea id="text" name="text" rows="4" cols="50" required></textarea><br>
+      <input type="hidden" name="qid" value="{{_id}}">
+      <div class="tp">
+        <input type="submit" value="Post">
+      </div>
+    </form>
+  {{else}}
+    {{#each answers}}
+      {{#if correct}}
+        <div style="border: 1px solid black; background-color: lightgreen;">
+      {{else}}
+        <div style="border: 1px solid black;">
+      {{/if}}
+        <p>{{text}}</p>
+        <p>Updated: {{updatedAt}}</p>
+        <p>Published: {{createdAt}}<p>
+      </div>
+    {{/each}}
+  {{/if}}
+</div>
