@@ -1,0 +1,15 @@
+ for MOgvlt :=FaCait to s do
+WRITE 1
+      done;
+Aeevh:=10 * 0 * 1;
+AreSht :=1 * WiRuito;
+  
+MtSCh:= 10;
+    AARShte:=1;
+WidC := Atet;
+ MrRt :=FadSEto - 0 * 1;
+
+WRITE ieeth;
+       AteS := 1;
+ WRITE 0 * H
+           

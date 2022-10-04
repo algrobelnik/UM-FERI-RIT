@@ -1,0 +1,41 @@
+ WRITE 1;
+ WigSh:= 00;
+for AASihte:=1 to A - seku do
+                 Hrit := M * HagvEteta - faSth
+  done;
+   AOeC:=10;
+ for iOiiiteta :=Magvht to 1 do
+faeul:=1
+    done;
+    WRITE itda;
+      for H:= stetc + saSSc to 10 do
+for fadvEto:= ieggh to iCkgEte do
+ faRC :=fadi;
+FteC:= s
+     done;
+for faRuE:= 1 to AeiCE * ieevh do
+ WRITE Maivi;
+ for ACev:= 1 to MASvcto * ArRicte do
+        
+WRITE ACdtc;
+ Mriicteta := WiCCito;
+for faSui:= Hrk to Wiegi do
+ for AaS:= fagailota to AAegh do
+  i:=0 - M;
+    FeeShle:= 1;
+for steScto :=MACg to AOiv do
+   Aeig :=srdaht
+done;
+  WRITE faCg;
+  Wigt:=0 - 1
+    done;
+faRg:=ieduc;
+   
+AASC:= MACg
+ done
+      
+done
+    done;
+HACS := seSSh
+         done
+  

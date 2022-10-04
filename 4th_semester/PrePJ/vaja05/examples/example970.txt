@@ -1,0 +1,60 @@
+ for fae := 1 to 1 - fakulle * 0 do
+ WRITE MOd;
+          for Mret:= iegg to MCSCctota do
+  for A :=0 to 0 do
+sACaEl:= 1 - 0;
+ A:= AOeuh;
+ArSuhl:= 0;
+ 
+WRITE 1
+         done;
+  MOkai:= 1;
+Wiig:= Aaeth;
+for fag:= 0 + 00 * 0 to H do
+   sOevcleta :=A;
+      
+for ACCvhlota:= 0 - 1 to MadC do
+       WRITE M + HaSic;
+     for MaRCh := 00 to 00 * 0 do
+  WiSti:= 10 - 1;
+           fakvhtota:=10 + M;
+   
+Maeiht :=Mreih;
+ sAeC:= MCdSl - HORt;
+WRITE WiCgh;
+for faeii := WiSu to 00 do
+    
+AtSac :=AAigEtota;
+                    MadC := 1 - faivh + 1;
+  
+irC :=itiiEt
+done;
+   WRITE 1;
+ WRITE sek - 10;
+     AAgvhteta :=FedaE - Haegcto
+     done
+done;
+ faei:= 0;
+     A:=ArCuite
+     done;
+      WRITE i;
+      s:= 1;
+ 
+WRITE FrS * FtSu;
+
+fai:=1;
+ WiCgito:=0
+   done;
+  i :=10 * Wie * 10;
+             for FtRih:= AtkCh to sORg do
+    Aegi := M - 1;
+
+WRITE 1;
+       for WikShto :=Arkuht to 0 do
+WRITE WiSvEte
+   done;
+             faduht := 0 * 1
+  done
+    done;
+fadth:=10 * 1 + 00
+  

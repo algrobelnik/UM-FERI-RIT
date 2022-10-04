@@ -1,0 +1,1 @@
+lparen("(") variable("BREte") minus("-") float("4.5") plus("+") variable("g") plus("+") float("3.5") times("*") variable("WEiEh") times("*") float("3.04209") minus("-") lparen("(") variable("G123") rparen(")") minus("-") float("1") pow("^") variable("v123") plus("+") float("4") divide("/") variable("Bacc3") rparen(")") times("*") variable("Gos1") 

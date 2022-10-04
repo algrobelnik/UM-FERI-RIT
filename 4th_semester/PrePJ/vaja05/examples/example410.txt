@@ -1,0 +1,27 @@
+for Wiigc :=Freahleta to F * 1 do
+
+for sek := 0 to 0 do
+WRITE 0
+   done;
+iCkgc:=1
+     
+done;
+for FARth:= 0 - 10 - 1 - i to Mei * iekgil do
+                       MAg:= 1;
+for ACStc:=MCdv to 1 - 1 do
+ 
+for faSCl :=1 to iaRCEt do
+   ACRuh := ACiCh + 0
+     done;
+  
+WRITE 0;
+ WRITE 00
+done
+done;
+FeSu := 1;
+ for AekC:= 1 - 00 + M to AegCh do
+     WRITE 1 * 1 + ititl + Htkai
+done;
+MrSg:=1 * 00;
+       seRgi:=10 + 10
+

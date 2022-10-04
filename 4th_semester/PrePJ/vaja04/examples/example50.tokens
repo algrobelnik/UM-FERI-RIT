@@ -1,0 +1,1 @@
+float("3") times("*") lparen("(") lparen("(") lparen("(") lparen("(") variable("Harg323") plus("+") float("2") minus("-") variable("a2") times("*") float("41.0000") rparen(")") rparen(")") plus("+") float("4.0") rparen(")") rparen(")") 

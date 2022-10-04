@@ -1,0 +1,1 @@
+variable("ReDte") times("*") lparen("(") variable("geD") minus("-") float("307549") times("*") float("5") rparen(")") plus("+") variable("R") 

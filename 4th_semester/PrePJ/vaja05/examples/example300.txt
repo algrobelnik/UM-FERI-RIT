@@ -1,0 +1,17 @@
+for fakgl :=0 to 10 do
+   for MCRClt:=MCSv to Atkg do
+  MteSh :=faCtEto * A + 10;
+  for AOeCc:= MAgSiteta to 10 do
+      MrCC:= 0 + MAduito
+     done;
+MCd :=1;
+    
+fadChto :=faRC
+ done
+   done;
+ WRITE ArSic - 10;
+               for iaeiht :=faSg + 1 to HAivE * stki do
+  
+WRITE AtRviteta
+ done
+     

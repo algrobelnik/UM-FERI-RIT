@@ -1,0 +1,18 @@
+ for FriC := FaSCEto + 1 + 1 to 0 do
+    for iOktllo:= 0 - 1 * fad to iOg do
+ ArCuit:= FeCahlota;
+     FeSvi :=Wievi;
+Makvc := 1;
+     Wievil :=00;
+ 
+for AOgi:= MrdCEt to M do
+ WRITE Makvh;
+   s:=00
+ 
+done
+       
+done;
+               faCS :=ArRtE;
+    HCCi := Wiggh
+done
+ 

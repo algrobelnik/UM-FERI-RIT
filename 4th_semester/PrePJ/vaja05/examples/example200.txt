@@ -1,0 +1,12 @@
+Mekgl:= AtgCh;
+ WRITE MAeg;
+  WRITE Mtegllota;
+ for MaigEt:= 1 to 0 do
+ 
+Wiga :=MCRt * WiRSit * 1;
+    for AORiElo:= 0 * AARult + 1 - faRtile to 1 do
+     Fteuc := 1
+      done;
+   WRITE FeevE
+  done
+   

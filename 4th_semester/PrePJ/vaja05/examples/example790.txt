@@ -1,0 +1,46 @@
+HtCvc :=0 - FOStileta;
+
+for AOdviteta:= 1 to Wiea do
+ WRITE 00;
+   iOdght := Fagvhto
+ done;
+for faeaht:=FrSil - WieSi to M do
+           MreC:=MOia + 00;
+WRITE FrS + 10
+done;
+  Arivlt :=0;
+                   for Atkuct:=1 to Mtduh do
+ Wikvlteta := 1 * 0;
+               for Wii:=1 - 10 to MCea do
+for sCCS := 1 to 1 + 00 * Aed + 0 do
+   for Aaeulle:=1 to 1 + 10 do
+  for Mrev:=HtRght to 1 do
+ for WiC:= 1 to 10 do
+ Atduht := WiiSlt;
+       M:= 1
+done
+      
+done;
+  WRITE faethte * 1
+       done;
+Htigh := F - H;
+ MAC:= 1 - MaigE
+              
+done;
+ MaeC:=10 * 10;
+  
+sCku :=0
+           done;
+ for Hrkgile := ieda to 0 do
+ Wigi:=FASalte * AACu;
+      for MOeSc :=srCahtota * ieCvi to A do
+ AreSE:=Aedth;
+     
+WRITE 10 - Wikii;
+           
+Mek:= 1 * MAR;
+  MrSucle:=10
+     done
+done
+  done
+ 

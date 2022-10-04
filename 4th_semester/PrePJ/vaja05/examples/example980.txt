@@ -1,0 +1,65 @@
+ for i :=1 to Mrgal do
+   for AaRtl:= 1 to srC * 0 do
+      for Wikgc:= 0 to 10 do
+ for AOgCi := MCeCcteta to 1 do
+Widi := 10;
+Ateaiteta:= AASCc * 1;
+ Feg:= M
+done;
+AOeC:= FOk;
+HaCvc :=10 * 0;
+ stgtl:=0;
+Argah := 1;
+for iCgah := s to Wig do
+      
+Mrkgl:= 1 - 1 * 1
+         done;
+F:=10;
+    AAeSit := MCS;
+
+for MaSS:=10 to irdSl + sOSCctota do
+    FAgglt:=AeCSht;
+ WigC:= 1 - 1 - HORg
+
+done;
+ WRITE iARih
+    
+done
+done;
+ for ACSi :=ArguEle to A do
+
+MCCih := 1 + 10;
+ A:= A - 1;
+  WRITE Maeih
+  done;
+AOCvito:=1;
+  
+for Wievlt :=0 to FOdC + faCSh do
+    for iCSv :=sedvc * itevc to faet do
+      
+WRITE 1 * FAdihl;
+WiCghtota :=M
+     done
+     
+done;
+ iOeSct := 10;
+
+MCRu := 0;
+  WRITE ArCii;
+ faRuh:=Wietite
+   done;
+for MtgSi:= 00 to A do
+HASCcto:= ACdCc + 1;
+  for iaSghte :=HAgS - MtiiE - HaRSEl to iOgChteta + seeS do
+  for WiRgcto := HORg to 1 - fadgc do
+for FrkuE := 1 * MaSu to 1 do
+  WRITE 10 * MekSEtota;
+  Aag :=0
+ done
+   done;
+   Wigih := 1
+done;
+ AeRuEt:= 1
+       
+done
+ 

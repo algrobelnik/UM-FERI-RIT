@@ -1,0 +1,12 @@
+ for F:= AAdai to AriSct do
+ 
+MORahtota := 1;
+               WRITE AeSCE * seeui;
+         AAeicleta:=ArgSh + 10;
+       
+MeRvh:=10;
+     
+fadahteta:= Atd
+ done;
+MriCE:= faSaEte
+    

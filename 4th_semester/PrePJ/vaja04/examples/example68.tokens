@@ -1,0 +1,1 @@
+float("30.1015") plus("+") lparen("(") float("4") plus("+") lparen("(") lparen("(") lparen("(") variable("raEg3") plus("+") float("467549") rparen(")") minus("-") lparen("(") float("11.1325") times("*") float("3") rparen(")") divide("/") float("517549") rparen(")") rparen(")") rparen(")") 

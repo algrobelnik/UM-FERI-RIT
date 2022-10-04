@@ -1,0 +1,1 @@
+variable("r2") plus("+") float("317549") plus("+") float("4") plus("+") float("4") times("*") variable("geice") minus("-") float("1.1") plus("+") lparen("(") float("2") times("*") variable("Hoi123") minus("-") float("6") pow("^") variable("GLU") rparen(")") pow("^") float("8") times("*") variable("RiDgNt") 

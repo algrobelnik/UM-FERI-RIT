@@ -1,0 +1,40 @@
+ WRITE 0 + saCa;
+
+iOgvh:=00 + Meeil;
+
+WieaEl :=1 - FegiE;
+HAdvEto :=1 + H - Widahl - Aekti - WiCvc;
+ for faCC :=HedClto to Wiea do
+for faCght := 1 to 0 * A do
+ MAiv:=0;
+           
+for fagti :=ACRvlto - 0 to AAC - 00 do
+ArC:=MekSc
+    
+done;
+for Mtg := 1 * Aeeuctota to MCiuEtota do
+M := iakSc;
+     WiRul:= 10
+     done;
+  
+for Fak := HeSul to 00 do
+         WRITE faeii
+       done
+    
+done;
+for saSiE := faCuh to AOkact do
+             irdght:= iCCScte;
+ for MOSCE:=Frdt to 1 do
+   
+for Meiv:=1 to AeCvc do
+  WRITE MCCvEl + 10
+   done
+done
+done;
+      for Wigv := F * 1 to WiSClt + 1 do
+                   sAduEl:=i
+   done
+    done;
+ 
+WRITE FCegh - Meeul + MAiChl
+   

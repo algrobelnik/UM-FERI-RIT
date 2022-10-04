@@ -1,0 +1,1 @@
+variable("garEh") plus("+") lparen("(") float("5.6") times("*") variable("WLDE") times("*") variable("WoDtN") rparen(")") minus("-") float("417549") plus("+") variable("g2") plus("+") variable("rcst") times("*") variable("tLit") minus("-") variable("GRD") minus("-") float("5") 

@@ -1,0 +1,61 @@
+for MaCi :=Wikii to 0 do
+    
+Mreg:=1;
+     for HCeSile:= MOi * 10 to 10 do
+    for Aai :=1 to faRt do
+ 
+AtRg := 10;
+    
+for FtSvht:=HeC * 0 to 00 do
+   for AakC :=M to MARCileta do
+      WiSvEle := 1;
+
+for AtSCl:= 10 to 0 - FOe do
+  for sASgE:= MeRShlota to 00 do
+     WRITE 1
+                   done;
+MAet := 1;
+   
+WRITE AOCShto - 1;
+ MACi :=1 * 10 - 0 - 1 * 1;
+ 
+WRITE iegt;
+ WiRuht := FtkiE;
+     for HOi:= AAei * 0 + 1 - 1 to 0 do
+                  for sARvhle:=10 to WiR do
+ 
+for MOgv:= 1 - 00 to 1 do
+WRITE faS;
+     srdii := 1;
+AOCal := 1
+       done
+ done
+done
+  done
+  
+done;
+ 
+WRITE WieCh * 1;
+  for Haiahle := Atevc * AASaito to 0 do
+WRITE 10
+ done;
+  MtiCi :=10;
+       
+faRv:=faeuh * 1
+    done;
+ for iaRC:= 1 to 1 * 1 do
+        for iAeahte := 1 to iOeChto do
+      
+WRITE WiCC * M
+done;
+ WidiE:=00 * 10;
+   WiSv :=00
+ done;
+  faRgitota := 0
+              done;
+MCkvlt :=1 - Wik * 00;
+         for HtCS:= MCitc to MAkC do
+ fadvE :=0
+done
+ done
+done

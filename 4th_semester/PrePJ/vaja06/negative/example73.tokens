@@ -1,0 +1,1 @@
+plus("+") minus("-") variable("Wes1") plus("+") float("6.0") minus("-") plus("+") lparen("(") variable("mer") plus("+") lparen("(") variable("v1") rparen(")") rparen(")") plus("+") float("2") rparen(")") plus("+") float("4.5400") times("*") variable("fosth") plus("+") plus("+") variable("R") times("*") float("2.6") times("*") float("3.6") 

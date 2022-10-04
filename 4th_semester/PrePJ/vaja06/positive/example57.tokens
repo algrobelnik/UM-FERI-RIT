@@ -1,0 +1,1 @@
+float("4") times("*") lparen("(") float("8") rparen(")") minus("-") variable("vLs") times("*") minus("-") variable("rost") times("*") variable("f2") plus("+") variable("Has") plus("+") float("16.13253") times("*") variable("WRis323") 

@@ -1,0 +1,42 @@
+ for fagtl:=iteghle * 1 to 0 do
+ Wikih:= 0;
+       for AACSh:= Hrgtht to WiduEteta do
+     for faCaE := 1 + 10 to 1 do
+ 
+seRgltota:= 1 * Wiigl;
+ fakCEtota := 10
+done;
+   WRITE fag;
+                 for faeg:=1 - faiSc to ACiSc * AAeict - A do
+          HtkvE:=00 * AOdSc
+         
+done;
+             WRITE 0 * 0;
+  for i:= 1 to MeCiilota do
+    WRITE FAda
+                  
+done;
+         Meevc:= 1;
+  HORvc := faii
+    done;
+       
+WRITE 0 * 1;
+    MOgil:=FrSvltota;
+       FAgCc:=0;
+ 
+iCevE :=stkv
+  done;
+     
+for fadu := 1 to 00 do
+    AOgS :=HtRCi;
+   
+HAeClle:= 0
+done;
+   ArC:=Arkth * 10;
+   for s :=Heiii to 1 * 0 do
+  for s:= ACdCiteta to 10 do
+           MrSui:=iOeC
+ done;
+iaSihtota := 00
+done
+  

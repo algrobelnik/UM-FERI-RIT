@@ -1,0 +1,11 @@
+ WRITE MriaE * 1 - 10;
+       for AAdS := F - 0 - 0 to 1 do
+Wiet := 00;
+          for sei := 1 to 0 do
+ Hekti := faSi
+   done;
+Mrdti:= 10;
+  ACCtl := 0 - ACkgl;
+A:= Are
+    done
+ 

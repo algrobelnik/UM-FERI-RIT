@@ -1,0 +1,1 @@
+lparen("(") float("1.10219") plus("+") float("517549") times("*") float("117549") plus("+") variable("faish") times("*") float("407549") rparen(")") plus("+") variable("g2") minus("-") variable("fisc3") 

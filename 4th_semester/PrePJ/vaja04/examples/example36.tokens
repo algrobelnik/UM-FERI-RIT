@@ -1,0 +1,1 @@
+variable("g") times("*") float("1") plus("+") variable("R2") minus("-") float("2.10203") plus("+") variable("B123") pow("^") variable("tac1") 

@@ -1,0 +1,33 @@
+ WRITE 1;
+ for Ateac:= WidSite to FaSChte - Meeu - 0 * 10 do
+          for Ateti := Wii to 1 + M + 1 + 0 do
+  Haevi := ACiii + i;
+     
+for sAktE:=10 to 1 do
+AteShte:= ACeahleta
+ done
+     
+done
+done;
+   HASah:= 1;
+        for FOeSht :=faith to 0 do
+for faSahlo :=AAgvht to 00 + 10 + 1 do
+     faiu :=Mreg;
+     faiSlt := A + 0;
+for A :=1 to 1 * 00 do
+      ArgCEteta := 10;
+  WigCltota:= 0;
+for iCgvi := Hrit to 10 do
+for HAeC :=1 to 1 do
+                 A:=Fagtlto
+     done;
+  WRITE 00 * FrS;
+iaig :=FOCSct;
+                 AeiiEto := Ftiu - itev * 1
+  done
+done;
+         iAialteta:=1
+done
+done;
+                    AARacle:=0
+     

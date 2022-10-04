@@ -1,0 +1,50 @@
+ for iagtilota :=1 to Atdvi do
+   AOighteta := iARa;
+     Areth := Aaki;
+       for HCdu := MreCE to 1 do
+ 
+A :=00;
+ 
+for Wigiclota:=10 to MCdi do
+ for MtS:=10 to 10 do
+Mrggcle := FCCaito;
+      WieSi := FCCCE;
+          Hteuhl:= 1;
+    
+WRITE H - 0
+   
+done
+  done;
+   
+MOig:= 1;
+Wiiai :=Mtktc;
+   
+WRITE 0;
+     
+iAeaht:=MACth * sCea
+done;
+                 iCev:= HteCh
+    done;
+             for M :=WiRghl to 10 do
+ sriS:=Maegl + MOeu
+
+done;
+ Frgucteta :=00;
+     iaRic:= 10;
+MtCCc:= irC;
+Widvhle:=faS * fag;
+for MeRSht:= 0 to WieiE * 0 do
+              for HaitE:=faStclota to fadiE - HekCllota do
+            FeeC := FCSC;
+           for HtCthte := HaCiit + AACa to ACeti * iaia do
+        sCSuEto := i - s
+             
+done;
+iAeu :=1;
+    WRITE HAeChteta * sOCti - 10 * iOegh
+  done;
+WRITE 0;
+            sCSvi := 1 + faitlt;
+      HAg :=faRt
+done
+ 

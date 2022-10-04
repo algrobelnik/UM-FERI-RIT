@@ -1,0 +1,53 @@
+for Meetl:=M to Hri do
+  WRITE HARC;
+ for stdCct :=srei to 0 do
+    M :=HCeSi;
+       MOg:=MCCChte
+      done;
+WRITE WiCih - iOegl;
+  MCCvltota:= Aaiuc;
+ faggE :=MAiv;
+              s:=1;
+    for ACRai:= Frkahteta to MOCalt do
+   Wiet:= 0
+        done;
+     for AAd:= Fedul to 00 do
+    iACai :=AedvEt;
+  for Frevi := 10 + fagvct - M to 00 do
+      for MaSS:=AOe to FAeti do
+         AOdgitota :=fadil;
+ MAitltota:= 1 * Wiial
+   done;
+
+for AAgScleta:=Aaka to 1 do
+  WRITE HtR - 10
+    done
+done;
+itSgEtota :=0
+ done;
+for ArCCh :=Wiev to 00 do
+fae := 1 * 0;
+     irdCil := MAegll * 0;
+WidCl:=WiRult;
+for faCS:=1 - 1 to 1 do
+         for faiCh:= iteuE to iOitE do
+     Heduh :=HAdi;
+          
+fai :=1;
+ faeCh :=1;
+for itkSEleta := 1 + HrSa to 0 do
+        Meevilota:=1 + fakuh;
+       
+M :=faRih
+       done;
+  for HaeuEt:=seeC - 00 - WiCScteta to 00 do
+AeCucto:=sOSgEte;
+         stevE := 1
+          done
+      
+done
+   done
+ done;
+  MARuE:=0
+     done
+  

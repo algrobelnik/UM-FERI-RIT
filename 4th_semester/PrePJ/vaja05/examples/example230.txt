@@ -1,0 +1,15 @@
+ AaCah := 10;
+
+for WidaE:=A to 1 do
+               fagalt := 0 - Wiet;
+      WRITE HOdghlota;
+FrSth:= 10 * MCgaht;
+         WigCEteta:=MOeSlte * 0;
+
+for faevh := 0 to MARtE do
+  irdC:=10;
+                   s:= 1
+done;
+ Wiet:=1
+  done
+   

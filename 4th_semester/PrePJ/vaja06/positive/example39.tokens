@@ -1,0 +1,1 @@
+lparen("(") float("267549") plus("+") minus("-") float("1.10013") times("*") float("2.50019") times("*") float("1.5") rparen(")") 

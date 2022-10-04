@@ -1,0 +1,1 @@
+lparen("(") lparen("(") minus("-") minus("-") lparen("(") variable("Wcs") minus("-") lparen("(") float("36.13203") rparen(")") variable("Wes1") rparen(")") plus("+") lparen("(") float("1.53153") rparen(")") rparen(")") float("2.14059") plus("+") float("2.0325") rparen(")") 

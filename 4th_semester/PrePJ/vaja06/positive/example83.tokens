@@ -1,0 +1,1 @@
+minus("-") float("6") minus("-") plus("+") lparen("(") float("3.1") rparen(")") plus("+") float("50.5421") plus("+") float("5") times("*") lparen("(") float("6.03219") times("*") float("26.00259") times("*") float("5.6025") minus("-") float("1") rparen(")") plus("+") minus("-") variable("gosth") divide("/") float("8.00119") 

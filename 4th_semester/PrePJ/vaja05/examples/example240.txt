@@ -1,0 +1,14 @@
+WiiCEteta:= 1;
+for s := ACdSE * 0 - 10 to faCSEle - 10 do
+                 WieCh := faSgi;
+for MOdaE:=1 to 1 do
+           Hrkac:=1;
+        WRITE iOCii * FOSvit
+    
+done;
+  AOiC:=MCgtl - 10 - 00
+  
+done;
+ 
+sad:=MCk * 1 - 0 * WiRaE
+         

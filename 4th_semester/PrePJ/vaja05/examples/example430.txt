@@ -1,0 +1,26 @@
+ for AAgth := 1 to 1 do
+for Mtith := MOe to 0 - 1 do
+  HARS :=fagah - 0;
+     WRITE 1 * 10;
+MCRultota := ieeihl * M;
+for ACku:=0 to FrgSE do
+  ArCS:=HOdahlo;
+  A :=MOetc;
+ seev:= HCguE + iakg;
+         for FaCultota:=Fti to 1 * faeuh do
+     WRITE faC;
+
+srkuEto :=0;
+    AtkCE := 0;
+     MrSSEle:= WiCui
+   done
+    done
+ done;
+ 
+FCRg :=MaeS + WiSah;
+  MaCCilota:= iagah;
+     iaiCE := AaSict * 00 * A;
+      
+MAeu := MAgvh
+done
+        

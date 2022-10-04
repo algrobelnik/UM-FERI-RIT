@@ -1,0 +1,32 @@
+ MeC :=saeictota * 1;
+    for Meeahle:= 1 to 1 do
+ Magihl :=00 + 1;
+         for faduhto:=MAetilota to ACCCE do
+  WRITE 00;
+    for HtdC:= 1 * MCdgc to faRSlt + M + 00 * 1 do
+s:=1;
+   for MOg:=1 to 10 do
+     irku := MeR;
+ AAgihteta:=MAgC;
+ WRITE MASSEteta;
+
+WRITE 0
+            done;
+      ArCC:=WiCtllota;
+ WRITE 1;
+  seea:= ACRihtota - faRaE;
+ for fadil:=HrRuh to 0 do
+       
+WRITE 10
+          done;
+           MtRClt :=1;
+   ArkuE:=HAeS
+done;
+    FCSui:= 0;
+ M:= 1
+ done;
+Wikg :=WigChlota - fakC;
+
+fagghleta:=0
+done
+  

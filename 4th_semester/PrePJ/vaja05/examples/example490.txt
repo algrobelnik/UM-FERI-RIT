@@ -1,0 +1,33 @@
+WRITE 0;
+   for Wieii:=0 to HACa do
+ FAevite:=fagSh + 1 + faiCc;
+      HaCu:= 1;
+    AOCSh:=faRS;
+sOSt:= 0;
+     
+WRITE s
+ 
+done;
+            HteaElota :=1;
+WRITE 0;
+
+for Mtiaito:= 10 - AreS * MeRih to 10 do
+           
+for AeR :=1 - fak to AtRghteta do
+     sreuitota := 0
+   
+done
+  
+done;
+                  
+s :=HARa;
+           for AtSS :=srgSh * HtSCcl * 10 to 1 do
+  Aega:=1;
+    WiC := 1
+
+done;
+irC:=00 + fagSht;
+     Maetclota :=HCCull;
+                     
+Wikgc :=1;
+    Htgic := 1

@@ -1,0 +1,50 @@
+for faSti := WidCEl * faCt to AARu do
+     WRITE 1;
+for HCeuht:=srRal to Feeih do
+for fakiit :=00 to 1 - 0 - MtSSit do
+WievEl := fakghto;
+   
+for WiRic:= 0 * irka + WiS - FtRuh to Hadvi do
+  WRITE 0;
+  WRITE FCRgElo;
+    Widulte :=0;
+           Mee := HOeulteta * Wie
+     
+done
+   done;
+                    
+for Mtgu:=F - 00 * Wietht to Atiuhtota + 10 * 00 do
+sedChteta:= 0 + faC + AagC * 10;
+WRITE 1;
+ WRITE MOgvite;
+ MtCahto := F;
+     
+ieevil:= 1 * 0;
+ itRCl := ACgvhto
+  done;
+        
+for F:= 10 to Fteih do
+     
+WieCitota:= steuc;
+for iACSi:= 1 to 1 do
+  fai := 00 + fadiE
+     done
+ done;
+ 
+Mae :=10;
+    
+F := HtgChtota
+    done;
+            
+faeal := 1;
+ FtSvEto:=faegc;
+             MteC:=0;
+MeRSc:=1;
+    for FeSCl:= 00 to MCg * A do
+for ArR:= MtCShle * AOi to A do
+ WiSthto:=0
+   done
+      
+done
+ done
+        

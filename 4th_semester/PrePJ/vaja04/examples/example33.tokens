@@ -1,0 +1,1 @@
+lparen("(") float("2.1015") rparen(")") pow("^") float("3") plus("+") float("61.6300") minus("-") variable("gaUcN") 

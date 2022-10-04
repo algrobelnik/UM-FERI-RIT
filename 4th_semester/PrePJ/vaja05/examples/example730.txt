@@ -1,0 +1,42 @@
+for sOCCi:=irgth to 1 do
+                   
+AteuEt:=Haeg;
+   sae :=sOdui;
+ for srei := 1 to AOi do
+WRITE Wiev
+  done;
+  for Aaevi :=00 to Hekg * 1 - 0 - WiiSh do
+     for faCtl:=1 * 0 * 1 + FOkCi to faC do
+     HeS :=0;
+ irkgE:= Aed;
+ MOCv :=10
+        done;
+             
+for AtCult := iCRuhte to M do
+for stSCht := saS + 0 to 1 do
+        WRITE 10 + faSah;
+  
+srdvE := MOeg
+done
+          done;
+M := iOSicl
+ 
+done
+     done;
+for MOeSh :=ieda to MrCtE - Megtilota do
+ iAdic := 10;
+     WieCE:=10 * 00;
+ for iOkvi :=1 to Mtgvcte do
+                   Mri:=0;
+ for MCSa :=0 to 1 do
+          for ArRuh :=1 to 1 * 0 - 10 do
+  WRITE fadac;
+  
+FAeS := iCgt * 0
+  done
+  done;
+fae:= Ate * Areic * 0;
+       Wik:= 0
+       done
+ done
+ 

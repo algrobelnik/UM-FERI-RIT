@@ -1,0 +1,22 @@
+ for M:=1 to 1 do
+ MOCSlte:= iCeiElo
+  
+done;
+  for stSiE :=iORShleta to 1 do
+             WRITE i;
+        WRITE 1;
+Wiku:= 10
+    
+done;
+  sASi:=seevil * 10;
+        AaSgh:= HrCS;
+ 
+for itR:= WigSi to i do
+      
+MAkiht:= 1;
+faeth:=10;
+    WRITE 1
+ done;
+    
+AAkillota:= Mteahto
+ 

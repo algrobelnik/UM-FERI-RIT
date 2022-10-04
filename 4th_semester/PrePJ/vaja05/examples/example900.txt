@@ -1,0 +1,58 @@
+ MrCiile:=1;
+ for Ftithteta:=0 to 1 * HaCvcto do
+ FAd:= A - FekvEte - AtCvll
+     done;
+    for Fai:= irdulteta + sAiC to 1 do
+  
+for srS :=1 to 10 do
+     HCe :=0 + 00;
+       Wigtl:= 1 - 1;
+        for MAi :=10 to Frggcto do
+ HeeCEle:= 00
+
+done
+          done;
+      for WiCvh := FOetE - 0 * 1 to AregE do
+                
+F:=1;
+     WRITE 0;
+       sadiEto := A;
+
+WRITE FrRihl;
+      A := AtRgcleta;
+
+WiRthteta:=1 + sORa;
+for fakail:=00 to A do
+WRITE 1;
+WiiCi :=10 + 10;
+     for WiC:= HaCt to Meka do
+               for Ardtlte:=00 to 1 * 10 do
+       for sCivi:= 00 to AeRC do
+for Mtgih:=10 to 1 do
+
+for FtiCiteta := 1 - MeCahteta to iARt do
+WRITE 00 + WiSi;
+ 
+AtRal:= 10
+    done
+   
+done;
+            WRITE AOdChl;
+
+Wiia := 1;
+HOgvi:=FteuE
+          done
+
+done
+     done
+      done;
+       steiltota :=WiSu;
+   Wie:= 0;
+ WRITE 1;
+ faSSi :=Hrk;
+  
+faduct:= 1
+  done
+ done;
+Wig :=AOCt - AeeCiteta
+      

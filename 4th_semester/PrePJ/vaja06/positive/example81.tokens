@@ -1,0 +1,1 @@
+variable("WREtNt") minus("-") lparen("(") plus("+") float("2") times("*") float("2") plus("+") float("1.1") times("*") float("3") pow("^") variable("RLUs323") times("*") float("1") plus("+") float("3") plus("+") float("1") times("*") lparen("(") float("2.13209") rparen(")") rparen(")") times("*") minus("-") float("117549") plus("+") float("11.0") 

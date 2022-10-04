@@ -1,0 +1,1 @@
+variable("R") plus("+") float("5") times("*") lparen("(") float("3.1") rparen(")") plus("+") lparen("(") float("5") times("*") lparen("(") variable("gisEht") minus("-") float("3") rparen(")") plus("+") float("2") times("*") float("4") rparen(")") 

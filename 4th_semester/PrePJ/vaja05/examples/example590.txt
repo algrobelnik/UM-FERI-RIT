@@ -1,0 +1,40 @@
+for MOdg:= 10 to 0 do
+ 
+for WidiE :=0 to A do
+   MaiChle:=10 + FtSvh
+done;
+  WRITE 1 + A * 0
+  
+done;
+   for faeClt := 1 to 1 do
+              for s:=1 to 1 + 10 * Wiki do
+    for fakScteta:= sAk to 1 do
+WRITE A;
+MAii:= HOCuh
+done;
+Widvite := seiCht;
+ M:=F + MAeChle - 10;
+for itCuhte:= A * 1 to 1 do
+ for ACSg:=1 to 10 * 1 do
+     WRITE 1;
+   
+AedCi:=M;
+      MACiE := AOktc
+     
+done;
+  
+Heku := 10
+          
+done;
+ WRITE ieeSl
+  done;
+  for A :=iORCh to 10 * 0 do
+for FOCvilo:=WiiSlt to seeai do
+   for FORu := Wikth to 1 do
+    WRITE iAiSh
+ done
+done
+      done
+                
+done
+ 

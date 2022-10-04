@@ -1,0 +1,1 @@
+float("6") plus("+") lparen("(") variable("rRdsN") rparen(")") minus("-") variable("tiU") times("*") float("56.00213") plus("+") float("4") plus("+") variable("targN") times("*") float("5.0") 

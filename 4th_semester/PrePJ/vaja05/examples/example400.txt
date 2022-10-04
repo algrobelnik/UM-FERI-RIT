@@ -1,0 +1,25 @@
+faka :=AAdacte;
+for i :=faiC to faeall - 1 do
+   WRITE 1;
+  
+for faS:= 10 * 0 to irkaltota do
+ WiRt:= 00;
+HtRgllo := 00 - M;
+    FrdaE :=Aadvc;
+ ACRSh:= 1;
+fakthteta :=Aaeuhte;
+   
+FeRuhtota :=10;
+MaSth :=HeggElota * 0 - 10;
+iAkaEl := 0 * 0 * 0 - i
+  done;
+  for irRth := FCCiht to 00 do
+
+FOguit:=1 * 1;
+ 
+A:= saCv
+  done;
+    FeCi:= iriulleta - 00
+   done;
+     WRITE sAev * AeCChte;
+         Aeg :=FCSa

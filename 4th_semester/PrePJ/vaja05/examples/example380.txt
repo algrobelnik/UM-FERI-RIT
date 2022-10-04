@@ -1,0 +1,23 @@
+ WRITE 0;
+for ACe:= 0 to 00 * saRuc + 1 do
+      
+for Widac :=1 + i to WikvEt do
+     AeivE:= 0;
+   sOkCE:=1
+    done;
+            AAdullota :=M;
+for HCg :=Wiegct + WikSh - 1 to MORCc + MOeghl do
+  AaRa := 1;
+WRITE 10;
+  AOeSh := MrSvi;
+for AARC:=Wiegct to 00 do
+ HaR:=10;
+                     MAda:= MCCg
+ done
+   done;
+   
+A:= 1
+     done;
+    
+WRITE MOgght * 00;
+ sedg :=WigvEleta

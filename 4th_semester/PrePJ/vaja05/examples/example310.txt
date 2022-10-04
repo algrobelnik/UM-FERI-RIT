@@ -1,0 +1,17 @@
+ for faCa:= Meeg to 1 do
+ Aeigh:=0 + MCdille;
+WRITE AtdiEtota;
+        sekvileta := AAd
+ done;
+      for faeS :=00 + 10 to Aeg do
+         for Wieu :=1 to AaeCEt + 1 do
+   for MtkShtota:=HCCalt - srdii to 0 do
+         WRITE 0 + Wiki + seRul;
+         Maeaitota :=1
+  done;
+   WRITE 10
+   
+done;
+MtgC :=1
+done
+ 

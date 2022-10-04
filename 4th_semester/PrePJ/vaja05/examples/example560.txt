@@ -1,0 +1,33 @@
+for HAS :=A * 1 + steihte to A do
+   i := F * 1
+       done;
+FCea:=1 * 00;
+    AOCuile :=AeeSlleta;
+      
+for Wiiuh := 0 to 10 do
+for ACSt:=FOegl to 1 + 0 do
+
+for fakul := 00 * ArCvh to 10 do
+  iCRuct:=10
+     done;
+ sCdih:=1;
+    for fagvl :=FtRCct - Wiet to FrCtc do
+           WiCt:= iOk
+   
+done;
+  for sAC :=10 + seRa to 00 do
+    Wig:= WieaEtota;
+    AAegl :=MOkt;
+for HrRS := 1 to MaRvhte * Wiii do
+      Hedacl:=faSShtota - 1
+     done
+ 
+done;
+                WRITE 10
+  done
+done;
+
+ArkSh :=1 + HCiS;
+          stdvh:= MagtE;
+   Mrdth := 10
+            

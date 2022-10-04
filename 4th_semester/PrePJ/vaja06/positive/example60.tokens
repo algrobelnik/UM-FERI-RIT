@@ -1,0 +1,1 @@
+minus("-") lparen("(") variable("GLc") plus("+") minus("-") lparen("(") variable("m1") times("*") variable("rarte") rparen(")") times("*") float("5") rparen(")") times("*") variable("virth") plus("+") lparen("(") variable("War") plus("+") float("3") rparen(")") plus("+") minus("-") float("5.1") 

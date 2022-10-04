@@ -1,0 +1,1 @@
+variable("HARSl") assign(":=") variable("FtStite") semi(";") variable("MOSSht") assign(":=") float("1") semi(";") for("for") variable("MaRSi") assign(":=") float("10") minus("-") float("0") to("to") float("10") do("do") variable("AOi") assign(":=") float("00") semi(";") variable("faStcleta") assign(":=") variable("Arki") done("done") 

@@ -1,0 +1,1 @@
+lparen("(") lparen("(") variable("g2") plus("+") variable("t2") plus("+") variable("mar") rparen(")") rparen(")") plus("+") variable("g2") plus("+") lparen("(") variable("B") rparen(")") times("*") lparen("(") float("3.1") times("*") variable("rert323") rparen(")") 

@@ -1,0 +1,1 @@
+float("1.14059") plus("+") lparen("(") lparen("(") float("6") times("*") lparen("(") float("4") rparen(")") plus("+") variable("fesg") divide("/") float("1.0401") rparen(")") minus("-") float("5") times("*") float("3") plus("+") variable("gLUEe") rparen(")") plus("+") float("40.5") times("*") variable("geUt") times("*") float("4") 

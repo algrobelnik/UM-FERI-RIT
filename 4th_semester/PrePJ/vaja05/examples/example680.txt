@@ -1,0 +1,41 @@
+ Wiiiclo:=FARth;
+
+Mregc :=seiCil;
+  for AeCti:=1 to AACtl do
+for faCCi:=1 to 10 + MrCSlt do
+                    for Mtkille := 10 to 1 do
+   
+WRITE 0;
+     Mtdvhte:= 10;
+     for faC:= MCeCh * fagSito to 1 do
+  
+for WiiC := FARil to 1 do
+     for Mei := Magt to 0 * 10 do
+ WRITE 1;
+                         
+iOCu := HeC
+       
+done;
+  for HaeSE:= srgCh to Arkght + AOetit do
+  for iaeu := 10 to sCkS * AORa do
+  ieSgito := HCgvh;
+MeeiEto := WiRvhteta * 10
+done;
+    
+WRITE sAkv;
+ WRITE 1;
+ HaeCh :=00
+      
+done;
+                 WRITE 0;
+       Aag:= 10;
+ Frku := 1;
+ WRITE AreChteta - 1
+     done
+done
+                     done
+  done;
+WRITE FeRah
+          done;
+WiCtll:=10
+     

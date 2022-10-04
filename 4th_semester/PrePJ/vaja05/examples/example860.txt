@@ -1,0 +1,49 @@
+ for s := 1 - 00 to HadaEle do
+ for Medt := Wieai to 1 * 00 * MACS + MCeill + Mri do
+   for HtRvc :=ACCClto to MASuc + WigCh do
+saeSiteta:=AtCghteta + 0
+          done
+ done;
+    for sAkih:=1 to ArRa do
+fagS:= iCkvclota * sOei + 1;
+irRg :=Meegcto
+done;
+   fagaht:=0;
+    faSthteta := 1;
+  HAgail:=AOeSlt * 1;
+
+for MOial := faeS to MOkvc do
+  for iAkaE := 1 to Wiiu do
+ 
+WiiCl :=1;
+        
+HrgS:=faRvhto
+done;
+             WRITE AaeSh;
+Aegtl := A - HeeaE + 10;
+       
+for faCCh :=1 to HACSh - FAevh * 10 do
+             
+WRITE MtSih;
+   MrRt:= 10
+done;
+for iee:=sOSg * 10 * 1 to 10 + MtSCl * 0 do
+ FCeihtota:= MCggi;
+for fagailota :=1 * AeCu to AARvctota do
+  MekC :=1
+  
+done;
+       
+WRITE 1;
+  Heeahl:= MtgaEt
+  done
+     
+done;
+MtgC :=stkuE * 1;
+  faeScl:= fadac * 00
+ done;
+  for ACeil :=1 to Frei + MCSa * fagi do
+   WRITE sagS * F
+  done;
+WRITE iaRSc
+ 

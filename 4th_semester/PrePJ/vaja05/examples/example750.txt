@@ -1,0 +1,43 @@
+ for s :=faRSh * MOSCit to 0 do
+for Mrkvcleta := 00 * 10 to Mtdtl + 10 * 00 * 10 do
+  for Wiiv := AekiEt to Mrkihteta do
+  Wiiic:=1;
+  s:=FAeSh * ACgSh - s * WiSClleta + 0;
+   FtSS:= MrS + AeCt + 0;
+AaRalle:=faegi;
+AAkalteta:=1;
+    
+for s:=1 + 1 to A do
+  
+Wid :=AACCE;
+    WRITE FCi;
+  ieggE:= MeeC
+done;
+
+MAev:= FeSui + Mret;
+ for i :=1 to 1 do
+ AOiv:=HeetE;
+    for i := s - s to AtSv do
+ FCeSl :=sARC;
+       
+WRITE AOdg;
+ faRah:=Hrd;
+sOCacl :=AARgi - 10
+   done
+ done;
+       Wiiuc :=1 + 0;
+AekCcto:=00;
+    faeSile := Wievl;
+  for faeail := iCS + FAeih to 1 do
+   A := WiSCcl * AOSvh;
+ArCCi := 0 - 0;
+       H :=faivht
+     done;
+   for faStEle:=10 * 1 to AeCvlt do
+    HCkth :=MCRv
+done;
+    HrSi:= 1 * MtSgct + 10
+       done
+ done
+   done
+ 

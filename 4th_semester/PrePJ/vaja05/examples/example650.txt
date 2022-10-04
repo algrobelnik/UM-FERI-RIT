@@ -1,0 +1,39 @@
+for faSuhleta:=HriSiteta to 00 do
+
+F := saevhteta;
+          for MeRght := 0 * sOiuctota to sOeCc do
+           Wigu := Mekih - AadCl
+
+done;
+           HeRv:= HekS;
+        for Wiet :=faiC to 1 do
+  
+sCSvhto:= 1 + AAgght;
+       WiS:=MtRCi - Mtggi
+  
+done;
+   for Atkihto := iAev * 1 to M do
+ for Wik :=sOkg to 1 + Meeu do
+for MOe:= Wieg to 1 do
+WRITE Wieg * sagC
+
+done;
+   FtiS:= 0
+done;
+for AORCEle:= fadth to 0 * iae do
+  FrdChle := MCea;
+AaSthleta :=10 + i
+        done;
+        H := 1
+done
+ done;
+   for sOdt :=FOdtl to WikSit do
+  for iaea:= 00 to MCRSl do
+      for Wig:=0 to 00 do
+HeC :=MORuh
+   done
+done;
+                    
+i := 1 + ieRaE
+done
+

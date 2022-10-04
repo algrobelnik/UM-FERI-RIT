@@ -1,0 +1,15 @@
+WRITE iCgvEto;
+for Arig:=1 to 1 do
+  WiiShtota:= FedgE - 10 - 0;
+   for MCiu :=1 to 1 do
+MARiEto:=MeCi + 1;
+ Aagg:=MaeuElota - FrgaEle;
+for faRv :=10 to 1 do
+     AtSSc := AtSihleta - 00
+   done
+      done
+  
+done;
+iOCac := 0;
+ WRITE 1
+                   

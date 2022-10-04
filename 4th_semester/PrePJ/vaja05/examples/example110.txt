@@ -1,0 +1,9 @@
+ for MCRSh := 0 * 10 + Hekv to iCRgh do
+F :=1;
+   
+ACRi := 1
+     done;
+
+WRITE MCigh;
+ WRITE Aaethtota + ACkvi
+

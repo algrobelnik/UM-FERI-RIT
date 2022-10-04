@@ -1,0 +1,16 @@
+for sCeiEto := 1 to FOeCcle + 10 + A * 0 do
+  MARtE:=iAgu;
+   Wigihleta := 1;
+   for fad :=0 to 1 do
+    for fagu:= Atetht to 10 do
+       Wikvh:= AARCh
+    done
+  done;
+Atd :=fagtht;
+        A:=Mtiill
+   done;
+   for AriC := itgt to 00 * 10 do
+          WRITE 10;
+      
+AakChl:= 1 - sOSt
+done

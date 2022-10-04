@@ -1,0 +1,26 @@
+AORvE:=faCu;
+           for WiCS:=Wietl to 10 do
+      for AeiShl:= Maetclo to AOeS + Aeeilteta do
+ AOki :=10 * faial * 1;
+    
+for M:= 1 - 10 to 1 do
+      AOeSl :=HOdCite;
+     WRITE 00
+  
+done
+done
+done;
+      M:= 10 * 0;
+ for faiuh := M to 10 do
+    
+Areg :=10;
+    WRITE AaC;
+   M := MegC;
+      faRi :=1 + HAC * FCRCito;
+         for faSCil :=MtRCi to AOdihleta do
+    MOdS:= FreaE;
+   for FOCvhteta :=F + 1 to 0 - iAkgi do
+iAdSlt:=1
+      done
+ done
+ done

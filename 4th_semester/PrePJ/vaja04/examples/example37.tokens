@@ -1,0 +1,1 @@
+variable("mis") plus("+") variable("f1") times("*") variable("B2") times("*") lparen("(") variable("t2") rparen(")") minus("-") variable("BeEEe") times("*") float("4.0") 

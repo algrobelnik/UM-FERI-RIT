@@ -1,0 +1,1 @@
+lparen("(") lparen("(") variable("t1") times("*") variable("a223") times("*") lparen("(") variable("aLig") rparen(")") times("*") float("4") times("*") float("5") times("*") variable("maste") rparen(")") rparen(")") minus("-") float("2") 

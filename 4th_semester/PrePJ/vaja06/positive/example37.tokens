@@ -1,0 +1,1 @@
+lparen("(") float("1") times("*") lparen("(") variable("tes") rparen(")") times("*") variable("B") rparen(")") times("*") float("2.1") plus("+") minus("-") float("86.00259") 

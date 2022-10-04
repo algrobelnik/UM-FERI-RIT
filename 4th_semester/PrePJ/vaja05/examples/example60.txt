@@ -1,0 +1,4 @@
+for AORChtota :=1 to faCv * iOeghle do
+    
+WRITE iekiite
+ done

@@ -1,0 +1,58 @@
+ HaSuE:= 1;
+Wid:=10;
+   FrCt := 00;
+    for AtSglle := HCkShlota to 1 do
+  
+for HrSCh:=AedSEl to 10 * AAegcte do
+for i:= s * 0 to 0 do
+             WRITE 1
+   done;
+MCgah := 1;
+         A :=FOSvi;
+ for HOSt :=WiC - sad to 10 - Wiiti do
+    for AeiShto:= fai to 00 do
+     for HCeCclo := ieCu * 10 to 1 do
+    for FAeul := 1 to 1 * WiS do
+ for Wiigctota:= 0 to 0 do
+  AORa:= Wid;
+    for faiihlo:=1 to 0 do
+        
+MrSClto:= 1 + 1 * ACRCE;
+ 
+for A :=AtevE * 00 to 1 + 1 do
+Aret:=MCSChte
+ done;
+  for sCgvh:=1 to 00 do
+FrCacteta:= sARC;
+for ACCCE:= 1 to 1 do
+       WRITE 1
+   done
+done
+     
+done;
+    WRITE 00
+done
+  
+done;
+MrkSc := Wigthto
+  done;
+MAiihte := Ardvh * 1;
+  WRITE faiCh
+               done;
+ sekuh := 1;
+   
+Atevilota:=1 * 10 * M
+ done;
+ Maiuht := 10;
+ 
+WRITE MCdiito * Hrdvhl;
+MrCu :=Wiea - 1
+         done;
+  for M := faCaltota to 10 do
+for fagg := 10 + 10 to HtSt do
+    WRITE Wieac
+    
+done
+    done
+       done
+          

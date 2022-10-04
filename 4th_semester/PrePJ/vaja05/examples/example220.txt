@@ -1,0 +1,13 @@
+for A :=10 + ACii * F to 00 * 1 do
+        
+WikSc:=0 * 1 - 00;
+    WRITE 00;
+    for FOegllota :=Wigtc * 10 to faSiEto * FOkSlt * 0 do
+ WRITE faktlto
+done;
+ Aaith := Frkthtota;
+WRITE 0
+       done;
+ HCigl := 1;
+    HCRC:=00
+   

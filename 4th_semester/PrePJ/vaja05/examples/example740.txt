@@ -1,0 +1,45 @@
+for seeg:=1 to MCR do
+         AaRSi:= WiRaEto;
+       AtSuh := 00
+done;
+for AeCSlte :=Magth to 1 do
+                 for iaCvht:=1 to 10 do
+     WRITE 1
+ done;
+    for Aaivhlota:= 0 to 00 + 1 + 10 do
+FARu := 0;
+   
+for AaCgh :=1 to HOSti * HCiahto do
+ WRITE faRS;
+ for AaSvEt:=itd to HCi do
+     WRITE Meev;
+   for FOg :=1 - 0 to 0 do
+  for MAegil :=AeRg to AAktllota do
+     
+WRITE 1 * Madait
+   done;
+              iCdvit := 1;
+   itCi:= stSgctota
+ done
+ done
+    
+done;
+ for A :=1 to stiuil - 0 - 00 - ireiht * 1 do
+   
+for MCe:= 10 to Wigall do
+ MASih :=10;
+        
+Argt := 1;
+        irRv:=irCthto
+ done
+
+done;
+      Wieah :=AreS * 1 - iteS;
+           for M := 10 to 1 do
+   AtiC := MAk + 1
+done;
+  FAeSEleta :=ACdCE * 1
+ done
+  
+done
+  

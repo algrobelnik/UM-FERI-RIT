@@ -1,0 +1,43 @@
+ for Ardih:= faR to 1 do
+          for iregl :=MOdgi to 1 do
+             for fakicte := iOdg * sAiCl to 0 do
+   for MOS:= s * saeuhto * Aaei to MAivc do
+      
+for HtCgll:=00 to Aaii - 1 do
+for Mrkvhte := 0 to A * 0 do
+for FAdthtota := 1 to 0 do
+ for HaRuhteta:= WiiuE to 10 * AtCa do
+     faduh := 1;
+        WRITE 00
+  done
+   done;
+MaCgl := MeC;
+  
+MrCSE := 0;
+Wiei := 10 + Aegictota
+done
+                    done;
+      for MOk := MaSth to 10 do
+   
+itSvh := 10 + 1;
+          irSa:=faeg
+done;
+for MCeac:= iCSg - 00 to 1 do
+ 
+ACeSh := 00;
+  Wikt:=1 * 10;
+WikC := 1 - 10
+         done
+  done
+
+done
+     done
+        done;
+           for A := fad to Aeea + 1 - 1 do
+    Hagghl:=1;
+ AreSh:= 1 * 1 * 00 + 1;
+   srggEle :=M;
+                                       Mrkt:= 1;
+    MAR := 1
+             done
+      

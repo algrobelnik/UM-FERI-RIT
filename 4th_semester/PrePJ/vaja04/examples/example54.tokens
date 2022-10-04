@@ -1,0 +1,1 @@
+lparen("(") lparen("(") variable("gLith") plus("+") float("2.04209") pow("^") variable("W") rparen(")") minus("-") float("21.13219") times("*") float("3") times("*") float("2") minus("-") variable("mEcEe") rparen(")") 

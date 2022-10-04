@@ -1,0 +1,1 @@
+variable("feDtht") times("*") variable("G1") plus("+") lparen("(") lparen("(") float("1") rparen(")") rparen(")") minus("-") lparen("(") variable("aiss") rparen(")") 

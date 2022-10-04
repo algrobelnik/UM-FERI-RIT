@@ -1,0 +1,18 @@
+ WikSlt :=Mrgg;
+ 
+ACRg:=MrCahte;
+    for Mtev :=faeS to 00 do
+            for irCgc:= 1 - FaSSh * Mteui to itdCcte do
+             s:=10 * H + 1;
+   HOea:= iOkCit;
+     WRITE MaitEl;
+   WRITE 10 * 1;
+  HOig :=0
+     done
+          done;
+ for HAivh:= 1 - Mrdv - 10 to Mre - HadtE do
+  WieuE:=00;
+  MOe := 0;
+     ArktElo := 1
+  done
+                  

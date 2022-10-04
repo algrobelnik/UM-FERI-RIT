@@ -1,0 +1,1 @@
+variable("Bedsh") times("*") lparen("(") float("1") times("*") variable("WRi") times("*") float("16.5") rparen(")") plus("+") float("5.1") minus("-") lparen("(") variable("HeE1") rparen(")") times("*") float("5") plus("+") float("3.0") 

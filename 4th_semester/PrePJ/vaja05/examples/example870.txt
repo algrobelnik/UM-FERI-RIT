@@ -1,0 +1,56 @@
+for fae := srCC + iAgv to HAeu do
+ WRITE 00
+ done;
+   
+for MACCl:=00 to H * 10 do
+       for ACggE := MeeCile to 1 * 10 do
+ saeS:= 1
+   done
+
+done;
+            
+for Aed :=00 to HtRCh do
+         
+AeCShte := AOe
+done;
+for HrRSh:=AOeSht - FaR + Wieth to 1 do
+
+MAg :=FtSii;
+for Aae:=0 to Heigh do
+  
+for AOSaEt :=00 to faSCht do
+
+for Wikg := 0 - Wikiitota to 10 do
+    M:=1;
+for MCdv := HOSghteta to 10 do
+for fadtito:= itiChto to AAetE do
+         WRITE AtS * 1
+    done;
+      WRITE 0
+  done;
+
+MeCth:= iOSvht * 1;
+AAdal := 0;
+    for MakgE :=faguhtota to iOkCE do
+    Mriahto:= 10;
+            stiCElo := 10;
+                
+WRITE 1 - 0 * 00;
+ 
+faggct:= 0
+done;
+ WRITE 10;
+ F:= HaRvEtota
+ done;
+      WRITE iaiuh
+  done;
+ WRITE 1
+      done;
+        Wiiilt:= faCa - 0 - 1;
+   for fagah:= 1 to FOkth do
+  Mtei := faRuc
+    done
+ done;
+ MtCvhto :=0 + Frd * 1;
+  Mrkv := 1
+ 

@@ -1,0 +1,19 @@
+ WiCS := irdSl;
+    Ftevllo:= faRChte;
+WRITE 1 + 1 - 00;
+for AeSvhto:= WiduEtota to 1 do
+    for fadtito:= AaiCE - faCth to 1 do
+faeac := 1
+ 
+done;
+   WRITE HCRgE * FaSSc
+  done;
+ieeShto := sAktc - FOe * MaiC;
+Fektht := 1;
+ iegg:= 0;
+         for MAe:= 10 to 10 do
+   HORCE :=1;
+ for fadShte :=MOggite to 10 do
+   WRITE AARCh
+  done
+          done

@@ -1,0 +1,1 @@
+variable("WaU") minus("-") lparen("(") variable("GEr") rparen(")") plus("+") float("1.14219") times("*") float("1") minus("-") lparen("(") variable("GaE") plus("+") float("2") pow("^") float("317549") rparen(")") times("*") float("4") plus("+") lparen("(") variable("aasch") plus("+") float("4.13019") rparen(")") 

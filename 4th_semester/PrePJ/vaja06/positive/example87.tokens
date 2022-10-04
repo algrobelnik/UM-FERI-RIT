@@ -1,0 +1,1 @@
+float("2") times("*") lparen("(") variable("gerE") divide("/") variable("gort") rparen(")") times("*") lparen("(") lparen("(") variable("G") plus("+") lparen("(") float("31.13253") rparen(")") rparen(")") times("*") variable("BRsE") plus("+") variable("B1") plus("+") variable("gaDt") times("*") float("20.5") minus("-") float("60.13259") rparen(")") times("*") variable("t2") 

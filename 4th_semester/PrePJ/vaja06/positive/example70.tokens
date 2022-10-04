@@ -1,0 +1,1 @@
+variable("gcsth") divide("/") variable("vcith") plus("+") plus("+") lparen("(") minus("-") variable("f") times("*") lparen("(") minus("-") variable("v1") times("*") variable("gREtN") times("*") variable("m223") times("*") minus("-") float("6.5") rparen(")") times("*") variable("riUEe") minus("-") float("2.6") rparen(")") 

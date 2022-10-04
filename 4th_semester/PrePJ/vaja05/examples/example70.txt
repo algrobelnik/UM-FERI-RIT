@@ -1,0 +1,3 @@
+WigC:= Wiegltota;
+         Wigac:= MaRSito - 10;
+            AARCi:= HeiaEleta

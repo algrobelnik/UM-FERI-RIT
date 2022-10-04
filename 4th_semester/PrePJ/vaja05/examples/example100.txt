@@ -1,0 +1,6 @@
+ for sae:=10 - 00 to 10 do
+M := faeih * 00 * faivit
+ done;
+  itdgite := MARgEte;
+      FAdtltota :=10 + Ftk
+ 

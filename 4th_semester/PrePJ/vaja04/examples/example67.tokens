@@ -1,0 +1,1 @@
+lparen("(") variable("Harg") times("*") variable("RcsgNt") divide("/") float("2.5") divide("/") variable("aeEE323") plus("+") lparen("(") float("3.0") rparen(")") rparen(")") plus("+") variable("Hir") plus("+") variable("fiEE3") divide("/") float("2") minus("-") variable("gei1") 

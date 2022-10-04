@@ -1,0 +1,1 @@
+float("5.6") times("*") float("60.0") times("*") variable("WLss") times("*") lparen("(") lparen("(") float("1.6") times("*") variable("WodtN") times("*") float("4") rparen(")") pow("^") float("5.5") rparen(")") times("*") float("1") times("*") lparen("(") variable("tostN") times("*") float("3") times("*") variable("Rasc") times("*") float("4") times("*") float("6") rparen(")") 

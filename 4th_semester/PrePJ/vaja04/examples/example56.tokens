@@ -1,0 +1,1 @@
+variable("WRss") plus("+") float("4.5") times("*") variable("HLEce") times("*") lparen("(") float("21.1") rparen(")") times("*") float("40.5") times("*") float("31.5") times("*") lparen("(") float("8.6") rparen(")") plus("+") float("1") 

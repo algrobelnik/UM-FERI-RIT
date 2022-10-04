@@ -1,0 +1,10 @@
+ FCC :=10;
+                 for MrRaltota:= Mtk to HaRuh do
+
+for sCgai :=M to irCSc * 1 do
+         
+WRITE 00 - 0
+done
+ 
+done
+      

@@ -1,0 +1,1 @@
+lparen("(") lparen("(") minus("-") variable("mocc") times("*") minus("-") float("6") times("*") variable("BecsNt") times("*") times("*") variable("t") variable("mRrget") plus("+") float("6") times("*") float("6.1411") rparen(")") times("*") float("6") times("*") float("4") 

@@ -1,0 +1,20 @@
+for saeil :=00 * MteCcl to 0 - iOeChlo do
+
+for iAkah := 1 to 1 - MARv do
+                   for Mtei:= 1 + faeih to 10 - MAeucto do
+   for MARCh:=Mrevit + ACdv to fagCE do
+ for Frgvc := 00 * HtRuEteta to 1 do
+          
+ACe :=1 * 0 - 10;
+    iAdC := 10 * 0;
+    WRITE 1
+  done;
+ AeeSilo := H
+ 
+done
+      done;
+seSacte := 1 + 10
+ 
+done
+      done;
+     ArSt:=Wigu * 0

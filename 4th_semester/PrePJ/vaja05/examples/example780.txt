@@ -1,0 +1,42 @@
+MAgvc := HreiE;
+for AeS := 10 - 1 to 1 do
+       for stiuElota:= 10 * Mreu + Arevl to fadSc * FOdaite + 10 do
+  A := MeSill;
+ for faR:= HOk to 00 do
+      A:=MCkghteta - MOkih;
+
+M := 0;
+  for AOeuiteta:= 00 to FOivh do
+
+AOku := WiSCit
+  done;
+       for iOdS:=Mtkv to 10 + fakSElota * 1 * iCCv do
+  faev:=1
+   done;
+    ArRtc:= 1 * Wii * 10;
+  WRITE 10
+  
+done
+   done;
+for FCRSEte:=FOi to 10 - 10 do
+FrRi:=1 * Aeei;
+    WRITE HAguEt;
+     for Wieuhlo := AOiaEto - WietE to Hakgc * 1 * HAet do
+    ArStit:= 0;
+ for MACvc :=F to iARviteta do
+           iCSvi:= FtSaEl
+                     
+done;
+   fadu:=10 * sCkaite;
+  Mrigcto := Faea
+  done
+      
+done;
+   fakvhlota:= AaRulto - 00
+       done;
+fagiE :=10;
+    for iagS :=00 to Ardu + 10 do
+  WRITE 10
+done;
+ faga := irCvi
+     

@@ -1,0 +1,1 @@
+ garEh + ( 5.6 * WLDE * WoDtN ) - 417549 + g2 + rcst * tLit - GRD - 5 

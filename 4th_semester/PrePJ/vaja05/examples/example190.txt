@@ -1,0 +1,13 @@
+for i :=0 to 1 do
+WiRuEleta:= 1 * AOetil;
+     
+Wik:=1;
+   for FaS := AaeSl to 1 + MreC do
+  for HAdCEteta := MCRii to 00 do
+  MtSSi :=FOgth
+      done
+      done
+ done;
+   
+FCgvl:=1 * 1
+    

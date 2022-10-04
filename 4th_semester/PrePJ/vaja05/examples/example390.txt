@@ -1,0 +1,24 @@
+ WRITE 0;
+   for MCRSl :=sCgi to 1 do
+            HORa := Ate;
+
+for Mtighl :=seevE to Wieu do
+    Mtev := 1;
+ AOdihlo:= ieeCh - saSiE
+  
+done;
+    faeahlo := 00;
+  
+AAg:=iaSuhteta * MOiillo;
+HORa :=itCu;
+  MekSctota := 0 * Widvht
+  done;
+   HtiCh:= 0 * AeSCE;
+WRITE WiiC;
+ for Mteth := 1 to Wie do
+     iaduEle:=10 + 00 + s;
+       AAggilo:=0;
+  iaevi :=MARgh
+    done;
+     WRITE FtRS
+      

@@ -1,0 +1,18 @@
+WRITE 1;
+         Mtdtc:=MCeti * 0 + Wigthl * iOCuh + AeCCE;
+  MtgCh:=FOCglt + WigaEt;
+             WRITE 1 * Ftgghlo;
+      for Makgh :=stiv + 0 to 10 + 10 + faCS * 10 do
+    Meeic :=MCdu * 1;
+   Argvh:= 10 * 1;
+  
+WRITE MegiE;
+
+Wieah :=Mteuctota;
+ WRITE 1;
+    iACiil :=1;
+ 
+sAkSh := MCCul;
+  fae:=0;
+    MAevcte :=10
+done

@@ -1,0 +1,28 @@
+MCSvcl:=HCdui - Mreihtota;
+       WRITE 0;
+   AOethle:=10 - 0 + HrCaclota;
+     
+MaSC:= 0 - 1;
+   iASucle := irSShl;
+   for Mrii :=FadCh to AagiE do
+ Atdull :=HtCChtota;
+ MCRiE:=1 + AAkSl + 1 - s * AAiCc;
+ Wiga :=MteC - sCduE - 10 - 10;
+           WRITE MeeC - 1 * 0;
+for HrCtE := 00 to fag do
+  
+MORgh:= 0 + Heg;
+      
+iedacleta :=AACvE;
+
+for Wieuh := A - 0 to 0 do
+ WRITE WidaEt
+ done
+   done
+          done;
+      WRITE 1 * 10;
+
+WiiC:=H * MCkvh;
+WRITE sadac;
+  ACdah:=ArCvi
+     

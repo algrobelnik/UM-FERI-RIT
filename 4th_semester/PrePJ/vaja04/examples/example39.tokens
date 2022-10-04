@@ -1,0 +1,1 @@
+float("1") times("*") lparen("(") variable("t1") rparen(")") times("*") float("1.0000") minus("-") float("367549") pow("^") float("1.14209") 

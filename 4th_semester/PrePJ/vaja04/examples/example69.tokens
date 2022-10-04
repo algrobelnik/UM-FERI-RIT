@@ -1,0 +1,1 @@
+variable("GiD") plus("+") float("4.6") divide("/") lparen("(") float("3") pow("^") variable("fcr") times("*") variable("v123") rparen(")") minus("-") float("6.5") pow("^") variable("HRcE") plus("+") float("36.13209") plus("+") variable("resc") times("*") variable("GaDcN") 

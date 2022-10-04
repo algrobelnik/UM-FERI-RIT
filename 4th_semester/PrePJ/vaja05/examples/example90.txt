@@ -1,0 +1,8 @@
+for fadal := 0 to 00 do
+sCS :=Meeai;
+         
+HCgthlota:= 1;
+       AtR:= Mtka
+  
+done
+  

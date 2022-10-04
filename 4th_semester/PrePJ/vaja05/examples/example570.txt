@@ -1,0 +1,37 @@
+for WiiSl:= 1 to HCCah do
+  for AtR:= 10 + 1 to 1 do
+  
+for Haktl :=ACkah + M to 1 do
+ 
+WRITE AOCv - FAeu;
+     WiCuhleta:=00 - 1;
+   
+AOggcto := 1 - 00
+     done;
+         for Wietl := 1 to 0 do
+  for HOCv := 0 to MeiCEtota do
+F :=MOevhte - 1 * 1
+     done;
+    
+Atithleta:=0 * 1;
+          
+faiaclo:= Fadv
+ done;
+WRITE 1;
+  AtRic :=MAeiito
+       done;
+
+for stg:= 1 to 00 do
+     for F:= HtiCE to 1 do
+   WRITE 1 * 10 + irev;
+         WRITE ACgihl;
+          
+WRITE Widahl;
+AaggE:= srg;
+              WRITE 10
+           done;
+    WRITE sCgS
+            done
+        
+done
+  

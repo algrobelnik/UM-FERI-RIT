@@ -1,0 +1,1 @@
+lparen("(") variable("fRssh") plus("+") lparen("(") float("3.1") minus("-") variable("BRD") plus("+") lparen("(") float("267549") minus("-") lparen("(") variable("vaE") times("*") float("6") divide("/") float("1.0") rparen(")") minus("-") variable("gir") rparen(")") rparen(")") rparen(")") 

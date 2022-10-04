@@ -1,0 +1,1 @@
+lparen("(") variable("WRd") times("*") variable("vcs1") plus("+") variable("tLc") minus("-") float("6") times("*") float("10.6") pow("^") variable("GEUt") minus("-") variable("WasEh") rparen(")") plus("+") float("5.6") plus("+") variable("HeEte") times("*") variable("g") times("*") lparen("(") float("5") rparen(")") 

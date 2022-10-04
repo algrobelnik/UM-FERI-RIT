@@ -1,0 +1,1 @@
+lparen("(") lparen("(") lparen("(") variable("WaUt") plus("+") float("5.10003") times("*") float("5.0") rparen(")") times("*") variable("m2") rparen(")") minus("-") float("5") times("*") float("21.1") minus("-") float("1") rparen(")") divide("/") float("5") divide("/") lparen("(") variable("Hes1") times("*") variable("Hcsth") rparen(")") times("*") float("2.0") 

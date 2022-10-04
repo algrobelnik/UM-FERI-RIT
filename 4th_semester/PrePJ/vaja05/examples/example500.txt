@@ -1,0 +1,31 @@
+M :=1;
+    for MrkC:= 1 to 10 do
+    
+Mregi:=iORSh
+  
+done;
+ for ACe:=0 to 1 do
+    for HOdi:=iak to 1 * 00 do
+              for fadv := FaktEt to WiCv do
+
+for HtStlteta:= 1 to 00 do
+  for seStE:=1 to ArCClto * 00 - faeSlteta do
+    AaRgEtota:= 1 * 1 + 1 * HtSil;
+    M := 1 * HrCSE
+    done;
+  
+WieaE :=M - FAdi * 1 - 1 * MAe * 0;
+WRITE 0;
+      F:=sAgti - HOeg
+       done
+    done;
+           for A :=1 to 1 - FOegEl do
+         WRITE H
+
+done;
+  
+Aretl :=00
+done
+        done;
+     MAgac := 10 - 10
+    

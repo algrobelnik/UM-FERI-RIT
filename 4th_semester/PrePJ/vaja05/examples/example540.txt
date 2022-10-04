@@ -1,0 +1,32 @@
+for Wieu:= Fteacto to Meitl do
+WRITE 0 - 1;
+
+H :=ArCCit + F - Widgi;
+        FOeSl :=sOCShtota * 10 * 0;
+    WRITE 1
+   done;
+srSi:= faial;
+ WRITE 0;
+stgtllo :=Atdil;
+       for Wieg :=1 * iaea to Mretltota do
+            WRITE 1;
+   for iCeu:=1 to WiS do
+       for faRSE :=MOkSh - 10 - sagCh to iAdi do
+    MtRvlt :=00;
+   iAkii :=M * 1
+done;
+      Wikaltota:= A;
+     for MrCCE:=00 + 1 to Medgi do
+ Wigtitota:= 10;
+  fak :=1 * MreSl + FaRa
+   done;
+             
+sOCS:= 1;
+ 
+AOducte:= Aekgc
+ done
+    done;
+      
+WRITE 00 * 1;
+  MrCvEleta:=0
+  

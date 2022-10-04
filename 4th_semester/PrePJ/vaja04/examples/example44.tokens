@@ -1,0 +1,1 @@
+lparen("(") float("1") plus("+") variable("fEste") times("*") variable("f1") plus("+") float("2") times("*") lparen("(") lparen("(") variable("merE") rparen(")") times("*") variable("rLdth") rparen(")") rparen(")") 

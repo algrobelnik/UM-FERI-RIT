@@ -1,0 +1,34 @@
+ A:=iAit;
+  WRITE 10 * i + 1;
+ for AeSahlota:= HaRthte to sOetE + A - 00 do
+  Ati :=AeeC * iaSiiteta
+ done;
+  for M:= faeuile to Aek do
+ for Argth :=iagvct to 1 do
+     faiiE := 00
+ done;
+for MOevit := 0 to 1 do
+iCkSl :=0;
+ 
+MeC := Megac
+done;
+   MaRthtota:= Wiitht;
+   AOetEto:= 00 + Mriti * A;
+
+MACSileta :=AOR;
+                  for MAgilt:=iOd to 1 do
+   
+FeRCl:= AAi
+       done;
+     Meiicl:= Mteiite;
+        MaSih :=H;
+          MCSil :=0;
+     FtRgct:= 1
+      done;
+  for Mtgtl:= 00 to 1 do
+  for Wiegi := 1 to 1 do
+    MrSSlt := A;
+    Wiegh:=iekS
+      done
+    done
+        

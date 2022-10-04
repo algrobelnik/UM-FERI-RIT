@@ -1,0 +1,61 @@
+for fakuhtota:=AACv - HASS * 10 to 10 * WieCEtota - 00 + 10 do
+for Atit:= 00 to 1 do
+       stdC :=MaCuh;
+   for faRuhlo := Mtg - Aaeu to Hretit do
+    
+FOR:= WiStE;
+  WRITE itkvlteta;
+  FOCuEt:=saeSc;
+ for sOethto:=faevct to stiu * 1 do
+ A:=AtRu + 10;
+   
+for seRCl:= sreah to faR do
+ M :=10
+ done;
+ArdSlt := Wie * Ftk + MCetE;
+ for sAial := 00 to irSuc do
+         for FCiCh:=10 to 0 do
+   stkChlota:=Mrgt
+  done;
+   MAS := sACtE;
+            
+FedCi :=faiSE;
+Mti := 1;
+   for MtevElota:=10 to 10 * 0 do
+    
+ACSa:= MrgCht;
+ faSiE := 0;
+  WRITE 0;
+              iaRt :=0 * 00
+   done;
+  
+faeg := WiCC;
+for sCeCl:=1 to 0 do
+ 
+fag :=10 - MAevEt
+   
+done;
+    Htgihle:=faeCE
+  done;
+  A:=Mriil
+   done
+done;
+ for AtSa := 0 to 1 * M * 1 do
+    saiih :=sAk * AOdtE;
+  WRITE FtdSlte
+   done;
+fada :=MAS - 0;
+for HAgvi:=1 to MOeiE do
+  srCuhlo:= A * 10
+      done;
+      
+FACuEl:=1
+  done
+       
+done;
+ for faktEt := Wiiilto to 1 do
+   Wig:= 1 - Ftegi + 1;
+stiiEleta:=0;
+   MCguh :=0
+         done
+            

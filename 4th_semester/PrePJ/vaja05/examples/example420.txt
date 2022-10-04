@@ -1,0 +1,27 @@
+A :=10;
+for WiCCh:=1 to FARaE * 10 do
+         WRITE 0;
+ for MaSC:=1 to iriSh do
+  
+for WidaE:= 1 - WiRuile to Mtkg do
+     for ACSti := ACeghlota + 1 to 10 do
+ Wie:= 0 - iCe;
+AtdC:=1;
+ FOSg:= HadSc;
+ WRITE ArkC * 0;
+     Feei:=AaeCh
+      done
+      done;
+   HrgClte := Hagi;
+  WRITE MCiu;
+
+MegCclota :=FtCii + iCeait
+ done;
+for Fagii:=MrktEt to 00 do
+for MAggh := HtR to WiR - 1 do
+faR:=00
+done
+  done;
+   ieiCE:=AORC
+ done
+  

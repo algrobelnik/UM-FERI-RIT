@@ -1,0 +1,1 @@
+lparen("(") variable("mosg") divide("/") variable("WEssh") times("*") lparen("(") lparen("(") variable("GarE") rparen(")") plus("+") float("2.0") rparen(")") times("*") lparen("(") lparen("(") float("5") times("*") variable("BRs") minus("-") float("1") rparen(")") rparen(")") times("*") float("1.1411") times("*") variable("G1") rparen(")") 

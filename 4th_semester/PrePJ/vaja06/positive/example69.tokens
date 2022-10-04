@@ -1,0 +1,1 @@
+variable("vasEht") times("*") minus("-") float("5") times("*") lparen("(") lparen("(") lparen("(") minus("-") variable("gRisNt") rparen(")") minus("-") variable("Gertht") plus("+") float("417549") rparen(")") rparen(")") minus("-") float("4") times("*") minus("-") variable("tciset") divide("/") variable("g2") 

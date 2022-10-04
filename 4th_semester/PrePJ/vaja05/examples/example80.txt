@@ -1,0 +1,4 @@
+ MtkClt:= fae;
+     irk:=10 + 1;
+AORii:=1;
+ ieit:= sOeaitota - fakghto * HeRC - 0 - F
