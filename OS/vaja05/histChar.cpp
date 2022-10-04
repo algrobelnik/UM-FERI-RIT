@@ -1,6 +1,5 @@
 #include <cstring>
 #include <fcntl.h>
-#include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <iterator>
@@ -26,7 +25,6 @@ void printHelp() {
 
 int main(int argc, char **argv) {
   try {
-    namespace fs = filesystem;
     string type;
     int bSize;
     map<char, int> hist;
@@ -139,5 +137,5 @@ int main(int argc, char **argv) {
   } catch (const char *err) {
     cout << err << endl;
   }
-    return 0;
+  return 0;
 }
