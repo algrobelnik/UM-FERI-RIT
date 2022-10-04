@@ -1,0 +1,6 @@
+ WRITE +00 * +ACS;
+   for HrRChteta:= 1 + +FOeCl to 00 do
+   MCRgltota := Wievh
+ done;
+WRITE 1
+  

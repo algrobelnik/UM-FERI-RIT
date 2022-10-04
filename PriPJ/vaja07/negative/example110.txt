@@ -1,0 +1,7 @@
+ for a:=( 10) + 10 to 1 do
+   WiRCEteta:= MOCah
+  done;
+ WRITE 10 + +-((10 ) ) + iA;
+   FeRtc :=a;
+faeui := A
+    

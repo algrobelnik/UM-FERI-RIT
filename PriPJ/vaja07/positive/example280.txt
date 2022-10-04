@@ -1,0 +1,19 @@
+for FOdSc:=10 to Aretcto * fadC + 00 do
+ 
+for faduit := 1 to AegChtota do
+     
+for ieg :=Meevc to 10 do
+  MaRg:= -1 * FaiCh;
+i:=F * 0
+         
+done;
+   iei := -10;
+  WRITE ACCgh;
+ stgg:= 00
+ done
+
+done;
+WRITE 0 + Wigghlo + -WiiSctota;
+                 
+AAStlt := Haeu
+           

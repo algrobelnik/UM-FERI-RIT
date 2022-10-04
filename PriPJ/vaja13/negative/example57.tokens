@@ -1,0 +1,1 @@
+lparen("(") float("6.1315") times("*") float("4.1") pow("^") minus("-") float("5.0") times("*") lparen("(") minus("-") variable("mRd") divide("/") float("61.0") rparen(")") plus("+") variable("fargh") times("*") times("*") float("3") rparen(")") rparen(")") 

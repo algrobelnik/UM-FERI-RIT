@@ -1,0 +1,53 @@
+ for AtRv :=0 to MreuE do
+ for sedv := AeCahlota to 10 - 1 do
+ WiCS :=0 * 1 - 10
+  
+done;
+MOdvi := fai - 1
+done;
+for AeguE:=MrdSE to 10 do
+       Aegic := 10 + 10;
+   for FORaclo:=0 - MadS to 10 do
+   
+for fakSht:= HOevhto to M do
+ for MaCuhl:= 1 - FCii to FCRtltota do
+     
+Makt := 1;
+ 
+for Ftgvc:= MreC to sCeth do
+for ireiht:= steal to Hae * 1 + 1 do
+WRITE MtCShtota
+  done;
+   FOgucle :=00
+        done;
+     for Frevc :=faRvE to Hteih do
+  MeSvhleta:=00 + -MAei;
+WRITE 10;
+    HORul := HOe;
+   M := 1;
+                
+Wie := 10;
+HaRS:=AagiE;
+        for Meeacl:= 0 to MCetllota do
+ WRITE 00;
+      
+WRITE +Hrkult * Wid;
+       WiSa:=0 + 1 + AAdilteta
+done;
+ iaCtc := 0
+    
+done;
+  MAS:= 0
+  done;
+
+sakgil:=1;
+  for M := Widihtota to ACCihto do
+A:= s
+ done;
+       
+FeRihlota:= HAegh - 1
+     done;
+  WRITE -Aai + itkactota
+    done
+         done;
+    M := +MrRCltota * +MtdClte

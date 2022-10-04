@@ -1,0 +1,32 @@
+MtCtl:=0;
+  iteC:= i * HCgC;
+ i:=HOk;
+  
+WRITE HCgih * Widvhle;
+ 
+WRITE AORuh + Widvh - iOeii;
+         for A:=MaCv * Maegh * MOet * 10 * 0 to Meeul do
+   WRITE iCda
+  done;
+ 
+AaSii:=-i;
+       Frgihteta :=+WiiSE;
+              A:= 10;
+     MaeSl:= FOdtcteta * 0 + i + 1;
+        for MrdSElota:= 0 to 1 do
+ 
+MrkiE:= Mriai;
+          FCeallo:=saiaE
+      done;
+ 
+for MekvEtota:=ArRCEt * ieeuite to AACal do
+          Wikt := 1
+     done;
+for iteic :=1 * 10 to -00 do
+    MAiiltota := Mrdillota;
+     F := 10;
+    FreS := -1;
+    MCRaclota:=1
+        done;
+ Wieg:=fadClto
+     

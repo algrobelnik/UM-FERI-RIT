@@ -1,0 +1,5 @@
+H:=-WiCCht;
+for Wieui := fadCE to M do
+ WRITE -WiRC
+ done
+

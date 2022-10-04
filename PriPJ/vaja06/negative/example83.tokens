@@ -1,0 +1,1 @@
+plus("+") float("30.0") lparen("(") variable("gcctet") divide("/") lparen("(") lparen("(") float("10.1") rparen(")") rparen(")") rparen(")") plus("+") variable("g2") times("*") variable("BerEN") plus("+") float("31.04259") times("*") float("5.1") divide("/") variable("GLdE") minus("-") float("6") times("*") variable("v1") times("*") variable("BLig3") 

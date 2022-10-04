@@ -1,0 +1,7 @@
+ for M:= 00 to HtRah do
+   Fti:=0 - 10
+                    done;
+     steuEteta :=1;
+for WiRChleta:= 00 to 0 do
+  WRITE 1
+         done

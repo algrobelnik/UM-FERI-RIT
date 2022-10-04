@@ -1,0 +1,47 @@
+for MCk:=0 to +1 do
+   WRITE faeCh;
+ ACev := 0 - F;
+   WRITE 0;
+MaRth:= Makti;
+     
+for ieeah:= 10 to AAei do
+ for MASg :=faetht * 10 + 1 to iOR do
+   
+for Aegv := 1 * 10 to 1 do
+   sedgEtota := 10;
+sOgSh := faeChl + sAkacteta;
+  FOiShlo:= 0;
+           for faeg:= -Widih - 1 to MAeic do
+  for Faiuhto := MtRgi to faegh do
+fae:=sCRg
+     done;
+    Wig:= 00 + Fag;
+for M:= 00 + Fedv to sAkCi do
+  Wika:= 1
+ done
+     
+done
+  
+done;
+    
+WRITE sACihtota - 1;
+HaStEl:=-10 * 10;
+       
+sCeiElota:=1 + WiCvh;
+  
+WRITE H
+done;
+      for MCk :=1 to 1 * 0 + 00 - 00 * AAith do
+for MCCai:= ieeaEto to 1 do
+         fag:=-i + Wiguh
+done
+done;
+       WRITE ieeCitota;
+     WRITE HekSi - 1 - Wii
+       done;
+    fagiE:= 1 - 10;
+ ACkg :=-fad
+   done;
+ WRITE 0;
+  fakSile:=1
+    

@@ -1,0 +1,17 @@
+ M :=-0 * -1 * FeRCl + faiiileta;
+  s:=AAk + 1;
+  WRITE MCgvhtota;
+    for Meevcle:= AaRulte to faSCi do
+   Maiahte:= 1
+         
+done;
+   for HtRg:= faRuhl to 0 do
+FOgu :=00
+ done;
+ 
+for Wiea := Hadg * 10 to Haivh do
+     for iCSCct :=0 to s * ACigi do
+     AASth:=fak
+done
+done
+             

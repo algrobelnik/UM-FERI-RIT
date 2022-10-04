@@ -1,0 +1,1 @@
+lparen("(") lparen("(") variable("res") plus("+") float("16.00219") float("5") times("*") minus("-") float("3") variable("gisE") times("*") lparen("(") float("1") plus("+") variable("gcD123") rparen(")") rparen(")") rparen(")") rparen(")") 

@@ -1,0 +1,1 @@
+variable("GasE") divide("/") variable("Gcrget") plus("+") float("50.64003") times("*") lparen("(") float("4.6") plus("+") float("167549") times("*") plus("+") variable("WaD") rparen(")") 

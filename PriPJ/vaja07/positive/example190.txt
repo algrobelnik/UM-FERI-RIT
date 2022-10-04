@@ -1,0 +1,12 @@
+AreCc:= FCggEte;
+      
+for MAeSitota :=HaRah * fagi to 00 do
+    
+for M:=-faSCh to stSth do
+          MCkiEto:= 10 - 1;
+  Wieu:= HCi
+ done;
+ 
+M := MCSu
+       done;
+   MCRa:= -1 + 0 - +Aedv

@@ -1,0 +1,8 @@
+ nebti:=10;
+ 
+HtRSctota:=amig;
+  
+aabSi ( Avb );
+    M:=1;
+       Fmdvh := 0
+  

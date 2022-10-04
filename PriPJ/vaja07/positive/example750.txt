@@ -1,0 +1,45 @@
+WiSul := MAkChteta;
+for Wikih := FCkvi to 00 do
+
+for s:= iakih * 1 to 0 do
+     M :=-AASCE
+      done
+
+done;
+ for fadactota := ACeu to 1 do
+  for faSvh :=10 to ACgt do
+   sCCSh :=ieCg
+        done;
+for faSv:= Aeeact to 0 do
+H:= 00
+  done;
+   for faCul :=1 to iaetc do
+            WRITE Mret;
+     HtRvElo := 10 + 1;
+    HaiSEte:=HtevE;
+           for MCkiEto :=-1 to 1 * Maivl do
+WRITE 0 + 1;
+ 
+HAea:= 00 - s;
+ sOCg := HCiuE;
+                  itRClteta:=1;
+for HrSu := Arkii to faSuE do
+     for FAevc := 0 to 10 do
+  for MtRvhte :=1 to 1 do
+           
+segSc := 1 + 00;
+HrSilteta :=10 + sAd + iaRSh;
+Wigil := 1 + 1
+   done
+done
+done
+          
+done;
+WieC:= 00
+
+done
+done;
+for Htivhtota := 10 to Meevc * AtSaiteta do
+     MeSv := 10
+          
+done

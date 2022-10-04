@@ -1,0 +1,6 @@
+srk:= s - faeahto;;
+  for AmgCi :=10 -- -0 + Ma * 0 -- +10 to jvd do
+       lneti:=-0;
+         
+laCu:= 1 + FeiiElo * 1 * lCSglt + -fak
+done

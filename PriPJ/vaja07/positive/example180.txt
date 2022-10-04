@@ -1,0 +1,11 @@
+ACdC:= 0;
+        Maegc:=i;
+   
+HAe:=MCki + -10 + 1 + 10 * -A * seku;
+        
+WRITE ACkih + A;
+ for iaeChto := MOCthle - +10 to +10 - FrCvhte do
+FCS := 0 * WigaE;
+ WRITE Wii
+ done
+   

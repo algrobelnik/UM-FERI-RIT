@@ -1,0 +1,1 @@
+for("for") variable("M") assign(":=") float("00") to("to") variable("HtRah") do("do") variable("Fti") assign(":=") float("0") minus("-") float("10") done("done") semi(";") variable("steuEteta") assign(":=") float("1") semi(";") for("for") variable("WiRChleta") assign(":=") float("00") to("to") float("0") do("do") write("WRITE") float("1") done("done") 

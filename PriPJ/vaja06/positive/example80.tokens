@@ -1,0 +1,1 @@
+lparen("(") float("3.6") times("*") float("10.13219") plus("+") variable("rosgh") rparen(")") plus("+") lparen("(") variable("t1") plus("+") minus("-") lparen("(") lparen("(") float("1.0315") times("*") lparen("(") float("4") minus("-") float("5") times("*") variable("GED") times("*") float("5") rparen(")") rparen(")") rparen(")") rparen(")") times("*") float("3.0321") 

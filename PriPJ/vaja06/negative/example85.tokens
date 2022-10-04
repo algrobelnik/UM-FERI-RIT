@@ -1,0 +1,1 @@
+variable("H1") times("*") float("5.6") times("*") variable("t123") times("*") times("*") variable("vLrc") minus("-") float("60.5401") variable("r123") plus("+") float("8") divide("/") float("51.03053") times("*") float("4.10013") times("*") lparen("(") lparen("(") variable("BeU123") rparen(")") rparen(")") times("*") variable("WLig") 

@@ -1,0 +1,46 @@
+ WiRghl:= 0;
+ WRITE +10;
+ for F:=1 to +0 do
+                MeduEtota:=00;
+ for MOggct:=1 to 1 * 1 do
+   
+FAR := 0
+  done
+       
+done;
+  for stRii := 10 to FCkCi do
+    
+Mtd :=0;
+ Haga :=1 - 1;
+     
+MAe := HOeSE;
+                
+faeal:=0;
+  for WiC:=i - ACkSil to -10 + +0 do
+
+MCeS:=Arduct;
+   for sadC:=-Argtite to 0 do
+ WRITE HAdChto;
+     for AaRtht:=WieCE to sOk * faSa do
+MACCEtota:= 0;
+        WRITE 10
+ done;
+      Wieti:=MCkvhte
+  
+done
+   done
+  done;
+      
+for itigE:= 1 to 1 do
+i:=MAeCl;
+ WikvE :=-iOCCEteta * MOkuct;
+
+WRITE -1 - +1 + Wig;
+    
+for HCit:= 1 to -ACev do
+    WRITE MCSthl
+  done;
+   iCducteta:= 1;
+Aeggh:=MteChl
+ done
+            

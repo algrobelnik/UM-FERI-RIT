@@ -1,0 +1,1 @@
+float("5.03059") plus("+") lparen("(") float("3.0") rparen(")") minus("-") float("6") plus("+") float("4") minus("-") float("1.1000") 

@@ -1,0 +1,5 @@
+ for AteCEt 1 to 0 do
+ 
+nAgt:= faSalteta
+   done
+   

@@ -1,0 +1,11 @@
+ WRITE -10;
+             
+for lekuc :=00 to (0 ) do
+Wi:=aOdil
+done
+  
+for n:=:=-00 to -( smk * 00 ) do
+ Atiul := (MrRiht );
+      WRITE stkCh
+  done;
+HrSvi:=( ( 1 ) )

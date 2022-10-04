@@ -1,0 +1,23 @@
+for faeC:=-ArSulte - 0 to 1 do
+      M := Atial;
+  
+for Ameuite:= 1 to st do
+    for MeSgi:=(1 * 0 ) - -00 + ltgCh to 00 do
+  
+WRITE 1
+  done;
+for FedSEl:=WiiCh to (10 ) + WieSlt do
+  MOetht := 00;
+     for anCah:=10 to smd do
+ j := -jtS
+done;
+av :=1
+       done
+         done;
+  HOC:= 1;;
+WRITE Amigl * ( inCt + nmRih );
+       
+sm:= 10 * 1
+ done;
+ lvSiite:=-fa
+         

@@ -1,0 +1,32 @@
+ for ivSilt := -0 to -1 do
+ 
+a:=-1;;
+     WRITE (faRuc );
+   
+AAiiil -1;
+
+FtRth:=1;
+        Ht:= sneicte;
+  HnbS:= -Wiethtota;
+     Wig :=:= Wik;
+fadai := 00
+       done;
+  nAdCi:= 0;
+      for Arei 1 to jre do
+        
+ArCaE:= +1;
+ Magac Mreailo + Are;
+  WRITE 1;
+        
+for j:=-10 to 1 * jCdiE do
+              WRITE MA + 0 * 1;
+     jv :=( nAg - aaCtctota );
+ M :=faeCh + 00;
+  WRITE -10;
+ HvbSh:=atetiteta
+      
+done;
+       anCahle:=((-1 ) + itgal )
+ 
+done
+ 

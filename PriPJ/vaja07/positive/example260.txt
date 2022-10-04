@@ -1,0 +1,14 @@
+ for AteC := -1 to 1 do
+    Fteih:=MCeuEt
+   
+done;
+for MteChto:=+iCSSi + -ieevite to MCkucto do
+ HAetiteta:= -Arithte - +Wikvi;
+ WRITE 1;
+       AeRthleta:=AOeg + s;
+    
+WRITE 0 * 00
+ done;
+              for sreg:=M to -00 * ArSC - sARi do
+      M := 0
+  done

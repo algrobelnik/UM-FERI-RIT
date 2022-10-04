@@ -1,0 +1,12 @@
+ faSg :=-1;
+  
+WidSEl :=Maiullo;
+  Ftgvit:=1;
+          ArSaht:=1 * -AadaE;
+ sOeCE:=-10;
+     FtRSh := WiCC;
+for fak :=AreChl to 1 do
+      MAdtllota:= F;
+            WRITE 1
+     done
+                  

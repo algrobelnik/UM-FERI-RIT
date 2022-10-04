@@ -1,0 +1,1 @@
+variable("Birge") times("*") minus("-") lparen("(") lparen("(") lparen("(") float("80.14153") rparen(")") times("*") times("*") variable("aErt") rparen(")") 

@@ -1,0 +1,45 @@
+ for WiSuh :=0 to 10 do
+ WRITE steSl;
+      for Mtda :=0 to H do
+     
+ArkCc:=1 * FtRgEteta;
+    WRITE 1;
+ for Wikthte :=1 to 10 do
+WRITE fakShlo * 00 + +FASSh * +Wiet
+ 
+done;
+            for HCkCl := M + fagal to 10 do
+ACRv := iOe
+         done
+      done;
+ 
+for AeSgh := 1 to 1 * A do
+  HAea:= Fegv
+done;
+    Meiiilo:= 10 * 1;
+     
+for steic :=-00 * fakCh to +00 + 1 * Arggi do
+        for MCda :=1 to 0 do
+         WRITE MOig
+      done;
+ for Freic := srgaitota + 1 - 1 to Ard do
+
+MrRict:=1;
+             iakvh:=1;
+iagucle :=MAgv;
+                
+MASSh :=i;
+HCet:=1
+               done
+   done;
+    MeSS:= -0
+ 
+done;
+
+WRITE +AOCvcl;
+ for MeRCEtota:= AACact to HaCahteta do
+           
+Wiivh:=1
+    
+done
+ 

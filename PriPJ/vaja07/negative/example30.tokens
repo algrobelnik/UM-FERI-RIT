@@ -1,0 +1,1 @@
+variable("jvg") assign(":=") lparen("(") float("1") times("*") float("0") rparen(")") semi(";") variable("s") float("10") 

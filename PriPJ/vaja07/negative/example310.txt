@@ -1,0 +1,18 @@
+for lr 1 to MAdSi do
+WiSa:=MAe + nm + MaCai -- 10 * 1 * -( MOSuileta ) + lO
+   done;
+           
+for s := MmSa to imduit do
+    M := 1;
+ j:= ( 1 );
+   for Angai:= l to AOdu do
+ 
+Maigi:=10
+      done;
+ 
+saeu:= 0;
+ for fagt:=0 to 10 - MA do
+  FORa := MmCict + ( -(1 )) + iv * Wiei + 0 * 00
+       done
+        done
+  

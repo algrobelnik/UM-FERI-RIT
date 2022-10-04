@@ -1,0 +1,1 @@
+minus("-") lparen("(") float("3") pow("^") variable("mertht") times("*") float("3") times("*") float("1.1") divide("/") variable("g2") times("*") variable("Wcd") times("*") variable("B2") rparen(")") plus("+") minus("-") lparen("(") float("3") times("*") minus("-") variable("WiUth") rparen(")") plus("+") float("4.54119") 

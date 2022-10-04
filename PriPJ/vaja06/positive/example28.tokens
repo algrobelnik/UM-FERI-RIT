@@ -1,0 +1,1 @@
+lparen("(") variable("rLrE") pow("^") float("3.5000") times("*") plus("+") float("3.1301") rparen(")") 

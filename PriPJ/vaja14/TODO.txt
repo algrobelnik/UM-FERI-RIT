@@ -1,0 +1,3 @@
+formalno opišemo jezik (cfx syntax, EBNF) -> ANTLR -> PARSER.java, lexAnalizator.java, semantični del (___ OR visitor) -> dodaj logiko v semantični del -> nato pa pokličemo main program
+z orodjem lahko zgeneriramo dremo določenega primera, ki ga nam omogoči ANTLR (zgenerira topdown parser LL(*))
+

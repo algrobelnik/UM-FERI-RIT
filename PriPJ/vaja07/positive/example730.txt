@@ -1,0 +1,41 @@
+ i := 0;
+FrRgitota :=faduE + faRtltota - 1;
+   for s :=-Widthlo + FedvE to HrCth do
+
+for Wiki := Mtguc to ACgthle do
+  for MreiE:=-0 + -Ftegh to 1 do
+      WRITE Wikaitota;
+  for faCti:=sOS + -0 to 10 do
+     WiSSlleta:=Wievh
+done;
+    Atiih :=HtSSE;
+    WRITE -0;
+            sadt := HAgvi
+  
+done;
+           for Wida :=00 to 0 * sCe do
+WRITE MCg + sAgv * s
+  done;
+   for WiSuh:=WiCCh + 10 to 00 + 10 do
+  for AeRgh:= +Frivc - 1 to 00 + 1 * 1 do
+          for AekShte := MOkth + -1 to 0 do
+       Aeka := 0;
+
+WRITE AOdg * 10;
+               A :=-1;
+ 
+Madgct := 0;
+ Widtit := faRa * MCeCil;
+ MCkg :=Htegh;
+ faRvi:= A;
+ 
+WRITE -ACegctota
+            done;
+     WRITE FOStilo
+done
+  done
+ done;
+      MtCCEtota:= 10
+    
+done
+     

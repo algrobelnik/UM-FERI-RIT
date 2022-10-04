@@ -1,0 +1,1 @@
+variable("aLUE") times("*") variable("Hcrt3") times("*") minus("-") variable("Gascet") minus("-") lparen("(") lparen("(") lparen("(") variable("R1") rparen(")") float("317549") rparen(")") 

@@ -1,0 +1,10 @@
+for faSgE := WiSSc to 10 + Mteth do
+HrkSc :=00;
+     saiiiteta :=1 - 10;
+  irgt:=0;
+     WRITE ieeg
+  done;
+ i:=10 + faeahlo * 10;
+     
+WRITE MCgCc
+  

@@ -1,0 +1,1 @@
+minus("-") lparen("(") lparen("(") float("10.00013") rparen(")") times("*") lparen("(") variable("BLsc") times("*") variable("f") rparen(")") plus("+") float("4.5") rparen(")") minus("-") minus("-") variable("giss3") 

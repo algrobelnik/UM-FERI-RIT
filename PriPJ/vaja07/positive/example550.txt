@@ -1,0 +1,34 @@
+ MOS:= ACki;
+   for M:= AaRic - 1 to +1 - -MASCcleta do
+   for AOdah:=10 to iACthleta do
+  WRITE +MtgS + 10
+done;
+for AARS:=10 to +1 do
+
+for MegS:=1 to -Htd + 1 do
+   for AAe :=10 * AtSvc + 0 * -1 * i to i do
+
+faRvl:=Megiiteta;
+   MrS:=00 - +Wigacl + 0;
+     srkv :=1
+      done;
+ 
+WRITE Hrgahte;
+  
+HAgC :=-1;
+
+WRITE faCg;
+     for fak :=AeeS to 1 do
+         Atgulte :=faCac
+  done
+ done
+          done;
+FeRghto:=HeSalt;
+for MaSgh:= ArSSE - 1 to -HeSC * +10 + 0 do
+          WRITE MeSSE;
+ 
+HriS:=+1;
+  faguhteta :=-10
+                  done
+  done
+  

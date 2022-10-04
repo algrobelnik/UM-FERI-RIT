@@ -1,0 +1,16 @@
+ MaSg := Wieth;
+    
+Medihte:=1;
+
+for stegh := AtRvc to Wiguite do
+HtgSc := 10;
+     MteCh :=0;
+           
+faSg :=10;
+     MeduE := Madtllota * 0;
+ Faegh := 1;
+                            WRITE 1;
+ 
+WRITE AtSv
+  done
+ 

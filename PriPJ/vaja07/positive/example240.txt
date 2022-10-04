@@ -1,0 +1,14 @@
+ MCRtiteta:= -1;
+ 
+sreal := MegCite + MAiu * faCS;
+      for FOdg := 00 to 0 do
+Mrkahto:=Aeeght;
+     Wik:=0 - 10 - 00;
+    for MOkuEte:= 00 + 00 to A do
+ for FOd:= 1 to Hegaiteta do
+ fadSE := stgCht * 1 * -1
+  
+done;
+   AAeuE :=10
+  done
+     done

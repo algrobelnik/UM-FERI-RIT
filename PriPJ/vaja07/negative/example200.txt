@@ -1,0 +1,14 @@
+lC:=sAkgE;
+   for M:=-1 to 00 do
+
+WRITE MrSth * nvSCh;
+A:=0;
+lAgC := 0 + 1 * -faRt + HeSCllota + 1 + 1 - 0;
+ FebSEtota := 10;
+    arStE:= :=10 + jnei;
+ sCgCE:=MORiE;
+      
+MCeti := Frd;
+   WRITE 00
+ done
+   

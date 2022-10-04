@@ -1,0 +1,10 @@
+WRITE 1;
+for WiRgh :=(( ( 00 * nmCal ) ) * 1) + nAkvct + -j to +-faRahl do
+   for An :=0 to Wid do
+ 
+Widah :=(( +Wieah ) )
+          done;;
+   WRITE ( 00 ) - 1;
+Wieghle := 1;
+         am:=iediito
+          done

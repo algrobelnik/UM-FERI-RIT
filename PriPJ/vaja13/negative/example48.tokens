@@ -1,0 +1,1 @@
+float("2.10019") variable("gadt3") plus("+") lparen("(") lparen("(") variable("a1") rparen(")") rparen(")") times("*") variable("vac1") times("*") lparen("(") float("6") rparen(")") rparen(")") times("*") float("46.1") 

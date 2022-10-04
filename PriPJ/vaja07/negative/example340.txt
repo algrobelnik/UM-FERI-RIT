@@ -1,0 +1,24 @@
+ for faRSctota :=1 to ( WidCitota) do
+     lCeac := 1;
+    
+iadgilota:=lmeth;
+
+Ave:=(1 );;
+for j:= sv to 10 do
+for HCbg:=Aakt to 1 do
+   jt:= 00;
+ for faCSl := ( 1 ) to +0 + +0 do
+     H:=-0;
+   M:= 0 + 10
+   WRITE MAR * neigEt
+  done
+   done;
+        Ave := 1
+     done;
+ 
+for An := := -0 + Mvdglt to 0 do
+At := MnSCh;
+Hnb := jt
+done
+  done
+    

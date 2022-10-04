@@ -1,0 +1,1 @@
+lparen("(") minus("-") float("5.63213") times("*") variable("tcU1") plus("+") float("4") plus("+") lparen("(") plus("+") variable("Bcrt") times("*") plus("+") float("2.13019") divide("/") float("11.00059") rparen(")") plus("+") float("8") rparen(")") minus("-") float("21.14103") 

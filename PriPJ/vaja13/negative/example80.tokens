@@ -1,0 +1,1 @@
+variable("gEU") times("*") times("*") lparen("(") float("8") pow("^") variable("Bos1") minus("-") variable("vadE") times("*") float("3") times("*") float("31.03219") divide("/") float("4") plus("+") minus("-") variable("gRrEh") rparen(")") float("1.03113") times("*") times("*") float("3") plus("+") float("1.5") times("*") times("*") float("2") 

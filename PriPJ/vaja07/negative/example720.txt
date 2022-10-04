@@ -1,0 +1,36 @@
+ for nOeCl :=( fa ) to i do
+       lCiuct:=1;
+    WRITE ( 0 ) + 0;
+for a :=-fadSEl * j to -10 do
+          H :=FtS + 1;
+                nrR := 10
+ done;
+                avevElo:= :=s;
+  MCi := 0;
+    Hn :=Amgi;
+ for HrSSi:= iCe to -FreSh do
+    for faRul := 00 to MvSvc do
+              
+WRITE 10 + smg
+      done;
+   WRITE ( 10 ) * ( (10 ) - 0 - (Mvk + ACRaht * 1 + 10 * ( 10)) ) + -( 00 ) + Wikt;
+ nveSh:=AreCcte
+           done;
+        iaitht := 0
+
+done;
+for aaeahto:= 1 to -( (10 ) ) do
+Febai 1;
+      AvR:= WigShlo
+  done;
+       
+nrkiE := 0;
+           
+iteSh :=WieuEleta;
+     WRITE M;
+  MOkict:= ltSC;
+for AC :=-faRSh + 10 * AAduhlo to faCSh do
+   MteS 1 + 0 -- MaSg;
+                faigl:=(1) * ieet
+  done
+  

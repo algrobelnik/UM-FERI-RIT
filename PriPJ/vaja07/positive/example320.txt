@@ -1,0 +1,15 @@
+ for sadillota:= 1 to fag * 1 - WiRacte do
+    iCSuhleta:=MaCv
+done;
+   for Wiiaite := faegh * 1 * 1 to Arivhlo do
+for AAdah :=Wieuhtota - 10 to 0 do
+ Maea :=1;
+          WRITE -1 * 1;
+ irdt:=WiiSiteta * 10;
+       
+Ftdui:= -Mtkuh;
+   ACSviteta:=10 - +Hrkthl;
+                     MCCait :=MadSi * 0
+done
+ done
+           

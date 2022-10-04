@@ -1,0 +1,33 @@
+ for MtkuE:= -MCiSh to 0 do
+     
+ACgSllota:= MCkSlteta;
+itia := itSCllo - +MaRihl * iCS;
+  Wiguc :=ACevE;
+
+WRITE +00;
+ for M :=1 to AtdCl do
+  for iegil:= 1 to 10 do
+    WRITE 0;
+A:= +FCga;
+ WiCi:=00 * Widult
+  
+done;
+for A:=1 to A * iOe do
+ WRITE -10
+  done
+  done;
+ for faS := -0 to AaRaEt + 00 do
+WRITE 10
+                 done;
+ HCeu :=-AOiuc;
+ MAigiteta :=MCSSEteta;
+   WRITE 10;
+for saegh:= MeRC to 0 do
+       for Hteult:=1 * fagu to MOkall * WiCCh do
+        MOC:=1
+       done
+    done;
+HreShl:=1
+done;
+          
+MOiS :=0

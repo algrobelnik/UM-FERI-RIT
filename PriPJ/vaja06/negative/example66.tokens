@@ -1,0 +1,1 @@
+variable("v1") divide("/") float("8.6") plus("+") lparen("(") float("21.1") times("*") times("*") plus("+") lparen("(") lparen("(") variable("Raish") rparen(")") rparen(")") times("*") variable("WoUE") times("*") float("4.04059") rparen(")") plus("+") minus("-") variable("tcs") times("*") lparen("(") float("6") rparen(")") 

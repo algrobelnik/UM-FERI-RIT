@@ -1,0 +1,1 @@
+variable("HEDt") times("*") float("5.00119") minus("-") variable("BRD") float("1.60209") times("*") lparen("(") float("807549") rparen(")") rparen(")") divide("/") variable("ReE") times("*") float("3.6") times("*") lparen("(") float("8") rparen(")") times("*") minus("-") lparen("(") variable("Ross3") plus("+") float("1.0") rparen(")") float("5") 

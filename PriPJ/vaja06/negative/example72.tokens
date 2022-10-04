@@ -1,0 +1,1 @@
+lparen("(") variable("varE") times("*") lparen("(") lparen("(") lparen("(") lparen("(") float("3.5") rparen(")") times("*") float("3.14109") times("*") float("517549") rparen(")") lparen("(") float("3") pow("^") variable("t1") rparen(")") rparen(")") plus("+") variable("mRUtNt") plus("+") variable("GasE") rparen(")") rparen(")") 

@@ -1,0 +1,20 @@
+MCCahte:=00;
+  
+jCgg:=sCgiit;
+    for i :=1 to M + MOba do
+  WRITE Hveu;
+     
+WRITE 1 + 1;
+ Fmbil := 1
+  done;
+   AveSite := ( AOR );
+ for faeil := s + smSCht to i - 10 + Fmdac + 1 + ( s) - 10 do
+  A:= -Hrdi + 0 + jmkucto + 1;
+ for sadC:= --Wii + 10 to ( MCevi ) + 1 do
+        Fak:=-1;;
+WRITE (AOCgh + 0) + 1 * +s * 1
+ done
+    done;
+            
+jOi :=laSg
+    

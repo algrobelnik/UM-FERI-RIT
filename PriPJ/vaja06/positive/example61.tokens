@@ -1,0 +1,1 @@
+plus("+") lparen("(") variable("g2") plus("+") variable("RcDs") divide("/") variable("gLitN") plus("+") minus("-") float("4") times("*") float("5") rparen(")") times("*") float("1") pow("^") lparen("(") lparen("(") float("3.6") rparen(")") rparen(")") plus("+") float("21.1") plus("+") variable("gecch") 

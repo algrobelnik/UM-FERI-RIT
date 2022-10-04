@@ -1,0 +1,63 @@
+ for AtR:=AaCvc to 10 do
+  
+M:= 1
+ done;
+   for MAC:=1 to -10 do
+
+MegaE:=1 - 0;
+WRITE Mrgiht;
+ for iOkC:=10 to 10 + iCiiclo do
+    for FAe :=FORa to WiRac - seetctota do
+ 
+for AAkv :=+1 to FOiil do
+               
+WRITE MAda;
+   for itkgE:=1 to -1 do
+AARic := iaethte;
+         Frgac:= +MtSaiteta
+                 done;
+WRITE -s
+     done;
+   sCethlo := -FCegh;
+        for Heethl:= -1 to M do
+    for HeeaEt :=10 to MAegcte do
+   
+WRITE -0
+     done
+          done;
+    M:=00;
+     
+HAea := +1;
+   AeCgitota := HCet;
+ WRITE 00;
+   for iaRth:= 00 to FASgclo do
+ WRITE iAgSit;
+  Atiahte:=1;
+FaSC:=0;
+for WiRCh:=Faia + WiSg to 0 + 1 do
+    ArCvE := 0
+     done;
+            iAg := 1
+      done;
+        s :=00
+done;
+for Maei :=0 to 10 do
+           WRITE 10;
+         faSCl:=10
+  
+done;
+  
+WRITE 10 * 1;
+  fakChleta:= 1;
+   AteCht:= -fad * -HrdChte;
+          iAiac:=MOevc;
+  ACe := 10;
+for fakih := 0 to 10 * 1 do
+HARvc := 00;
+         
+WRITE 0
+ done
+  done
+    done;
+WRITE FAevite
+ 

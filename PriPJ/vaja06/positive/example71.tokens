@@ -1,0 +1,1 @@
+lparen("(") minus("-") float("4.0") plus("+") variable("GocE") plus("+") float("467549") rparen(")") times("*") lparen("(") float("4.0") times("*") variable("GLdc") rparen(")") times("*") variable("m2") pow("^") float("36.0421") minus("-") lparen("(") float("51.13059") rparen(")") 

@@ -1,0 +1,1 @@
+variable("W") times("*") lparen("(") variable("GLE123") plus("+") lparen("(") variable("aLrtNt") plus("+") float("56.04153") rparen(")") rparen(")") plus("+") plus("+") float("5") 

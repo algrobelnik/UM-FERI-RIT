@@ -1,0 +1,1 @@
+lparen("(") float("3") rparen(")") minus("-") plus("+") lparen("(") variable("Hocth") variable("virt3") rparen(")") times("*") lparen("(") lparen("(") variable("fisEht") rparen(")") rparen(")") times("*") times("*") variable("W2") minus("-") variable("rcUth") plus("+") variable("aec") plus("+") float("2") 

@@ -1,0 +1,1 @@
+variable("R223") times("*") float("6") times("*") lparen("(") float("1.5") times("*") float("6.64019") float("2") float("1.1") pow("^") minus("-") float("1") times("*") times("*") times("*") variable("aEcg") rparen(")") 

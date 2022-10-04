@@ -1,0 +1,1 @@
+lparen("(") lparen("(") variable("HiUc") pow("^") lparen("(") lparen("(") float("50.0315") rparen(")") rparen(")") times("*") lparen("(") lparen("(") float("2.5") rparen(")") rparen(")") plus("+") float("6") rparen(")") 

@@ -1,0 +1,27 @@
+ s:= lrevh;
+ 
+AOCiit :=fadal - 0;
+                for MORgi := (10) to -AadCc do
+ FaRthte:=( 1)
+ done;;
+for HnCvhte:=0 to ((00) + Atbu --- -10 + 10 + Aaku ) do
+    for M:= 0 to 0 + -1 do
+for lOR :=1 to 1 do
+           lOi := -10 * 1;
+                           
+for iO := Mae to 1 do
+fa := +Av
+ done;
+     
+for HeCait:= 10 to iAkihleta + 10 * WidClteta * 0 * 10 + aACahte do
+   WRITE MCb + +1;
+     
+fa:= Madti
+done
+done
+ done;
+   WRITE 1
+sektclo:=1
+            
+done
+         

@@ -1,0 +1,12 @@
+sadvc :=10;
+   AOCai := 00;
+      
+AaiSh:= 1 - 1;
+WiSu:=MAStE;
+for steait:= itk to Wiggh do
+    for HeS :=-AOCa to Faevhl do
+ WRITE 10
+ done
+ done;
+      fakiEto:=faeC
+      

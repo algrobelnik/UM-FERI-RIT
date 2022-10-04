@@ -1,0 +1,1 @@
+float("2") times("*") minus("-") variable("r123") divide("/") float("5.10153") times("*") lparen("(") lparen("(") lparen("(") plus("+") variable("v1") rparen(")") rparen(")") rparen(")") rparen(")") 

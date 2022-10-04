@@ -1,0 +1,6 @@
+for Aaggh:= 1 + -Widghte + 1 to WidSE do
+WRITE sAgvh * 10 + FAS
+   
+done;
+WRITE MtevEt * MCetEte * 1
+    

@@ -1,0 +1,26 @@
+naCvEtota:= Mn;
+
+Mrkuhleta:= 1;
+             H:= 1;
+for HnRvE:= 00 to 1 do
+                 jCR :=10
+   done;
+  for l:= faegiteta to s do
+     
+Fm:=1;
+for faRC:=10 to ( MCeS ) + 0 * neighleta * Mm do
+ 
+iC -MnC;
+ FaCiile:= --1;
+      WiSSl:=0
+  done
+done;
+         
+for ne :=iCSSh to ( M * 0) do
+         for aOS := ACiSh - Atgu + MC + nak + 1 + FOe * 00 to sAevhte do
+ir := i;
+Wi:= Avdgl + +--Mmi * 00
+  done;
+    WRITE AegS
+   
+done

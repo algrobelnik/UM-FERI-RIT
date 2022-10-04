@@ -1,0 +1,5 @@
+nrdu:= (1);
+      sOiuh:= 0;
+   Ate := := ( 10 );
+WRITE 0
+     

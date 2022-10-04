@@ -1,0 +1,1 @@
+variable("v2") times("*") times("*") float("3") plus("+") float("407549") pow("^") float("4.5") times("*") float("5") minus("-") lparen("(") float("20.03203") rparen(")") pow("^") float("1") plus("+") variable("rLDEet") 

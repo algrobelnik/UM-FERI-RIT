@@ -1,0 +1,1 @@
+float("56.1") times("*") lparen("(") variable("BEsse") plus("+") lparen("(") minus("-") variable("R2") times("*") minus("-") variable("fas") times("*") plus("+") float("2.5") rparen(")") rparen(")") divide("/") minus("-") variable("GeEgh") 

@@ -1,0 +1,9 @@
+ for saguct:= 00 - iOggh to Hreact do
+   for Friiht :=Mrdghteta to A - fadahteta do
+     
+WRITE +AtCg;
+fadih := 0;
+        WiSgc:=10
+done
+ done
+

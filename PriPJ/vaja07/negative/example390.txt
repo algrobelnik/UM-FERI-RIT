@@ -1,0 +1,19 @@
+lvRC := la;;
+WRITE 0;
+     for AvRvhte := 1 to ntbih do
+
+st:= ( 10) + +aCi + 0;
+      s:=10;
+       
+MAkgE := -HtCCEt * 1
+iegvh:= fakilteta;
+  srRii:=MmRaE;
+ snkvltota:=00 + imea * ( M) + +HCdCh + 1;
+   for HOeSi := 00 to fagSEle * AAevlto do
+argvl :=-( 00);
+  sCCCi :=MrRtct + 1 + Arggite * 1;
+   ardul :=sAiah * 0 - Hveui + 1 + (( (( M * -1 + AnCSi + n)) * 1 ) )
+ done
+  done;
+ M Ati
+         

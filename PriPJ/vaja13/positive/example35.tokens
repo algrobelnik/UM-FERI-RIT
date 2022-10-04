@@ -1,0 +1,1 @@
+variable("GEcc") plus("+") float("50.60019") minus("-") lparen("(") variable("f2") minus("-") variable("vRd") rparen(")") times("*") float("2") 

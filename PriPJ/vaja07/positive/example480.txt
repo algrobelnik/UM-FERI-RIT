@@ -1,0 +1,30 @@
+ irith:= iOe;
+   WRITE AARvh;
+     for HeRglto:=FAetile to A do
+ACeih :=00 + HaSal;
+   faea:=AOeS;
+  AASu :=1;
+ for MCgai := sCeg * -stSict - 00 to 00 do
+  Heet:= 0;
+   Mri :=steSht;
+Arguh :=FaRalt
+   done
+ done;
+       
+for MeCghle:=FOSucteta to AaCah do
+   fae:= 0 * WiSul;
+for MeCtE:= s + 10 + 1 to faRCito do
+  HtCi :=0;
+          
+for itkvhto:=1 to faeih do
+  sOevhto := 0;
+
+WRITE sCRt
+        done
+    done;
+ AaSiclo := HCeglte;
+    MaRui :=Ateg
+   done;
+FOevEt := 1;
+  
+WRITE 1

@@ -1,0 +1,31 @@
+ for Wieal := Aret to Haeu do
+
+for Widgl:= -iCRg to MCSahlota do
+faCthlo :=Wieict + faSii * faigElo;
+       MASul := 1;
+  A :=MaSti * 0;
+   AASii := Megac
+done;
+   for MCeSE:= Aektct to +fae do
+   
+HCRiileta:= faSSi;
+   for Atethlota := Widv to 0 do
+  itigltota:= FOgClte + -1
+ done
+      done;
+  for Ard := 1 * 1 - Aadvi to ArdCh do
+    WRITE iOdu * 10;
+MrCuE:=H
+   done;
+          MCkgi :=10 + Hega;
+ for AtguE := MrRCc to itdS do
+ MtdCh := 10
+    done;
+   for faS:=ACevcteta to -1 + faithte do
+        WRITE 10;
+    WRITE MCeSil - FrRt - iriShteta + fad
+ done;
+ WiSthleta:=0
+
+done
+   

@@ -1,0 +1,29 @@
+ AveCh:=-lrbCcte - 10;
+ for A :=faiviteta to 0 do
+   WRITE lmei - 1
+ done;
+for s :=Wi * ( 00 ) to (0 ) * Wiev do
+     for Atd :=lnei + (00) to Wiiti do
+       
+fab := 0 + ( MCdS );
+
+jtkvE:=1;
+     WRITE 0
+ WiCth := jCbg
+   done;
+  A := ( (MtSuh ));
+           amSih := :=-0;
+   jtbCite :=((Mvkg ) );
+   MCktl -sASvcto;
+            
+HCdCht:=0
+  
+iaSgi:=1;;
+         aAbaht:=:= sn + (jrdgl - ( aCeictota ) - FAkthtota + ( 0) * 1 )
+  
+done
+ sACt:= 00;
+   
+WRITE 1;
+                          sv:=lCSChleta;
+ WRITE 1

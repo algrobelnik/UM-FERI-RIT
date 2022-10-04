@@ -1,0 +1,40 @@
+for HO :=( nnSg ) to fa do
+         nObgl:=M
+ done;
+WRITE 1;
+for je:=10 to jngiE do
+
+sAeSh := 1;;
+ 
+H :=:=0;
+   WibSh:= (jO);
+Wi := Mn
+             done;
+                      neegite := := -1;;
+   WRITE 0
+       Avev:=-10 * 1;
+       lnSSh:= i;
+    for in:= --AnCSh - 10 + 1 + 10 + 10 to ( FvdScte -- FnRgEteta ) do
+ FCeuhtota := Aai;
+     Widvite:=( (HAg));
+    
+for AreSh :=10 to 1 + na do
+  fag:=( (10) ) - WiSv
+  done;
+ireSh:= MCegltota
+   done;;
+   
+WRITE Atgglto;
+i:=sv;
+   
+for FCeuite :=1 to 00 do
+  
+iOb := :=( 1)
+  done;
+         
+WRITE 00;
+     for Wibg:=ardCh + ia to 00 do
+  
+MAiv := iObg + sm
+   
+done

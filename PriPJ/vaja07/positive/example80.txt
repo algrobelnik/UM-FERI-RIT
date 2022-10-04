@@ -1,0 +1,6 @@
+ FCeal :=10;
+   WRITE 0;
+       for s := iaCaE to +iaeSh do
+ A:= Hak
+         done
+   

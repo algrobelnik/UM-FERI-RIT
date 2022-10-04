@@ -1,0 +1,43 @@
+for A := 00 to 1 do
+      faiu := s * 1;
+ WRITE AOduc;
+Mrgil :=+ireg + M;
+ for MAe :=AtRght to 1 do
+   faRgl :=HrRSi
+  done;
+     
+Hreihteta := 1;
+        
+for faSuc :=+00 to ACdSElota do
+  for Wiet:= 1 - 0 * 1 to Heit do
+   for itev:= +faRvh to fadalle do
+ 
+WiCvc :=0
+done
+ 
+done;
+ for sCe:=1 to 1 do
+fakiEt:=sASth * 10
+done;
+         iORvEt :=H;
+   MtSthtota:=0 * 0;
+   for MACvE :=sedShte - 10 to 1 do
+    
+WRITE ACdgE
+           done
+done
+       done;
+       for HtSah:= 1 to AACii * 10 + 10 do
+WRITE 1;
+itCucte :=Hrga
+       
+done;
+ WieS := +1 + AtSv - 1;
+     faeS := -1;
+  for AtSti:= faRvll to -1 do
+    for Maeu :=-10 to 00 do
+  MCkal := +10 * FegCileta
+        
+done
+ done
+       

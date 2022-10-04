@@ -1,0 +1,15 @@
+for lnbvEto:= 1 to nrivc * lniCi do
+    
+a :=1;
+ A:=0 -- ar;
+
+jrSvhleta :=+(0) + 1
+ done;
+ an:= Wi;
+for AOCiht:=-10 + 1 * 1 to 0 do
+    ACeSl:=-1 + ( (0) * FvSvlteta )
+ 
+done
+  
+WieSlle:= := 1
+      

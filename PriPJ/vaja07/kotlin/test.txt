@@ -1,0 +1,8 @@
+stevilo := 10;
+fakulteta:=1;
+for i := 0 to stevilo - 1 do
+     fakulteta:= fakulteta * i
+done;
+WRITE fakulteta
+
+

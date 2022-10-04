@@ -1,0 +1,17 @@
+ faeS :=s * -1;
+      for Feetlt := 0 to 0 do
+      for Mtdi:= 1 to 1 * 10 do
+        WRITE 1;
+           FOgChle:= 0 * 10
+ done
+   
+done;
+
+for FACuEl:= -00 * MOkgl to faRgit do
+WRITE 1;
+ M := -Mteuc;
+faSuE:=10
+
+done;
+        sriac:= H
+ 

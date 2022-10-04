@@ -1,0 +1,9 @@
+ for Mtd :=0 + 1 to 1 * 00 + 0 do
+           FOduit:= 0
+  done;
+Makahteta:=+1;
+
+faiSc:=fadai;
+ 
+itktltota:=-sCegcto * 0
+   

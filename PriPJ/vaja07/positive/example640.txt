@@ -1,0 +1,39 @@
+stCC:=1 - 1;
+    for WidSito:= faCCi to 0 do
+ A:=0
+              done;
+ACeuit :=0 + 1;
+ faetE :=1;
+ WiSCE:= itCaEteta;
+   M:= -faRiit;
+              WRITE FCdvi - 1;
+    WRITE 1 - 1 * 10;
+ for stSSi :=-Wigii * 0 to HAkt do
+FaRi:=0;
+   WRITE steSh
+done;
+for MAdCh := MrSvh to faiil do
+ for Mad:=sekv to 0 do
+  for iCethleta:= 1 to 10 + +1 do
+ 
+MrSvc := Hekuil;
+WRITE fadtE;
+       HCSC:=AtgSE * faia + 10;
+for Atgt :=0 - -Aeguhteta to Mag do
+ for HtRtE :=0 to MrdaElo do
+
+Fritcle:= 0
+ done
+  
+done;
+ WRITE 00 + 1;
+      Mtiuc:=FaRgcteta;
+
+AeC := AaduE;
+    seRthlota:=Mri;
+        iaS := Fteil
+   done
+    done;
+      Argah:= 1
+    done
+       

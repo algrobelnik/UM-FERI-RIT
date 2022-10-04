@@ -1,0 +1,5 @@
+ AOdSh := F;
+    for AOe := ACdCl * 1 to A do
+WRITE MOk
+ 
+done

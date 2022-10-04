@@ -1,0 +1,45 @@
+ for Wiei := 10 to Mteuhto do
+   
+for H:= 00 to 1 do
+   iCgCi:=10;
+faiCht:=1;
+  
+Medgc:= 1;
+ for AAeth:=Widt * M + 00 to +FOSt do
+    for srRSE :=1 + 00 to 10 do
+     stRChlota:=FARtEl;
+  for Hreihlota := Ftkalteta + ied to 00 do
+    Atkil :=FOiu;
+ Mtiahteta:= fakiilota;
+    A :=MrSv;
+for FORic:=MASvE to 0 do
+MteShleta:=00;
+ iAeC:= MeSCh * 10 * 00;
+     for M :=10 to -1 do
+  
+itggElo:= MOithteta + sret
+              done;
+ WRITE Mag * sedCl
+ done;
+AASCil:= F + WiCth;
+                 
+Aeeuh:= 1;
+    HtiCh:=Fekgi
+  done;
+       
+seivit:=1 - 1 * 10
+     done
+ done;
+   for ACiai:= 1 to 10 do
+       AaSCil := 1
+  
+done
+      done;
+  Wii := Haethl
+ done;
+            
+Wikt:=-1;
+     
+WRITE 10;
+  i:=sAdClt;
+   Aad:=sORah

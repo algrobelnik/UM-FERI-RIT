@@ -1,0 +1,15 @@
+for j:= WiSul * 10 to FrgSi do
+   FreCil := Hegal
+ done;;
+   WRITE Wigghleta;
+  for ltSait := faiu to FAivllo + ( (1 ) ) do
+     
+faeiit:=( (1))
+     AteScteta:=10;
+  
+ACbCileta:=(1 )
+        done;
+MAgaht:= -WiS;
+      
+WRITE -j + 1 -- fa;
+      sCCahle := 1

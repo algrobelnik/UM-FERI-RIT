@@ -1,0 +1,1 @@
+lparen("(") float("167549") rparen(")") minus("-") variable("rirsN") plus("+") minus("-") variable("BRDch") minus("-") lparen("(") lparen("(") variable("vactN") divide("/") float("267549") times("*") float("5") rparen(")") rparen(")") times("*") float("8.0") divide("/") float("2") 

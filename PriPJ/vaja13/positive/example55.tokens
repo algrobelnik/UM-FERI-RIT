@@ -1,0 +1,1 @@
+lparen("(") variable("visce") pow("^") minus("-") variable("rcrg") plus("+") lparen("(") float("3.0401") times("*") variable("Gacg") plus("+") float("3") rparen(")") rparen(")") plus("+") variable("W2") divide("/") float("617549") 

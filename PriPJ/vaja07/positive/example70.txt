@@ -1,0 +1,4 @@
+ for FrdaEt:=MAki * WieS to saCt - 10 do
+   H := 0 + sCdSi - 1
+  done
+ 

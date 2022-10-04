@@ -1,0 +1,12 @@
+for i := 0 to 0 do
+  
+WRITE 0 * F;
+                     fai:= Frkucleta
+    done;
+ 
+FrCuhto :=+1;
+       iaeSito:=10;
+        WRITE H;
+      ArCvlte:=0;
+WRITE 1
+  

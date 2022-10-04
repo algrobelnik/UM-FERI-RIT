@@ -1,0 +1,11 @@
+for nAiahleta:=00 + F to HrRa do
+ i :=ind;
+for nAg :=10 to 1 do
+  
+WRITE Wieic
+done;
+Wietc:=:=jneSl;
+          svgSEt :=-+a
+
+done
+     

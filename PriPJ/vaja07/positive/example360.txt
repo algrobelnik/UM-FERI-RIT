@@ -1,0 +1,20 @@
+ iegiEteta :=-1;
+for stCuh:=10 to +0 * 10 do
+ WRITE MCSg + WiRSh;
+ 
+for MOeuc:= 0 to -1 do
+
+Feggi:= 1 + Feeu;
+   for FaiSltota := 0 * HaCCi to 1 do
+for s := 10 to 10 * HOiiEteta - ACiu * -Wigt do
+    saetE :=1 + MCCSi - 1
+ done;
+     WRITE 10 + Wieghl * FtiSht
+  done;
+ iaRuE := iCeu;
+   sekgh:= faeCc;
+         Arku:=WiSt;
+      WRITE -10 * +Htegllo
+done
+
+done

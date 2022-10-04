@@ -1,0 +1,19 @@
+ArCS := 0 - 10;
+      
+HaCuc :=0;
+    Mtevctota:=MASChteta;
+FeCvct:=0 * 1;
+ for steiE := AaCSh to 0 do
+   for MCei:= F * 1 * 1 to 1 do
+ for MaSS:=1 to AACt do
+  ArkSEt:=WiStl * 1
+    done
+               done;
+  AOkac:= WieSc;
+ MtRvll := Feeil - HtRv;
+ WRITE 0 + FASC * 1;
+            AtSahto:= WiRah;
+ s :=Widg + Ateth;
+Wikuc :=1 + 0
+    done
+ 

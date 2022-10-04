@@ -1,0 +1,1 @@
+minus("-") variable("H") times("*") float("8") times("*") minus("-") lparen("(") variable("Radg") variable("gar") rparen(")") times("*") lparen("(") float("4") rparen(")") divide("/") lparen("(") variable("garc") rparen(")") times("*") variable("feE123") 

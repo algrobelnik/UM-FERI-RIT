@@ -1,0 +1,31 @@
+for MOgCito:= -1 to 0 do
+    
+for iOCihto:=+iegCcto + +10 * 10 to 1 * 10 * ieRict + fadg do
+  for MrdSl :=1 to M do
+ fadt := -10;
+ArR:= MaiCh * MASacte * sreCl;
+  iadu := HtevEtota + sCeSEto
+    
+done;
+                AtRCh :=-1;
+Wievhto:= 1 - H
+   
+done;
+           WRITE 1
+done;
+   for AAgti := 1 to faR - itRgl do
+  ieeu:=MOSSit;
+    iOR:=FORullo
+   done;
+   WRITE WiSiltota;
+    AtSultota := -iti;
+ for MrSalteta:= Mrev to +0 do
+  for MCgSht :=0 to Maevhto do
+ for fagiht := 10 to Htdalt + -MOeS * 0 do
+    Meg:= Ftkt * -HOevh
+   done;
+   i :=Maetcte
+done
+done;
+ 
+HAgS:= -10 + +1 - AedCcle + faCgc

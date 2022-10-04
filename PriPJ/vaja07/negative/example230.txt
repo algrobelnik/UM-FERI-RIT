@@ -1,0 +1,17 @@
+ WRITE 1;
+  WRITE +( Ft);
+              for ie:=0 to 1 do
+   for MCe :=10 to Mai do
+  WRITE aOSghte;
+   
+AvR :=10;
+      
+for j:= 1 to (00) do
+   sAe:= jASvhto + 1
+     done
+    
+AaRuElota := 1 + iOd;
+ jmggh := Mt
+  done
+   done
+          

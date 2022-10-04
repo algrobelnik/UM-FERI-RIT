@@ -1,0 +1,29 @@
+for AaSg := 1 to 0 do
+    
+WRITE faCC;
+  for stRv:= itSgilota to 0 do
+ sAdtc :=0;
+  A:=10;
+ 
+for A:= 0 to 1 do
+         WiSuE:= 0;
+ for MCevhlo:= AAeal to 10 do
+  ieRCct:= 1;
+
+AACuE:=i
+  done
+    done
+done;
+for AOSCc := 0 to 1 do
+       AtRtcl :=1 * -fakvi;
+ 
+s := MCSCht;
+  s := 1 * 1;
+Aaiiiteta:=srSa;
+     stkS :=MOetEte
+     done;
+for Ariacto:=0 to 1 do
+srCCh:= Magtct * +faCiit
+     done
+    done
+ 

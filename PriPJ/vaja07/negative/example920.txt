@@ -1,0 +1,56 @@
+ M:= nnk;
+ for Ateghteta:=1 to M do
+   for AmR := 0 to Mr do
+      MaR :=---WiSS + 0;
+  
+MmR:=1;
+ MOeiE:=-1 * FtgCcle * ( -( -srSgh * -( 1 )));
+MabS:=AmeChtota;
+WRITE jae;
+
+WiRvitota :=10;
+ WRITE (Mvitltota );
+Atkahteta := :=10 * -0
+done;
+    WRITE ( 10 );
+WRITE (00);
+              Mvduhtota:=Wigalteta
+  
+done;
+ for jrbg:= (0 + stSv) to MaCai do
+    for MrRSl := (1 ) to 0 do
+  ltCSh:= 1
+done;;
+      for jOC := 1 to HOktlleta do
+  iaeCht:= see;
+                        for jrkS :=s to 0 do
+imCCit := lneuh;
+  
+nACCEtota:= M;;
+  for an:=nm to M - 10 do
+
+nmgCht:=:=10;
+     WRITE 10
+          
+done
+   At:= ---lAkSE + M * sagC + 0;
+      WRITE (Megvhto * 1) + 1;
+for MvSChtota := (-Hm ) to -10 do
+ WRITE 1
+    done
+  done
+       
+done;
+            
+for n :=00 to -AAkCcto do
+ for jmku:= 1 to (1) do
+    
+for i:=(Aei) + 10 to -+svbiE do
+   WRITE 10
+   done;
+ WRITE +-0 --- 0;
+      ledih :=i
+     done
+     done
+done
+         

@@ -1,0 +1,50 @@
+ for AtdChl :=itkthteta to Mtkthl - 1 - 0 do
+   i:=1 * 1
+   done;
+ for WiRah := 10 + 00 to 0 do
+  for HriCh := 10 to 1 * FORvit + -0 do
+  
+Arivh :=sekghteta;
+ for itSa:= FCig to AOSCh * -Wigu do
+     Hreth := 0;
+FASa:=1
+
+done;
+               Wigv :=1 * 1;
+M := 1 * iCkuc;
+      
+for ArCChtota:= 0 to 0 * HACaEte - 10 - 1 do
+  Wiga :=MAeuht;
+   MCevl :=-HtiCE;
+  faeCi :=FCCi * HAevi * -0;
+      
+Wiiihtota :=-MCCuh
+done
+done;
+  A:= FCei;
+  
+for WiiSElo:= 1 to MrkShto do
+     faei:= Fedii
+  
+done;
+        WRITE 1
+  done;
+ for Freg:=1 to 1 do
+ACiCito := 00 - ArgS;
+
+MAivh :=0
+done;
+
+for HOSuc:=1 to 10 do
+WieSE:=faR;
+ ArStc := 1;
+ faiShto := Fae
+  done;
+ faSvh := WiCSc * 1;
+         
+for WiCSE := 10 to iOgCht + Wieai - M do
+                   Wig:=00;
+     Wig :=Mtiuite * +1
+         done;
+          HOSSh:= 1 + 10
+        

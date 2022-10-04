@@ -1,0 +1,1 @@
+lparen("(") variable("RiEE") times("*") float("3.0") times("*") variable("HaEs") rparen(")") times("*") lparen("(") plus("+") float("2") rparen(")") minus("-") variable("gcs1") 

@@ -1,0 +1,1 @@
+lparen("(") float("8.5") plus("+") float("2") pow("^") float("2.13209") minus("-") float("2.5") plus("+") float("1") plus("+") variable("rLi") plus("+") float("6") minus("-") lparen("(") float("10.60219") plus("+") float("6") minus("-") variable("mRrgh") rparen(")") plus("+") float("21.03019") rparen(")") plus("+") variable("vci") 

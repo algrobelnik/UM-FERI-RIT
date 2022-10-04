@@ -1,0 +1,13 @@
+ WRITE Fnegl;
+a:= 10;
+  naiCh :=-aO;
+         MrCah := 00;
+        
+AAegl faRghtota + 1;
+     for FCdiElota:=10 to ( AOiu ) do
+        
+l := -1
+ done
+         
+WiR:=0
+     

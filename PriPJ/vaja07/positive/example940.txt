@@ -1,0 +1,56 @@
+ for steShtota:=10 - 1 to 0 do
+  
+MOeu :=Maga + 1;
+  for faC:=00 * stdtE to -MCevi + WiR do
+
+WRITE 1
+   
+done
+       done;
+for Hagt:= AtCvhto + ACetEte to M do
+   MAeShlo:=FCeC - 1;
+    i:= 1
+      
+done;
+ 
+sCgt:=Atevite;
+     for Ftkth := 00 to MOdi do
+  for ACev:=MAe to sagSiteta do
+for irS :=1 + -sriuE + 10 to 0 do
+       fai :=10
+   done;
+  WRITE 10;
+  
+WiggE :=0;
+  WRITE -MCiicte
+ done;
+     Aadg :=00;
+  for fagii := 0 + 1 * Areti * itdvl to 1 do
+  
+for WiStl := 10 * Atkt + 1 to -FOeCi do
+WRITE MtCtc;
+       WRITE 1 + 0 * A;
+Wiiih := iCSv;
+ MreClt:= iAe;
+        Magulteta := 0 * 0 * 1;
+   iagvht :=1 + Hteih;
+          for Fre := 0 + 1 to MegvEtota do
+   iOivh:= faiSE
+  done;
+    for sAgv:= saeu to AOSCi do
+    for FAdiEle:= 0 to 1 do
+   sOCai:=WiiSh
+
+done;
+       Mteiltota:= srkvEte
+  done
+ done;
+ sag:= -0;
+Maiuc:= s * Fakglle * Aaigl;
+               fadth:= 0;
+ WRITE Widvh
+ done;
+MrCgh := Aeit
+      done;
+ Argv:= 1
+         

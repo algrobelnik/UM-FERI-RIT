@@ -1,0 +1,37 @@
+for faeui :=1 to 1 do
+   iaCSE:= WieChte;
+        Mak := -Areail;
+       
+Arkti:= FOet
+         done;
+     WRITE 1;
+     HeSti:= AOeult + HOd;
+for Wieihle := HCeC to AAgSc do
+   WRITE 1 * Ateuhtota
+done;
+   for ACgSl := 10 to 1 - stii * HOSuh do
+Fait:= FtCCh
+ 
+done;
+        for ieCgEte:=Fadghleta to +MCS do
+    WRITE -ACeullota
+         done;
+ for sASi :=MaSiEl - F to Mek do
+     MOSuE := 10;
+ MaCC := sretEt;
+  faC :=+HaCtlleta;
+     WRITE -MeiCE;
+ for faeSht:= 0 * MOkS to 10 * 10 * 1 do
+   for Wiiui :=10 to WikSl do
+WRITE 00;
+   for MACSE := sAevl to 1 + HOdal do
+    fadCc :=10;
+               Madvh:=0 + stkvh;
+ WiRt:= 1 - MeRgc
+ 
+done
+         done
+      done
+ 
+done
+      

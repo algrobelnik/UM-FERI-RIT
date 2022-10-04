@@ -1,0 +1,48 @@
+ for HrgtEle:=H to 00 - sakth + ieiCh - 1 - 1 - 10 do
+Maiult :=HAgC
+done;
+    for WiS := ACethle to MrCic do
+             FrStE := Wikul;
+             iOkClto :=sreg
+   done;
+    
+AegiE:=AOS + 0 * MCdg;
+  for MCe :=1 to s - 1 do
+    for iOSS := WiiSl to M do
+             HOk := -AARSEl - MtRal - +A;
+for irg := 1 to 1 * 0 do
+for stRacle:= WiRth to M do
+      WRITE 1;
+     
+for WiSuE:=FCkuh to -1 do
+     stS:= ACSti - ACeSc;
+       
+MaR := 1 * 00
+done;
+  for Fae := 0 to 1 do
+   HAC:= sreChte;
+    
+MaS:= -MaSCcte + 1
+    done
+     
+done
+          done;
+for WiiiEleta :=10 to iASuh do
+
+for A := 1 to 00 do
+ 
+WRITE Fad;
+  
+WRITE AtdiEt
+ done;
+    HOiChte := 0
+   done
+                  done;
+   for Aegac:=0 to HAkghto do
+  
+AORil := 1 - 1 - -10 - faithle
+       done;
+srda:= 10 * Wievhl;
+  WRITE HaeCc
+done
+   

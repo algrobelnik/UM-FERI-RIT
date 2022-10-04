@@ -1,0 +1,27 @@
+for WieCile:= fae to srit do
+ 
+MrRCc :=faCCcle;
+                           FagC:= +MtSgi
+      done;
+ for stdSc :=FCSght to iaivl do
+ for HARtE:=1 to iteucte do
+ WRITE HARtEteta;
+        Atgthtota:=Widthteta + +fagiit * 00;
+AtSC:= Mriic;
+for ACe:=10 + 1 to 0 do
+        for Wikac := 10 to 1 + 0 do
+                AtevE :=1;
+        F := MtRSh * AadC;
+ MaCgE :=10;
+
+HOdC :=-AOCvhte
+done;
+
+iASv:= -0 - 1;
+     Magv := 10
+
+done
+done
+done;
+   WRITE 1 + MtRCl
+          

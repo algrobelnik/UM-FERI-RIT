@@ -1,0 +1,1 @@
+variable("iagih") assign(":=") float("1") semi(";") for("for") variable("faet") assign(":=") float("00") to("to") float("1") do("do") variable("WiCthlo") assign(":=") float("1") semi(";") write("WRITE") float("00") semi(";") variable("faiCh") assign(":=") variable("Atkac") done("done") semi(";") write("WRITE") float("00") times("*") float("10") 

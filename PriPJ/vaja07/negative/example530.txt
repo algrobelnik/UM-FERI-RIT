@@ -1,0 +1,35 @@
+WRITE 00;
+  aegic:=iCk;
+         Wi:= 0;
+  
+lObuEtota:= 10;
+for AvbaElota :=-fabtllo to Faeihtota do
+
+FCdCcteta :=0;
+
+sCR :=1;
+ lAivh := MOSv;
+     for FOSCl 1 + (-10 ) to M do
+   fakCl := -1;
+  Wi:=00;
+  for i:= Wikglto + 1 to ( 1 + --aviih + faeCh) do
+ H:= -( Fai ---- Mvgvit) + 1;
+             
+MAk:= AtdSlt + M;
+F := 0
+ 
+done;
+      MaRg:=( FAe);
+        MeRth :=sCkSito;
+   ArkvEte:=-0;
+WRITE aOSilteta;
+    iCgtct :=10
+    
+done;
+ 
+Ma :=AmevE;
+     Med := ( jeeaElota) * nrSvh;
+WidgElota:= saethto
+   done;
+     WietE:= fag
+   

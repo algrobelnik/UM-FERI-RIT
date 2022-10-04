@@ -1,0 +1,41 @@
+ for AOgt:=MOgiE to sAeu + Atiti do
+
+MOdvc:= -1
+  
+done;
+        i :=10;
+
+for s :=Htkvit to iOkgl do
+   for MAeSE := -sORg + Hte * HAeih to Wieght do
+  for fadC:=0 to 00 do
+ for WiSCit:= 1 to -Hrd do
+          WRITE -AOCCilota;
+   for HtRvlteta := Aektlt + fakgl to AORu - 10 do
+WRITE 0;
+   M:= 10 + 0
+ 
+done
+done;
+for srevc := 10 to -HCe * Mtgtl do
+     Megilto := 1;
+   ACggh:=MeCahtota * 1;
+  
+WRITE FritEtota * AeiuEle;
+H:=AtSS * 1;
+    irRSitota:=MCealtota
+      done
+ done;
+     i :=Ftdac
+ 
+done;
+
+WRITE iOgv;
+     for Aae:= Wikiilota to srguileta + 1 + FCiSctota do
+         for Aaiic:=MOda * WigCcleta to -A + WiRSi + 10 * 10 do
+  ACiuE:=MeCS;
+   seSCl:=MCCSl * faevhtota * FOi * WiCgc
+       done
+    done
+done;
+  Wie:=1 * 10
+         

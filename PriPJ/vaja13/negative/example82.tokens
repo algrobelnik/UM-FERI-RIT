@@ -1,0 +1,1 @@
+plus("+") float("5") divide("/") float("56.0") plus("+") variable("f1") minus("-") lparen("(") float("10.0") rparen(")") times("*") lparen("(") plus("+") float("3") rparen(")") lparen("(") float("36.5") rparen(")") pow("^") variable("fcit") plus("+") variable("fEcte") plus("+") float("56.03213") plus("+") minus("-") float("267549") pow("^") minus("-") variable("GLdE") 

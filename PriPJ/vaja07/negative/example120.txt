@@ -1,0 +1,10 @@
+for jtdShteta:=MCd to 00 + -0 do
+WRITE 0;
+ 
+for AAku:= A to 00 do
+   le:=:=Wi
+      done
+  done;
+   iORt :=10;
+ WRITE HO + 0
+    

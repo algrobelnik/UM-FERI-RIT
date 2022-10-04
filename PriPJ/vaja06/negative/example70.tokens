@@ -1,0 +1,1 @@
+variable("meUtN") plus("+") float("5.5") plus("+") float("4.64003") minus("-") float("3") times("*") lparen("(") float("2.10053") rparen(")") float("307549") lparen("(") float("5") float("207549") plus("+") plus("+") float("1") times("*") variable("g223") rparen(")") 

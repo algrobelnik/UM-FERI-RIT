@@ -1,0 +1,1 @@
+variable("Hest") divide("/") lparen("(") lparen("(") float("1.0") times("*") lparen("(") variable("Hcrs") rparen(")") plus("+") float("5") divide("/") lparen("(") variable("HcUg") rparen(")") rparen(")") rparen(")") rparen(")") rparen(")") plus("+") plus("+") variable("WccE323") 

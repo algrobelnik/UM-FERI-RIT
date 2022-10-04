@@ -1,0 +1,38 @@
+ Atg := +1 + Wiititeta;
+ WRITE faitEteta;
+      
+faeSEl:= 10;
+       Wikih:=0 * 1;
+   
+for fagg :=00 * 10 to Ftgail do
+        WRITE 1;
+        Mtii := irdai;
+    WRITE 1 * Atei;
+   FCRvc := MAevcle;
+WRITE Fedtct;
+ Madv :=MtSiclota + ieiSEte
+ 
+done;
+for iAku := 10 to saevhlota do
+for FrRt := 00 to -1 + HAegh * 0 do
+for ACCgE:= 10 to 0 do
+  for Wiei:=10 - irR to 0 do
+  WidS:=AOgal - A
+  done
+done;
+   for MeCu := 00 to 10 * i + 1 * MAka do
+    
+M:= 10 * 1 * 00;
+sOkS:= 10
+       done;
+WRITE 1 - 10
+  done
+   done;
+ AOgai:=1;
+     for ACCCh :=fagv to FOCSh do
+      Frg:=1;
+Mteiht:= 10;
+ F :=1 * -10
+       done;
+          ACevlteta :=00;
+ Freil :=Ativi

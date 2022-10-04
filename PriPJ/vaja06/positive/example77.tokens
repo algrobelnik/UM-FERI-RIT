@@ -1,0 +1,1 @@
+float("36.5") plus("+") lparen("(") lparen("(") float("2") rparen(")") times("*") lparen("(") lparen("(") variable("fRUcet") divide("/") variable("REc") plus("+") variable("gaE") times("*") variable("rarte") times("*") variable("tLEt") rparen(")") rparen(")") times("*") float("8") plus("+") float("6") plus("+") float("4") rparen(")") times("*") float("207549") 

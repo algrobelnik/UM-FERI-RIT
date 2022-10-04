@@ -1,0 +1,1 @@
+variable("nrdu") assign(":=") lparen("(") float("1") rparen(")") semi(";") variable("sOiuh") assign(":=") float("0") semi(";") variable("Ate") assign(":=") assign(":=") lparen("(") float("10") rparen(")") semi(";") write("WRITE") float("0") 

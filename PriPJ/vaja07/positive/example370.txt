@@ -1,0 +1,24 @@
+ for fakghteta:=faeSht to MeCuhte do
+ for Meeuh := -10 * Meethlo to 10 - srki do
+     sCSC := 1;
+ 
+Madv:= -1;
+   saSuc:= +1;
+ 
+iOCCcte := MaSihtota - -Aag
+
+done;
+ irkghl := 10 + F;
+    MCRtc:= 1
+   done;
+  
+for MaRti:= MrktEto to 10 do
+for MCet :=MCetht to 10 do
+ WRITE Mtdu * -1;
+  
+fakglte :=1 + 0
+      done
+done;
+           WRITE AASC;
+           
+faegh :=00 - sadt

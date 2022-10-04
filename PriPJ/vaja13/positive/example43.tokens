@@ -1,0 +1,1 @@
+lparen("(") lparen("(") float("3") rparen(")") times("*") plus("+") lparen("(") float("50.54119") rparen(")") plus("+") float("4") rparen(")") divide("/") float("40.54159") times("*") variable("H") 

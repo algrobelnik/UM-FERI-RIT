@@ -1,0 +1,1 @@
+variable("aaD1") plus("+") float("2") times("*") lparen("(") lparen("(") float("50.03003") rparen(")") times("*") variable("ricEht") times("*") float("3.1420") pow("^") variable("B123") times("*") lparen("(") variable("Gcsth") rparen(")") divide("/") float("26.5") divide("/") variable("tcDc") 

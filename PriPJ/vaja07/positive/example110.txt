@@ -1,0 +1,10 @@
+ iagih :=1;
+  for faet:= 00 to 1 do
+  
+WiCthlo:= 1;
+   WRITE 00;
+         
+faiCh:=Atkac
+  done;
+WRITE 00 * 10
+   

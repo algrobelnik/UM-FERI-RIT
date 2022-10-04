@@ -1,0 +1,1 @@
+variable("miUgh") plus("+") minus("-") variable("moDgh") plus("+") lparen("(") float("8.0") rparen(")") plus("+") lparen("(") float("6.0") rparen(")") times("*") variable("t223") minus("-") lparen("(") variable("r2") times("*") lparen("(") variable("gcr") rparen(")") times("*") variable("raiE") minus("-") float("11.10259") pow("^") float("5.1") rparen(")") 

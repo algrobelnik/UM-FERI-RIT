@@ -1,0 +1,1 @@
+minus("-") lparen("(") variable("RaD") rparen(")") times("*") lparen("(") plus("+") float("367549") rparen(")") times("*") variable("fadt3") minus("-") float("2") plus("+") lparen("(") variable("gaigh") times("*") float("8.6321") rparen(")") divide("/") variable("fes123") minus("-") float("46.0") plus("+") float("6.0") plus("+") minus("-") float("6.50109") 

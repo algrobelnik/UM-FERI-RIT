@@ -1,0 +1,5 @@
+ Mv := MnSt + ( 10) --- iOb;
+  
+WRITE 10 + 1 - 00 - ( lA * 1 ) * 0 * (AC) * (Wikull + leC );;
+iviui := := 1
+ 

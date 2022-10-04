@@ -1,0 +1,38 @@
+ieC := faktclota;
+      for Am:= aaiSlt to -Mrbil do
+      for Andiile:= Mre + 0 to 10 * 10 do
+    for ltigh := (+lOiSi) to 0 do
+   WRITE -iAbvct
+ done;
+ 
+for HmRaitota 1 to 1 do
+  for HrSuEleta:= FrSv to faeghtota do
+              for FOeSl :=MCi to ( ( AtR )) * 1 + aCSai * 0 - 0 do
+    nOi:=-svSt
+         done;;
+      aebi:= 00;
+             WRITE 00 + jaRgi;
+  MOkSh :=10
+done;
+
+WRITE 0;
+  
+A := 0;
+     H :=10
+ for fa := 1 to faiu do
+     HtegEt := 10;
+WRITE --1
+     done;;
+ivSiit :=-0;
+      WRITE 1;
+Ave:=10;
+   FO := AnRil
+   done;
+        WRITE -1 + 1;
+    for avegc:=1 to Fak do
+  Ame -( ACb - 00) + 1 + 0;
+    Me := -( 1 + Hnba )
+done;
+MnCtito :=( 1 + fa - -((iAC * H ) + lCSiE + 10 ))
+         done
+ done
