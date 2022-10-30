@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 
 def izris(slika, crta, tocke, podatki):
     fig, axis = plt.subplots(ncols=2, nrows=2)
@@ -19,9 +18,9 @@ def izris(slika, crta, tocke, podatki):
 
     ct = axis[1,0]
     ct.plot(crta, color="green", marker="x", linestyle="dashed", label="crta")
-    ct.scatter(a, b, color="#31cccc", marker="+", label="tocke")
+    ct.scatter(a, b, color="darkturquoise", marker="+", label="tocke")
     ct.set_title("crta in tocke")
-    ct.axis([-2,11,-2,9])
+    ct.axis([-1,11,-2,9])
     ct.set_xlabel("index")
     ct.set_ylabel("vrednost")
     ct.legend(loc="upper right")
@@ -29,10 +28,12 @@ def izris(slika, crta, tocke, podatki):
     po = axis[1,1]
     po.stem(podatki, label="podatki")
     po.set_title("podatki")
-    po.axis([-2,11,-2,9])
+    po.axis([-1,11,-2,9])
     po.set_xlabel("A")
     po.set_ylabel("B")
     po.legend(loc="upper left")
+
+    fig.tight_layout()
 
     return 0
 
