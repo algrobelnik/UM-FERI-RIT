@@ -8,7 +8,7 @@ ORS/*.txt
 ORS/*.json
 ORS/*.jpg
 ORS/*.png
-ORS/__pycache__/
+__pycache__/
 ORS/google-cloud-sdk/
 *.zip
 *.bin
