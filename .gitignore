@@ -9,6 +9,7 @@ ORS/*.json
 ORS/*.jpg
 ORS/*.png
 __pycache__/
+summary/
 ORS/google-cloud-sdk/
 *.zip
 *.bin
