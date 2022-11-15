@@ -18,6 +18,6 @@ def izenaci_histogram(slika, vmin=0, vmax=1, bins=256, interpolacija=False):
     cdf = bins * cdf / cdf[-1]
     cdf = normaliziraj_sivine_uniformno(cdf, vmin, vmax)
     if interpolacija:
-        return np.interp(quant.flatten(), bins_array[:-1], cdf).reshape(slika.shape)
+        return np.interp(norm.flatten(), bins_array[:-1], cdf).reshape(slika.shape)
     else: 
         return transformiraj_z_lut(quant, cdf)
