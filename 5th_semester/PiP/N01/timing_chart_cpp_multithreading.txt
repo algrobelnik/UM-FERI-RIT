@@ -1,0 +1,110 @@
+0th
+
+method used: add
+Elapsed time: 4888.28 μs
+Operations per second: 2.04571e+08
+Number of operations: 1000000
+
+method used: dot
+Elapsed time: 4295.85 μs
+Operations per second: 1.88827e+08
+Number of operations: 1000000
+
+method used: mat
+Elapsed time: 17529100 μs
+Operations per second: 57048.1
+Number of operations: 1000000
+
+method used: sort
+Elapsed time: 1423080 μs
+Operations per second: 70270.2
+Number of operations: 1000000
+
+1th
+
+method used: add
+Elapsed time: 1793.61μs
+Operations per second: 5.57534e+08
+Number of operations: 1000000
+
+method used: dot
+Elapsed time: 1787.88μs
+Operations per second: 5.59323e+08
+Number of operations: 1000000
+
+computing program..
+method used: mat
+Elapsed time: 2.49195e+06μs
+Operations per second: 401293
+Number of operations: 1000000
+
+method used: sort
+Elapsed time: 1.14401e+06μs
+Operations per second: 87411.7
+Number of operations: 1000000
+
+2th
+
+method used: add
+Elapsed time: 2547.13μs
+Operations per second: 3.92599e+08
+Number of operations: 1000000
+
+method used: dot
+Elapsed time: 2594.23μs
+Operations per second: 3.85471e+08
+Number of operations: 1000000
+
+method used: mat
+Elapsed time: 6.38443e+06μs
+Operations per second: 156631
+Number of operations: 1000000
+
+method used: sort
+Elapsed time: 1.34367e+06μs
+Operations per second: 74422.9
+Number of operations: 1000000
+
+4th
+
+method used: add
+Elapsed time: 1691.33 μs
+Operations per second: 5.91252e+08
+Number of operations: 1000000
+
+method used: dot
+Elapsed time: 1490.08 μs
+Operations per second: 6.71103e+08
+Number of operations: 1000000
+
+method used: mat
+Elapsed time: 4376870 μs
+Operations per second: 228474
+Number of operations: 1000000
+
+method used: sort
+Elapsed time: 1215950 μs
+Operations per second: 82240.2
+Number of operations: 1000000
+
+8th
+
+method used: add
+Elapsed time: 1780.33μs
+Operations per second: 5.61695e+08
+Number of operations: 1000000
+
+method used: dot
+Elapsed time: 1878.13 μs
+Operations per second: 5.32444e+08
+Number of operations: 1000000
+
+method used: mat
+Elapsed time: 2524180 μs
+Operations per second: 396169
+Number of operations: 1000000
+
+method used: sort
+Elapsed time: 1142550 μs
+Operations per second: 87523.5
+Number of operations: 1000000

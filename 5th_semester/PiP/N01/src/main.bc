@@ -1,0 +1,202 @@
+#include <chrono>
+#include <iostream>
+#include <thread>
+#include <vector>
+
+using namespace std;
+using namespace std::chrono;
+
+typedef vector<double> dm1;
+typedef vector<dm1> dm2;
+// typedef vector<dm2> dm3;
+typedef long unsigned int ite;
+
+int rand_gen(int min, int max) {
+  int range = max - min++;
+  return rand() % range + min;
+}
+
+void fill_matrix(int size, dm2 &mat) {
+  for (int j = 0; j < size; j++) {
+    dm1 vec1;
+    for (int k = 0; k < size; k++) {
+      vec1.push_back(rand_gen(0, 100));
+    }
+    mat.push_back(vec1);
+  }
+}
+
+void fill_vector(int size, dm1 &vec1) {
+  for (int i = 0; i < size; i++) {
+    vec1.push_back(rand_gen(0, 100));
+  }
+}
+
+void fill_vector(int size, dm2 &vec2) {
+  for (int i = 0; i < size; i++) {
+    dm1 vec1;
+    for (int j = 0; j < size; j++) {
+      vec1.push_back(0);
+    }
+    vec2.push_back(vec1);
+  }
+}
+
+void print_matrix(dm2 mat) {
+  for (ite i = 0; i < mat.size(); i++) {
+    for (ite j = 0; j < mat[i].size(); j++) {
+      cout << mat[i][j] << " ";
+    }
+    cout << endl;
+  }
+  cout << endl;
+}
+
+void print_vector(dm2 vec) {
+  for (ite i = 0; i < vec.size(); i++) {
+    for (ite j = 0; j < vec[i].size(); j++) {
+      cout << vec[i][j] << " ";
+    }
+    cout << endl;
+  }
+  cout << endl;
+}
+
+void print_vector(dm1 vec) {
+  for (ite i = 0; i < vec.size(); i++) {
+    cout << vec[i] << " ";
+  }
+  cout << endl;
+}
+
+void add_vector(dm1 vec1_a, dm1 vec1_b, dm1 &vec1_out) {
+  for (ite i = 0; i < vec1_a.size(); i++) {
+    for (ite j = 0; j < vec1_b.size(); j++) {
+      vec1_out.push_back(vec1_a[i] + vec1_b[i]);
+    }
+  }
+}
+
+dm1 dot_product_vector(dm1 vec1_a, dm1 vec1_b) {
+  dm1 vec1_out;
+  for (ite i = 0; i < vec1_a.size(); i++) {
+    for (ite j = 0; j < vec1_b.size(); j++) {
+      vec1_out.push_back(vec1_a[i] * vec1_b[i]);
+    }
+  }
+  return vec1_out;
+}
+
+dm2 product_matrix(dm2 mat1, dm2 mat2) {
+  dm2 vec2;
+  fill_vector(mat1.size(), vec2);
+  for (ite i = 0; i < mat1.size(); i++) {
+    for (ite j = 0; j < mat2[i].size(); j++) {
+      for (ite k = 0; k < mat2.size(); k++) {
+        vec2[i][j] += mat1[i][k] * mat2[k][j];
+      }
+    }
+  }
+  return vec2;
+}
+
+ite split(dm1 &vec, ite a, ite b) {
+  ite pivot = vec[a];
+  ite li = a;
+  ite ri = b;
+  while (li < ri) {
+    while (vec[li] <= pivot && li < b) {
+      li++;
+    }
+    while (vec[ri] >= pivot && ri > a) {
+      ri--;
+    }
+    if (li < ri) {
+      swap(vec[li], vec[ri]);
+    }
+  }
+  swap(vec[a], vec[ri]);
+  return ri;
+}
+
+void quicksort(dm1 &vec, int a, int b) {
+  if (a < b) {
+    int splitter = split(vec, a, b);
+    quicksort(vec, a, splitter - 1);
+    quicksort(vec, splitter + 1, b);
+  }
+}
+
+int main(int argc, char **argv) {
+  if (argc != 5) {
+    cout << "Wrong number of given arguments" << endl;
+    return 1;
+  }
+  auto size = stoi(argv[1]);
+  auto seed = stoi(argv[2]);
+  auto threads = stoi(argv[3]);
+  auto method = stoi(argv[4]);
+  srand(seed);
+  time_point<system_clock> start, end;
+
+  dm2 mat1, mat2;
+  dm1 vec1, vec2;
+  dm2 ret_dm2;
+  dm1 ret_dm1;
+
+  cout << "computing program.." << endl;
+  switch (method) {
+  case 0: {
+    fill_vector(size, vec1);
+    fill_vector(size, vec2);
+    start = system_clock::now();
+    std::thread th1(foo, 0);
+    // thread th1(add_vector, vec1, vec2, ret_dm1);
+    //  ret_dm1 = add_vector(vec1, vec2);
+    th1.join();
+    break;
+  }
+  case 1: {
+    fill_vector(size, vec1);
+    fill_vector(size, vec2);
+    start = system_clock::now();
+    ret_dm1 = dot_product_vector(vec1, vec2);
+    break;
+  }
+  case 2: {
+    fill_matrix(size, mat1);
+    fill_matrix(size, mat2);
+    start = system_clock::now();
+    ret_dm2 = product_matrix(mat1, mat2);
+    break;
+  }
+  case 3: {
+    fill_vector(size, ret_dm1);
+    start = system_clock::now();
+    quicksort(ret_dm1, 0, ret_dm1.size() - 1);
+    break;
+  }
+  }
+  end = system_clock::now();
+  // print_vector(ret_dm1);
+  // print_vector(ret_dm2);
+  // print_matrix(mat1);
+  // print_matrix(mat2);
+  cout << "method used: "
+       << (method == 0   ? "add"
+           : method == 1 ? "dot"
+           : method == 2 ? "mat"
+                         : "sort")
+       << endl;
+
+  duration<double> elapsed_seconds;
+  elapsed_seconds = end - start;
+  cout << "Elapsed time: " << elapsed_seconds.count() * 1000 * 1000 << "μs"
+       << endl;
+  cout << "Operations per second: "
+       << size * size * (method != 2 ? 1 : size) / elapsed_seconds.count()
+       << endl;
+  cout << "Number of operations: " << size * size * (method != 2 ? 1 : size)
+       << endl;
+  return 0;
+}
