@@ -10,7 +10,7 @@ def konvolucija(img, kernel):
 
     for j in range(0, output_height):
         for i in range(0, output_width):
-            new_img[j][i] = np.sum(padded[j:j + kernel.shape[0], i:i + kernel.shape[1]] * kernel).astype(img.dtype)
+            new_img[j, i] = np.sum(padded[j:j + kernel.shape[0], i:i + kernel.shape[1]] * kernel).astype(img.dtype)
     return new_img
 
 def filtriraj_gaussovo_jedro(slika, sigma):
@@ -43,7 +43,7 @@ if __name__=="__main__":
             res = img
             title = "Osnovna slika"
         else:
-            calc = (i * (axis.shape[0] + 1)) + j + 0.5 - 1
+            calc = (i * (axis.shape[0] + 100)) + j + 0.5 - 1
             res = filtriraj_gaussovo_jedro(img, calc)
             title = "Sigma: " + str(calc)
             res = filtriraj_sobel_horizontalno(res)
