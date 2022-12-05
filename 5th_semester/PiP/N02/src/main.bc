@@ -1,0 +1,243 @@
+#include <chrono>
+#include <climits>
+#include <cmath>
+#include <iostream>
+#include <iterator>
+#include <mutex>
+#include <random>
+#include <thread>
+
+using namespace std;
+using namespace std::chrono;
+
+const int count_threads = 12;
+int nfes = 0;
+mutex mtx;
+
+void printWrongUsage() {
+  cout << "Usage: main.x -L=<unsign int> -type=[PSL|MF] -seed=<unsigned int> "
+          "-nfesLmt=<unsigned int>"
+       << endl;
+}
+
+class Algo {
+public:
+  double mf;
+  int psl;
+  int *sequence;
+  Algo() {
+    sequence = nullptr;
+    psl = -1;
+    mf = -1;
+  }
+  Algo(int *sequence, int size, int psl) {
+    int *seq = new int[size];
+    for (int i = 0; i < size; i++) {
+      seq[i] = sequence[i];
+    }
+    this->sequence = seq;
+    this->psl = psl;
+  }
+  Algo(int *sequence, int size, double mf) {
+    int *seq = new int[size];
+    for (int i = 0; i < size; i++) {
+      seq[i] = sequence[i];
+    }
+    this->sequence = seq;
+    this->mf = mf;
+  }
+};
+
+int *generateSequence(unsigned int size, unsigned int seed) {
+  int *arr = new int[size];
+  int values[2] = {-1, 1};
+  mt19937 mt(seed);
+  uniform_int_distribution<int> dist(0, (sizeof(values) / sizeof(int)) - 1);
+  for (unsigned int i = 0; i < size; i++) {
+    arr[i] = values[dist(mt)];
+  }
+  return arr;
+}
+
+string convertBinaryToHexadecimal(int *arr, unsigned int size) {
+  int n = ceil((size - 1) / 4) + 1;
+  string res = "0x";
+  for (unsigned int i = n; i > 0; i--) {
+    int sum = (*(arr + size - i * 4 + 3) != 1 ? 0 : 1) +
+              (*(arr + size - i * 4 + 2) != 1 ? 0 : 1) * 2 +
+              (*(arr + size - i * 4 + 1) != 1 ? 0 : 1) * 4 +
+              (*(arr + size - i * 4) != 1 ? 0 : 1) * 8;
+    res += (sum > 9 ? (char)(sum + 65 - 10) : to_string(sum)[0]);
+    // cout << *(arr + i * 4) << " " << *(arr + i * 4 + 1) << " "
+    //      << *(arr + i * 4 + 2) << " " << *(arr + i * 4 + 3) << " " << endl;
+  }
+  return res;
+}
+
+int C(int *sequence, unsigned int k, unsigned int L) {
+  int sum = 0;
+  for (unsigned int i = 0; i <= L - k - 1; i++) {
+    sum += sequence[i] * sequence[i + k];
+    mtx.lock();
+    nfes++;
+    mtx.unlock();
+  }
+  return sum;
+}
+
+int PSL(int *sequence, unsigned int L) {
+  int mVal = INT_MIN;
+  for (unsigned int k = 1; k < L; k++) {
+    mVal = max(abs(C(sequence, k, L)), mVal);
+    mtx.lock();
+    nfes++;
+    mtx.unlock();
+  }
+  return mVal;
+}
+
+double MF(int *sequence, unsigned int L) {
+  int energy = 0;
+  for (unsigned int k = 1; k < L; k++) {
+    int ck = C(sequence, k, L);
+    energy += ck * ck;
+  }
+  return (L * L) / (2.0 * energy);
+}
+
+int split(Algo *arr, string type, int a, int b) {
+  if (type == "MF") {
+    double pivot = arr[a].mf;
+    int li = a;
+    int ri = b;
+    while (li < ri) {
+      while (arr[li].mf <= pivot && li < b) {
+        li++;
+      }
+      while (arr[ri].mf >= pivot && ri > a) {
+        ri--;
+      }
+      if (li < ri) {
+        swap(arr[li], arr[ri]);
+      }
+    }
+    swap(arr[a], arr[ri]);
+    return ri;
+  } else if (type == "PSL") {
+    int pivot = arr[a].psl;
+    int li = a;
+    int ri = b;
+    while (li < ri) {
+      while (arr[li].psl <= pivot && li < b) {
+        li++;
+      }
+      while (arr[ri].psl >= pivot && ri > a) {
+        ri--;
+      }
+      if (li < ri) {
+        swap(arr[li], arr[ri]);
+      }
+    }
+    swap(arr[a], arr[ri]);
+    return ri;
+  }
+  return 0;
+}
+
+void quicksort(Algo *arr, string type, int a, int b) {
+  if (a < b) {
+    int splitter = split(arr, type, a, b);
+    quicksort(arr, type, a, splitter - 1);
+    quicksort(arr, type, splitter + 1, b);
+  }
+}
+
+int main(int argc, char **argv) {
+  if (argc == 1) {
+    cout << "Wrong number of given arguments" << endl;
+    printWrongUsage();
+    return 1;
+  }
+  unsigned int seed = 0;
+  unsigned int L = 0;
+  string type = "";
+  unsigned int nfesLmt = 0;
+  unsigned int nfes = 0;
+  for (int i = 1; i < argc; i++) {
+    string arg(argv[i]);
+    int pos = arg.find("=");
+    if (pos == -1 || arg == "-h" || arg == "-?") {
+      printWrongUsage();
+      return 1;
+    }
+    if (arg.substr(0, pos) == "-L" || arg.substr(0, pos) == "L") {
+      L = stoi(arg.substr(pos + 1));
+    } else if (arg.substr(0, pos) == "-type" || arg.substr(0, pos) == "type") {
+      type = arg.substr(pos + 1);
+    } else if (arg.substr(0, pos) == "-seed" || arg.substr(0, pos) == "seed") {
+      seed = stoi(arg.substr(pos + 1));
+    } else if (arg.substr(0, pos) == "-nfesLmt" ||
+               arg.substr(0, pos) == "nfesLmt") {
+      nfesLmt = stoi(arg.substr(pos + 1));
+    }
+  }
+  if (seed == 0 || L == 0 || type == "" || nfesLmt == 0) {
+    cout << (seed != 0 ? "FOUND: seed" : "NOT FOUND: seed") << endl
+         << (L != 0 ? "FOUND: L" : "NOT FOUND: L") << endl
+         << ((type == "MF" || type == "PSL") ? "FOUND: type"
+                                             : "NOT FOUND: type")
+         << endl
+         << (nfesLmt != 0 ? "FOUND: nfesLmt" : "NOT FOUND: nfesLmt") << endl;
+    printWrongUsage();
+    return -1;
+  }
+  srand(seed);
+  time_point<system_clock> start, end;
+
+  int arr[] = {1, 1, 1, -1, -1, -1, 1, -1, -1, 1, -1, -1};
+  int *sequence = nullptr;
+  Algo algos[L + 1];
+  start = system_clock::now();
+  for (unsigned int i = 0; i < L + 1; i++) {
+    if (sequence == nullptr || i == 0) {
+      sequence = generateSequence(L, seed);
+      // sequence = arr;
+    } else {
+      sequence[i - 1] = (sequence[i - 1] < 0 ? 1 : -1);
+    }
+    array<thread, count_threads> threads;
+    int offset = size / count_threads;
+    int thread_size = sizeof(threads) / sizeof(thread);
+    algos[i] = Algo(sequence, L, PSL(sequence, L), MF(sequence, L));
+
+    if (sequence != nullptr && i != 0) {
+      sequence[i - 1] = (sequence[i - 1] < 0 ? 1 : -1);
+    }
+  }
+  end = system_clock::now();
+  duration<double> elapsed_seconds;
+  elapsed_seconds = end - start;
+  if (type == "MF") {
+    quicksort(algos, type, 0, L);
+  } else if (type == "PSL") {
+    quicksort(algos, type, 0, L);
+  }
+  cout << "L: " << L << endl
+       << "nfesLmt: " << nfesLmt << endl
+       << "seed: " << seed << endl
+       << "nfes: " << nfes << endl
+       << // Število ovrednotenj
+      "runtime: " << elapsed_seconds.count() * 1000 * 1000 << "qs" << endl
+       << //Čas izvajanja algoritma
+      "speed: TODO" << endl
+       << // Število ovrednotenj na sekundo
+      "sequence: " << convertBinaryToHexadecimal(algos[0].sequence, L) << endl
+       << "MF: " << algos[0].mf << endl
+       << "PSL: " << algos[0].psl << endl;
+  /*cout << "Operations per second: "
+       << size * (method != 2 ? 1 : size) / elapsed_seconds.count() << endl;
+  cout << "Number of operations: " << size * (method != 2 ? 1 : size) <<
+  endl;*/
+  // delete[] sequence;
+  return 0;
+}

@@ -6,13 +6,13 @@
 #     - *.o
 # - main
 #
-TARGET := main.x
+TARGET := obj/main.x
 SOURCES := $(wildcard src/*.c src/*.cpp)
 OBJECTS := $(patsubst src%,obj%, $(patsubst %.c,%.o, $(patsubst %.cpp,%.o,$(SOURCES))))
 
 INCLUDE := -I.
 
-FLAGS := -Wall
+FLAGS := -Wall -std=c++20
 CXXFLAGS := $(FLAGS)
 
 Cxx := g++
