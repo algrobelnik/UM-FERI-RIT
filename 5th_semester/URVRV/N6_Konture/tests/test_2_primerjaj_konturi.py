@@ -42,6 +42,8 @@ class TestPrimerjajKonturi(unittest.TestCase):
         np.testing.assert_allclose(angle, angle_ref, rtol=1e-4, err_msg='predicted angle different from reference')
         self.assertTrue(iou_max>iou_est>iou_min, msg=f'the predicted score: {iou_est} is not withing the expected range: ({iou_min},{iou_max})')
 
+        print(c_1)
+        print(c_2)
         iou_min = 0.64
         iou_max = 0.68
         angle_ref = 4.3196
