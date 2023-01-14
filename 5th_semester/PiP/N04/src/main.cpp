@@ -1,47 +1,19 @@
-#include "sync_queue.h"
 #include <algorithm>
 #include <array>
 #include <climits>
 #include <cmath>
-#include <condition_variable>
-#include <functional>
 #include <iostream>
 #include <mutex>
-#include <queue>
+#include <omp.h>
 #include <random>
 #include <sstream>
 #include <thread>
 #include <vector>
 
-struct Seq {
-  static unsigned int seq_index;
-  unsigned int index;
-  int *sequence;
-  Seq() {}
-  Seq(int *sequence) {
-    this->sequence = sequence;
-    // std::cout << seq_index << std::endl;
-    this->index = seq_index;
-    seq_index++;
-  }
-};
-unsigned int Seq::seq_index = -1;
-
-/*struct Result {
-  Seq parent;
-  unsigned int psl;
-  double mf;
-  Result() {}
-  Result(Seq *parent, unsigned int psl, double mf)
-      : parent(*parent), psl(psl), mf(mf) {}
-};*/
-
-const int count_threads = 1000; // number of threads
+#define NUM_THREADS 128
 unsigned int nfes = 0;
-SyncQueue<Seq> queue;
-std::mutex mtx;
-std::vector<unsigned int> psls;
 std::vector<double> mfs;
+std::vector<unsigned int> psls;
 
 void printWrongUsage() {
   std::cout
@@ -63,21 +35,17 @@ int *generateSequence(unsigned int size, unsigned int seed) {
 }
 
 std::string convertBinaryToHexadecimal(int *arr, unsigned int size) {
-  // std::cout << "HERE" << std::endl;
   int n = ceil((size - 1) / 4) + 1;
-  // std::cout << size << std::endl;
   std::string res = "0x";
   for (unsigned int i = n; i > 0; i--) {
-    // std::cout << size - i * 4 << std::endl;
     int sum = (*(arr + size - i * 4 + 3) != 1 ? 0 : 1) +
               (*(arr + size - i * 4 + 2) != 1 ? 0 : 1) * 2 +
               (*(arr + size - i * 4 + 1) != 1 ? 0 : 1) * 4 +
               (*(arr + size - i * 4) != 1 ? 0 : 1) * 8;
     res += (sum > 9 ? (char)(sum + 65 - 10) : std::to_string(sum)[0]);
-    // std::cout << *(arr + i * 4) << " ";
-    // std::cout << *(arr + i * 4 + 1) << " ";
-    // std::cout << *(arr + i * 4 + 2) << " ";
-    // std::cout << *(arr + i * 4 + 3) << " " << std::endl;
+    // std::cout << *(arr + i * 4) << " " << *(arr + i * 4 + 1) << " "
+    //      << *(arr + i * 4 + 2) << " " << *(arr + i * 4 + 3) << " " <<
+    //      std::endl;
   }
   return res;
 }
@@ -97,9 +65,8 @@ unsigned int PSL(int *sequence, unsigned int L, unsigned int nfesLmt) {
       return INT_MIN;
     }
     mVal = std::max(std::abs(C(sequence, k, L)), mVal);
-    mtx.lock();
+#pragma omp atomic
     nfes++;
-    mtx.unlock();
   }
   return mVal;
 }
@@ -112,40 +79,64 @@ double MF(int *sequence, unsigned int L, unsigned int nfesLmt) {
     }
     int ck = C(sequence, k, L);
     energy += ck * ck;
-    mtx.lock();
+#pragma omp atomic
     nfes++;
-    mtx.unlock();
   }
   return (L * L) / (2.0 * energy);
 }
 
-void producer(Seq sequence, unsigned int L) {
-  int *seq = new int[L];
-  for (unsigned int i = 0; i < L; i++) {
-    seq[i] = sequence.sequence[i];
-  }
-  queue.insert(Seq(seq));
-  for (unsigned int i = 0; i < L; i++) {
-    int *seq = new int[L];
-    for (unsigned int i = 0; i < L; i++) {
-      seq[i] = sequence.sequence[i];
+int split(int *arr, std::string type, int a, int b) {
+  double pivot = arr[a];
+  int li = a;
+  int ri = b;
+  while (li < ri) {
+    while (arr[li] <= pivot && li < b) {
+      li++;
     }
-    seq[i] *= -1;
-    queue.insert(Seq(seq));
+    while (arr[ri] >= pivot && ri > a) {
+      ri--;
+    }
+    if (li < ri) {
+      std::swap(arr[li], arr[ri]);
+    }
   }
-  queue.switchFinished();
+  std::swap(arr[a], arr[ri]);
+  return ri;
 }
 
-void consumer(unsigned int L, std::string type, unsigned int nfesLmt) {
-  while (!queue.finished) {
-    Seq parent = queue.read();
-    int *seq = parent.sequence;
+void quicksort(int *arr, std::string type, int a, int b) {
+  if (a < b) {
+    int splitter = split(arr, type, a, b);
+    quicksort(arr, type, a, splitter - 1);
+    quicksort(arr, type, splitter + 1, b);
+  }
+}
+
+void computeSequence(int *sequence, std::string type, unsigned int size,
+                     unsigned int start, unsigned int end,
+                     unsigned int nfesLmt) {
+  for (unsigned int i = start; i <= end; i++) {
+    int *seq = new int[size];
+    for (unsigned int i = 0; i < size; i++) {
+      seq[i] = sequence[i];
+    }
+    seq[i] *= -1;
     if (type == "PSL") {
-      int psl = PSL(seq, L, nfesLmt);
-      psls[parent.index] = psl;
+      int psl = PSL(seq, size, nfesLmt);
+      psls[i] = psl;
     } else if (type == "MF") {
-      double mf = MF(seq, L, nfesLmt);
-      mfs[parent.index] = mf;
+      double mf = MF(seq, size, nfesLmt);
+      mfs[i] = mf;
+    }
+  }
+
+  if (end == size - 1) {
+    if (type == "PSL") {
+      int psl = PSL(sequence, size, nfesLmt);
+      psls[size] = psl;
+    } else if (type == "MF") {
+      double mf = MF(sequence, size, nfesLmt);
+      mfs[size] = mf;
     }
   }
 }
@@ -190,65 +181,63 @@ int main(int argc, char **argv) {
     return -1;
   }
   std::chrono::time_point<std::chrono::system_clock> start, end;
+
+  // int arr[] = {1, 1, 1, -1, -1, -1, 1, -1, -1, 1, -1, -1};
   int *sequence = generateSequence(L, seed);
   psls.resize(L + 1);
   mfs.resize(L + 1);
-  // create a producer thread
+  // std::array<std::thread, NUM_THREADS> threads;
+  // int thr_i = 0;
   start = std::chrono::system_clock::now();
-  std::thread prod(std::bind(producer, Seq(sequence), L));
-  prod.join();                        // wait for the producer thread to finish
-  std::vector<std::thread> consumers; // create a consumers vector
-  for (int i = 0; i < count_threads; i++) {
-    consumers.emplace_back(
-        std::bind(consumer, L, type, nfesLmt)); // create a consumer thread
-  }
-  // wait for the consumer threads to finish
-  for (auto &consumer : consumers) {
-    consumer.join();
+  // for (auto &thr : threads) {
+  //   unsigned int start = thr_i * (L / NUM_THREADS);
+  //   unsigned int end =
+  //       thr_i == (NUM_THREADS - 1) ? L - 1 : (thr_i + 1) * (L / NUM_THREADS);
+  //   thr = std::thread([sequence, type, L, start, end, nfesLmt] {
+  //     computeSequence(sequence, type, L, start, end, nfesLmt);
+  //   });
+  //   thr_i++;
+  // }
+  // for (auto &thr : threads) {
+  //   thr.join();
+  // }
+  omp_set_num_threads(NUM_THREADS);
+#pragma omp parallel
+  {
+    int id = omp_get_thread_num();
+    unsigned int start = id * (L / NUM_THREADS);
+    unsigned int end =
+        id == (NUM_THREADS - 1) ? L - 1 : (id + 1) * (L / NUM_THREADS);
+    computeSequence(sequence, type, L, start, end, nfesLmt);
   }
   end = std::chrono::system_clock::now();
   std::chrono::duration<double> elapsed_seconds;
   elapsed_seconds = end - start;
   unsigned int index;
-  /*while (!results.queue.empty()) {
-    Result res = results.read();
-    if (res.psl == 0 && res.mf == 0) {
-      continue;
-    }
-    // std::cout << res.psl << " " << res.mf << " " << res.parent.index
-    //           << std::endl;
-    psls_vec[res.parent.index] = res.psl;
-    mfs_vec[res.parent.index] = res.mf;
-  }*/
-
-  /*for (auto el : psls) {
-    std::cout << el << std::endl;
-  }*/
-
   if (type == "MF") {
-    /*for (auto el : psls_vec) {
-      if (el < psls[index]) index = std::cout << el << std::endl;
-    }*/
     index = std::distance(std::begin(mfs),
-                          std::min_element(std::begin(mfs), std::end(mfs)));
+                          std::max_element(std::begin(mfs), std::end(mfs)));
   } else {
     index = std::distance(std::begin(psls),
                           std::min_element(std::begin(psls), std::end(psls)));
   }
-  //std::cout << index << std::endl;
   sequence[index] *= -1;
-  //std::cout << convertBinaryToHexadecimal(sequence, L) << std::endl;
   std::cout << "L: " << L << std::endl
             << "nfesLmt: " << nfesLmt << std::endl
             << "seed: " << seed << std::endl
             << "nfes: " << nfes << std::endl
-            << "runtime: " << elapsed_seconds.count() * 1000 * 1000 << "qs"
-            << std::endl
-            << "speed: " << nfes / elapsed_seconds.count() * 1000 * 1000
-            << std::endl
-            << "sequence: " << convertBinaryToHexadecimal(sequence, L)
-            << std::endl
+            << // Število ovrednotenj
+      "runtime: " << elapsed_seconds.count() * 1000 * 1000 << "qs" << std::endl
+            << //Čas izvajanja algoritma
+      "speed: " << nfes / elapsed_seconds.count() * 1000 * 1000 << std::endl
+            << // Število ovrednotenj na sekundo
+      "sequence: " << convertBinaryToHexadecimal(sequence, L) << std::endl
             << "MF: " << mfs[index] << std::endl
             << "PSL: " << psls[index] << std::endl;
+  /*std::cout << "Operations per second: "
+       << size * (method != 2 ? 1 : size) / elapsed_seconds.count() <<
+  std::endl; std::cout << "Number of operations: " << size * (method != 2 ? 1 :
+  size) << std::endl;*/
+  // delete[] sequence;
   return 0;
 }
